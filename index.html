@@ -1,0 +1,167 @@
+---
+layout: main
+title: home
+---
+<script type="text/javascript" src="/javascripts/jquery.bxSlider.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#slider1').bxSlider({
+            auto:false,
+            controls:true,
+            prevImage:"/images/arrow_left.png",
+            nextImage:"/images/arrow_right.png"
+
+        });
+    });
+
+    $(document).ready(function () {
+        $('#slider2').bxSlider({
+            auto:true,
+            controls:false,
+            pause:5000,
+            speed:2000,
+            prevImage:"/images/arrow_left.png",
+            nextImage:"/images/arrow_right.png"
+        });
+    });
+</script>
+<header class="jumbotron masthead" id="overview">
+    <div class="inner">
+        <div class="container">
+            <h1 style="font-size: 350%;">Agile software development done right !</h1>
+
+            <p class="lead">
+                Notre métier, développer des applications de grande qualité : vos applications.<br/>
+            </p>
+
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="hero-unit">
+        <div id="slider1">
+            <div class="row slider">
+                <div class="span14">
+                    <div class="row slider">
+                        <div class="span6">
+                            <h2>Xebia Studio ?</h2>
+                            <p>Une courte vidéo d'introduction de 3 minutes au concept qui nous booste pour construire et animer Xebia Studio.</p>
+                        </div>
+                        <div class="span7">
+                            <object width="450" height="259">
+                                <param name="movie"
+                                       value="http://www.youtube.com/embed/acPgYq5gO-o?hd=1&amp;rel=0&amp;showsearch=0&amp;showinfo=0&amp;modestbranding=1&amp;controls=0"/>
+                                <param name="allowFullScreen" value="true"/>
+                                <param name="allowscriptaccess" value="always"/>
+                                <embed src="http://www.youtube.com/v/Hy6E9RxM18c?version=3&amp;hl=en_US&amp;hd=1&amp;rel=0&amp;showsearch=0&amp;showinfo=0&amp;modestbranding=1&amp;controls=0"
+                                       type="application/x-shockwave-flash" width="450" height="259"
+                                       allowscriptaccess="always" allowfullscreen="true"></embed>
+                            </object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row slider">
+                <div class="span14">
+                    <div class="row slider">
+                        <div class="span6">
+                            <h2>Xebia Studio ?</h2>
+
+                            <p>Une courte vidéo d'introduction de 3 minutes au concept qui nous booste pour
+                                construire et
+                                animer Xebia Studio.</p>
+                        </div>
+                        <div class="span7">
+                            <iframe src="http://player.vimeo.com/video/8104332?portrait=0" width="500" height="281"
+                                    frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row slider">
+                <div class="span14">
+                    <div class="row slider">
+                        <div class="span6">
+                            <h2>Xebia Studio ?</h2>
+
+                            <p>Une courte vidéo d'introduction de 3 minutes au concept qui nous booste pour
+                                construire et
+                                animer Xebia Studio.</p>
+                        </div>
+                        <div class="span7">
+                            <iframe src="http://player.vimeo.com/video/8104332?portrait=0" width="500" height="281"
+                                    frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="text" class="row">
+
+        <div class="offset1 span4">
+            <h2>Technologie</h2>
+            <br/>
+
+            <p>
+                Nous avons une expertise reconnue dans une vaste variété de langages.</p>
+
+            <p> Nous maîtrisons un grand nombre de technologies que nous avons déjà éprouvées dans nos projets.</p>
+
+            <p> Nous utilisons des techniques de développement avancées qui font appel à notre longue expérience
+                de développement.
+            </p>
+
+            <p><a class="savoirplus" href="/technologies.html">En savoir plus &raquo;</a></p>
+        </div>
+
+        <div class="offset1 span4">
+            <h2>Équipe</h2>
+            <br/>
+
+            <p>Nous constituons des équipes dédiées à la réalisation de votre produit.
+
+            <p>Elles sont composées d'ingénieurs de Xebia expérimentés dont les compétences sont complémentaires.</p>
+
+            <p>L'équipe accueille volontiers des développeurs ou architecte de vos équipes pour des projets en
+                co-développement.
+            </p>
+
+            <p><a class="savoirplus" href="/team.html">En savoir plus &raquo;</a></p>
+        </div>
+
+        <div class="offset1 span4">
+            <h2>Culture</h2>
+            <br/>
+
+            <p>Nous sommes passionnés par le développement de logiciel, nous avons un culture d'excellence mélangée de
+                geek-attitude que nous cultivons avec soins. </p>
+
+            <p>Nous sommes des agilistes convaincus et pratiquons Scrum et les meilleures pratiques d'XP depuis de
+                nombreuses années</p>
+
+            <p><a class="savoirplus" href="/craftsmanship.html">En savoir plus &raquo;</a></p>
+
+        </div>
+
+    </div>
+    <br/>
+
+
+*{ <div id="slideshow">
+        <div class="row slider">
+            <div class="span14">
+                <ul id="slider2">
+                    <li><a><img src="/images/slider/team1.png" width="960px" height="200px"
+                                alt="Css Template Preview"/></a></li>
+                    <li><a><img src="/images/slider/02.jpg" width="960px" height="200px"
+                                alt="Css Template Preview"/></a></li>
+                    <li><a><img src="/images/slider/03.jpg" width="960px" height="200px"
+                                alt="Css Template Preview"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>}*
+</div>
