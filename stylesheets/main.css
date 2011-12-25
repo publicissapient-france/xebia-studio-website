@@ -79,7 +79,7 @@ blockquote small {
 }
 
 .accolade-left {
-    background: transparent url(/images/accolade-gauche.png) no-repeat;
+    background: transparent url(/public/images/accolade-gauche.png) no-repeat;
     background-position: right center;
     background-size: 40px 240px;
     height: 250px;
@@ -89,7 +89,7 @@ blockquote small {
 }
 
 .accolade-right {
-    background: transparent url(/images/accolade-droite.png) no-repeat;
+    background: transparent url(/public/images/accolade-droite.png) no-repeat;
     background-position: left center;
     background-size: 40px 240px;
     height: 250px;
@@ -103,7 +103,7 @@ blockquote small {
 }
 
 #logo {
-    background: transparent url(../images/XebiaStudio-small.png) no-repeat;
+    background: transparent url(/public/images/XebiaStudio-small.png) no-repeat;
     width: 111px;
     height: 40px;
     padding: 0px;

@@ -1,37 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-
-    <title>Xebia Studio</title>
-
-    <link rel="stylesheet" href="stylesheets/bootstrap-1.3.0.min.css"/>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css"/>
-
-    <script type="text/javascript" src="javascripts/jquery-1.5.2.min.js"></script>
-    <script type="text/javascript" src="javascripts/NannuFeed.js"></script>
-    <script type="text/javascript">
-        $('div.feeds').NannuFeed({
-            'count':5,
-            'errmsg':'Something Wrong', //Error Message
-            'description':true, //if true descriptions are loaded
-            'more':true, // More enables append link or image etc at bottom
-            'innerHTML':true, //Loads feed directly
-            'moretip':'Something'//Adds something at the bottom
-        });
-    </script>
-</head>
-<body>
-<script type="text/javascript" src="javascripts/jquery.bxSlider.min.js"></script>
+---
+layout: main
+title: home
+---
+<script type="text/javascript" src="/javascripts/jquery.bxSlider.min.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
         $('#slider1').bxSlider({
             auto:false,
             controls:true,
-            prevImage:"images/arrow_left.png",
-            nextImage:"images/arrow_right.png"
+            prevImage:"/images/arrow_left.png",
+            nextImage:"/images/arrow_right.png"
 
         });
     });
@@ -42,27 +21,11 @@
             controls:false,
             pause:5000,
             speed:2000,
-            prevImage:"images/arrow_left.png",
-            nextImage:"images/arrow_right.png"
+            prevImage:"/images/arrow_left.png",
+            nextImage:"/images/arrow_right.png"
         });
     });
 </script>
-<div class="topbar">
-    <div class="fill">
-        <div class="container">
-            <a id="logo" class="brand" href="index.html"></a>
-            <ul class="nav">
-                <li class="active"><a href="studio.html">Xebia Studio</a></li>
-                <li class=""><a href="craftsmanship.html">Valeurs</a></li>
-                <li class=""><a href="team.html">L'équipe</a></li>
-                <li class=""><a href="technologies.html">Technologies</a></li>
-                <li class=""><a href="joinus.html">Nous rejoindre</a></li>
-                <li class=""><a href="about.html">À propos</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
 <header class="jumbotron masthead" id="overview">
     <div class="inner">
         <div class="container">
@@ -83,9 +46,7 @@
                     <div class="row slider">
                         <div class="span6">
                             <h2>Xebia Studio ?</h2>
-
-                            <p>Une courte vidéo d'introduction de 3 minutes au concept qui nous booste pour construire
-                                et animer Xebia Studio.</p>
+                            <p>Une courte vidéo d'introduction de 3 minutes au concept qui nous booste pour construire et animer Xebia Studio.</p>
                         </div>
                         <div class="span7">
                             <object width="450" height="259">
@@ -153,7 +114,7 @@
                 de développement.
             </p>
 
-            <p><a class="savoirplus" href="technologies.html">En savoir plus &raquo;</a></p>
+            <p><a class="savoirplus" href="/technologies.html">En savoir plus &raquo;</a></p>
         </div>
 
         <div class="offset1 span4">
@@ -168,7 +129,7 @@
                 co-développement.
             </p>
 
-            <p><a class="savoirplus" href="team.html">En savoir plus &raquo;</a></p>
+            <p><a class="savoirplus" href="/team.html">En savoir plus &raquo;</a></p>
         </div>
 
         <div class="offset1 span4">
@@ -181,7 +142,7 @@
             <p>Nous sommes des agilistes convaincus et pratiquons Scrum et les meilleures pratiques d'XP depuis de
                 nombreuses années</p>
 
-            <p><a class="savoirplus" href="craftsmanship.html">En savoir plus &raquo;</a></p>
+            <p><a class="savoirplus" href="/craftsmanship.html">En savoir plus &raquo;</a></p>
 
         </div>
 
@@ -189,44 +150,18 @@
     <br/>
 
 
-    <!--<div id="slideshow">
-       <div class="row slider">
-           <div class="span14">
-               <ul id="slider2">
-                   <li><a><img src="/images/slider/team1.png" width="960px" height="200px"
-                               alt="Css Template Preview"/></a></li>
-                   <li><a><img src="/images/slider/02.jpg" width="960px" height="200px"
-                               alt="Css Template Preview"/></a></li>
-                   <li><a><img src="/images/slider/03.jpg" width="960px" height="200px"
-                               alt="Css Template Preview"/></a></li>
-               </ul>
-           </div>
-       </div>
-   </div> -->
-</div>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="span7 left">
-                <p><b>Adresse : </b>Xebia,156 boulevard Haussmann,75008 PARIS <a href="http://g.co/maps/56s4x"><img
-                        src="images/marker.png" height="20px"
-                        alt=""></a>
-                </p>
-
-                <p><b>Email :</b> studio@xebia.fr</p>
-
-                <p><b>Téléphone :</b> +33 1 53 89 99 96</p>
-            </div>
-            <div class="span2">
-                <img height="70px" src="images/logoXebiaStudio.png">
-            </div>
-            <div class="span6 right">
-                <p>&copy; Xebia Studio 2011</p>
+*{ <div id="slideshow">
+        <div class="row slider">
+            <div class="span14">
+                <ul id="slider2">
+                    <li><a><img src="/images/slider/team1.png" width="960px" height="200px"
+                                alt="Css Template Preview"/></a></li>
+                    <li><a><img src="/images/slider/02.jpg" width="960px" height="200px"
+                                alt="Css Template Preview"/></a></li>
+                    <li><a><img src="/images/slider/03.jpg" width="960px" height="200px"
+                                alt="Css Template Preview"/></a></li>
+                </ul>
             </div>
         </div>
-    </div>
-
-</footer>
-
-</body>
-</html>
+    </div>}*
+</div>
