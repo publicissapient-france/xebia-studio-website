@@ -29,12 +29,13 @@
         <div class="container">
             <a id="logo" class="brand" href="/index.html"></a>
             <ul class="nav">
-                <li class="active"><a href="/studio.html">Xebia Studio</a></li>
-                <li class=""><a href="/craftsmanship.html">Valeurs</a></li>
-                <li class=""><a href="/team/teammembers.html">L'équipe</a></li>
-                <li class=""><a href="/technologies.html">Technologies</a></li>
-                <li class=""><a href="/joinus.html">Nous rejoindre</a></li>
-                <li class=""><a href="/about.html">À propos</a></li>
+
+                <li class="{% if page.title contains 'Le Studio' %}active{% endif %}"><a href="/studio.html">Xebia Studio</a></li>
+                <li class="{% if page.title contains 'Craftsmanship' %}active{% endif %}"><a href="/craftsmanship.html">Valeurs</a></li>
+                <li class="{% if page.title contains 'équipe' %}active{% endif %}"><a href="/team/teammembers.html">L'équipe</a></li>
+                <li class="{% if page.title contains 'Technologies' %}active{% endif %}"><a href="/technologies.html">Technologies</a></li>
+                <li class="{% if page.title contains 'rejoindre' %}active{% endif %}"><a href="/joinus.html">Nous rejoindre</a></li>
+                <li class="{% if page.title contains 'propos' %}active{% endif %}"><a href="/about.html">À propos</a></li>
             </ul>
         </div>
     </div>
