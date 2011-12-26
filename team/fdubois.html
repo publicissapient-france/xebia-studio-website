@@ -1,16 +1,37 @@
 ---
 layout: team
-title: Frédéric Dubois
+title : Frédéric Dubois
 ---
 
-<h2 class="inline">Frédéric Dubois</h2>  <a href="http://fr.linkedin.com/in/jeanhelou"><img
-        src="@{'/public/images/linkedin_logo.png'}" height="20px"
-        alt=""></a>&nbsp; &nbsp; <a href="https://plus.google.com/115079988978937438323"><img
-        src="@{'/public/images/google_plus_logo.png'}" height="20px"
-        alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mail : </b>jhelou@xebia.fr
+{% assign name = 'Frédéric Dubois' %}
+{% assign login = 'fdubois' %}
+{% assign linkedin = 'fdubois' %}
+{% assign googleplus = '' %}
+{% assign viadeo = 'fdubois' %}
+
+<h2 class="inline">{{name}}</h2>
+{% if linkedin %}
+<a href="{{linkedin}}">
+    <img
+            src="/images/linkedin_logo.png" height="20px"
+            alt=""></a>&nbsp; &nbsp;
+{% endif %}
+{% if viadeo %}
+<a href="{{viadeo}}">
+    <img
+            src="/images/viadeo_logo.png" height="20px"
+            alt=""></a>&nbsp; &nbsp;
+{% endif %}
+{% if googleplus %}
+<a href="{{googleplus}}"><img
+        src="/images/google_plus_logo.png" height="20px"
+        alt=""></a>
+{% endif %}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mail : </b>{{login}}@xebia.fr
 <br/><br/>
 <div class="row">
-    <div class="span11 fdubois">
+    <div class="span11 {{login}}">
         <p>Michaël est consultant chez Xebia où il intervient notamment sur des sites Web à fort trafic. A son aise
             tant avec les environnements JEE qu'avec les technologies de plus bas niveau, il est spécialisé dans les
             architectures distribuées et les technologies innovantes telles que NoSQL, les moteurs de recherche, ou

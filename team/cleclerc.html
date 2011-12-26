@@ -3,15 +3,35 @@ layout: team
 title: Cyrille Le Clerc
 ---
 
-<h2 class="inline">Cyrille Le Clerc</h2> <a href="http://www.linkedin.com/in/cyrilleleclerc">
+{% assign name = 'Cyrille Le Clerc' %}
+{% assign login = 'cleclerc' %}
+{% assign linkedin = 'fdubois' %}
+{% assign googleplus = '' %}
+{% assign viadeo = 'fdubois' %}
+
+<h2 class="inline">{{name}}</h2>
+{% if linkedin %}
+<a href="{{linkedin}}">
     <img
             src="/images/linkedin_logo.png" height="20px"
-            alt=""></a>&nbsp; &nbsp; <a href="https://twitter.com/cyrilleleclerc"><img
-        src="/images/twitter_logo.jpeg" height="20px"
-        alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mail : </b>cleclerc@xebia.fr
+            alt=""></a>&nbsp; &nbsp;
+{% endif %}
+{% if viadeo %}
+<a href="{{viadeo}}">
+    <img
+            src="/images/viadeo_logo.png" height="20px"
+            alt=""></a>&nbsp; &nbsp;
+{% endif %}
+{% if googleplus %}
+<a href="{{googleplus}}"><img
+        src="/images/google_plus_logo.png" height="20px"
+        alt=""></a>
+{% endif %}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mail : </b>{{login}}@xebia.fr
 <br/><br/>
 <div class="row">
-    <div class="span11 cleclerc">
+    <div class="span11 {{login}}">
         <p>CTO de Xebia, Cyrille est aussi committer sur le projet Apache CXF.</p>
 
         <p> Après être récemment intervenu sur les
