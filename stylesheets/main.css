@@ -156,6 +156,7 @@ footer {
     margin-top: 20px;
     padding: 0px;
     padding-top: 20px;
+    padding-bottom: 20px;
     border-top: none;
     background-color: #ffffff;
     background-repeat: no-repeat;
@@ -165,9 +166,9 @@ footer {
     background-image: -o-linear-gradient(top, #eeeeee, #ffffff);
     background-image: -khtml-gradient(linear, left top, left bottom, from(#eeeeee), to(#ffffff));
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eeeeee', endColorstr = '#ffffff', GradientType = 0); /* IE8 and down */
-    border-top-color: rgba(117, 117, 120, 0.82);
+    /*border-top-color: rgba(117, 117, 120, 0.82);
     border-top-style: solid;
-    border-top-width: 1px;
+    border-top-width: 1px;*/
     box-shadow: rgba(0, 0, 0, 0.246094) 0 1px 3px, rgba(0, 0, 0, 0.0976562) 0 -1px 0 inset;
     -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0 1px 3px, rgba(0, 0, 0, 0.0976562) 0 -1px 0 inset;
     margin-top: 20px;
@@ -175,12 +176,33 @@ footer {
 }
 
 footer ul {
-    margin-top: 20px;
 }
 
 footer li {
     list-style-type: none;
-    font-size: 120%;
+    text-align: center;
+    line-height: 22px;
+    color: #404040;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #404040;
+    cursor: pointer;
+
+}
+
+footer a:visited,a:link,a:active {
+    color: #404040;
+}
+
+
+
+#underfooter {
+    color: #ffffff;
+    margin: 0px;
+    padding: 10px;
+    background-color: #000000;
     text-align: center;
 }
 
