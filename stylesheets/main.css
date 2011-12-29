@@ -17,6 +17,18 @@ body {
     -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0 1px 3px, rgba(0, 0, 0, 0.0976562) 0 -1px 0 inset;
 }
 
+.hero-unit2 {
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eee));
+    background-image: -webkit-linear-gradient(#ffffff, #eee);
+    background-image: -moz-linear-gradient(#ffffff, #eee);
+    background-image: -o-linear-gradient(top, #ffffff, #eee);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#eee));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#ffffff', GradientType = 0); /* IE8 and down */
+    box-shadow: rgba(0, 0, 0, 0.246094) 0 1px 3px, rgba(0, 0, 0, 0.0976562) 0 -2px 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0 1px 3px, rgba(0, 0, 0, 0.0976562) 0 -1px 0 inset;
+}
+
 .bio {
     font-size: 100%;
     padding-top: 20px;
@@ -104,7 +116,6 @@ blockquote small {
 }
 
 .topbar {
-
     box-shadow: rgba(0, 0, 0, 0.246094) 0 1px 3px, rgba(0, 0, 0, 0.0976562) 0 -1px 0 inset;
     -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0 1px 3px, rgba(0, 0, 0, 0.0976562) 0 -1px 0 inset;
 }
@@ -208,7 +219,7 @@ footer a:visited,a:link,a:active {
 
 .jumbotron {
     min-width: 940px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-top: -70px;
 }
 
