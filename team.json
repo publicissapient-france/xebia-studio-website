@@ -1,0 +1,27 @@
+{ 
+  "author":"jlm",
+  "craftmen" : [
+    {
+      "key":"jlmorlhon",
+      "name":"Jean-Laurent de Morlhon",
+      "title":"Master Craftman",
+      "abstract":"Jean-Laurent blahblahblah",
+      "small-picture":"jlmorlhon.jpg",
+      "big-picture":"jlmorlhon-big.jpg",
+      "linkedin-url":"morlhon",
+      "twitter-url":"morlhon",
+      "viadeo-url":"morlhon"
+    },
+    {
+      "key":"jlmorlhon",
+      "name":"Jean-Laurent de Morlhon",
+      "title":"Master Craftman",
+      "abstract":"Jean-Laurent blahblahblah",
+      "small-picture":"jlmorlhon.jpg",
+      "big-picture":"jlmorlhon-big.jpg",
+      "linkedin-url":"morlhon",
+      "twitter-url":"morlhon",
+      "viadeo-url":"morlhon"
+    }
+  ]
+}
