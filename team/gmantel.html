@@ -1,0 +1,40 @@
+---
+layout: team
+title : Gilles Mantel
+---
+
+{% assign name = 'Gilles Mantel' %}
+{% assign login = 'gmantel' %}
+{% assign linkedin = 'fdubois' %}
+{% assign googleplus = '' %}
+{% assign viadeo = 'fdubois' %}
+
+<h2 class="inline">{{name}}</h2>
+{% if linkedin %}
+<a href="{{linkedin}}">
+    <img
+            src="/images/linkedin_logo.png" height="20px"
+            alt=""></a>&nbsp; &nbsp;
+{% endif %}
+{% if viadeo %}
+<a href="{{viadeo}}">
+    <img
+            src="/images/viadeo_logo.png" height="20px"
+            alt=""></a>&nbsp; &nbsp;
+{% endif %}
+{% if googleplus %}
+<a href="{{googleplus}}"><img
+        src="/images/google_plus_logo.png" height="20px"
+        alt=""></a>
+{% endif %}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mail : </b>{{login}}@xebia.fr
+<br/><br/>
+<div class="row">
+    <div class="span11 {{login}}">
+        <p>Michaël est consultant chez Xebia où il intervient notamment sur des sites Web à fort trafic. A son aise
+            tant avec les environnements JEE qu'avec les technologies de plus bas niveau, il est spécialisé dans les
+            architectures distribuées et les technologies innovantes telles que NoSQL, les moteurs de recherche, ou
+            encore le data mining.</p>
+    </div>
+</div>
