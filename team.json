@@ -1,10 +1,10 @@
 { 
-  "author":"jlm",
   "craftmen" : [
     {
-      "key":"jlmorlhon",
+      "id":"0",
       "name":"Jean-Laurent de Morlhon",
       "title":"Master Craftman",
+      "email":"jlmorlhon@xebia.fr",
       "abstract":"Jean-Laurent blahblahblah",
       "small-picture":"jlmorlhon.jpg",
       "big-picture":"jlmorlhon-big.jpg",
@@ -13,15 +13,87 @@
       "viadeo-url":"morlhon"
     },
     {
-      "key":"jlmorlhon",
-      "name":"Jean-Laurent de Morlhon",
-      "title":"Master Craftman",
-      "abstract":"Jean-Laurent blahblahblah",
-      "small-picture":"jlmorlhon.jpg",
-      "big-picture":"jlmorlhon-big.jpg",
-      "linkedin-url":"morlhon",
-      "twitter-url":"morlhon",
-      "viadeo-url":"morlhon"
+      "id":"1",
+      "name":"Cyrille Leclerc",
+      "title":"CTO",
+      "email":"cleclerc@xebia.fr",
+      "small-picture":"cleclerc.jpg",
+      "big-picture":"cleclerc-big.png",
+      "linkedin-url":"cleclerc",
+      "twitter-url":"cleclerc",
+      "viadeo-url":"cleclerc",
+      "abstract":"<p>CTO de Xebia, Cyrille est aussi committer sur le projet Apache CXF.</p><p>Après être récemment intervenu sur les sites web et les plateformes de web service à fort traffic d'opérateurs de télécommunication, Cyrille est actuellement responsable de la mise en place d'une grille de données inter-continentale pour une grande institution financière française.</p><p> Après 7 ans chez IBM Global Services et 5 ans chez Xebia, Cyrille a une expérience variée allant du monde commercial aux écosystèmes Open Source dans des approches aussi bien très cadrées et contractuelles que légères et agiles.</p><p>Cyrille est aussi blogger sur blog.xebia.fr et speaker dans des conférences (In Memory Data Grids &amp; NoSQL, applications prêtes pour la production, etc)..</p>"
+    },
+    {
+      "id":"2",
+      "name":"Frédéric Dubois",
+      "email":"fdubois@xebia.fr",
+      "title":"I'm rock SOLID !",
+      "abstract":"Frédéric BlahBlah",
+      "small-picture":"fdubois.jpg",
+      "big-picture":"fdubois-big.jpg",
+      "linkedin-url":"fdubois",
+      "twitter-url":"fdubois",
+      "viadeo-url":"fdubois"
+    },
+    {
+      "id":"3",
+      "name":"Gilles Mantel",
+      "title":"C'est MA méthode.",
+      "email":"gmantel@xebia.fr",
+      "abstract":"Gilles BlahBlah",
+      "small-picture":"gmantel.jpg",
+      "big-picture":"gmantel-big.jpg",
+      "linkedin-url":"gmantel",
+      "twitter-url":"gmantel",
+      "viadeo-url":"gmantel"
+    },
+    {
+      "id":"4",
+      "name":"Simon Caplette",
+      "title":"Refactoring Dude",
+      "email":"scaplette@xebia.fr",
+      "abstract":"Simon BlahBlah",
+      "small-picture":"scaplette.jpg",
+      "big-picture":"scaplette-big.jpg",
+      "linkedin-url":"scaplette",
+      "twitter-url":"scaplette",
+      "viadeo-url":"scaplette"
+    },
+    {
+      "id":"5",
+      "name":"Jean Helou",
+      "title":"NewComer",
+      "abstract":"Jean BlahBlah",
+      "small-picture":"jhelou.jpg",
+      "big-picture":"jhelou-big.jpg",
+      "linkedin-url":"jhelou",
+      "twitter-url":"jhelou",
+      "viadeo-url":"jhelou"
+    },
+    {
+      "id":"6",
+      "name":"Nicolas Griso",
+      "email":"ngriso@xebia.fr",
+      "title":"Don't REST with me !",
+      "abstract":"Nicolas BlahBlah",
+      "small-picture":"ngriso.png",
+      "big-picture":"ngriso-big.jpg",
+      "linkedin-url":"ngriso",
+      "twitter-url":"ngriso",
+      "viadeo-url":"ngriso"
+    },
+    {
+      "id":"7",
+      "name":"Michael Figuiere",
+      "email":"mgfiguiere@xebia.fr",
+      "title":"My data is bigger than yours",
+      "abstract":"Michael BlahBlah",
+      "small-picture":"mfiguiere.jpg",
+      "big-picture":"mfiguiere-big.jpg",
+      "linkedin-url":"mfiguiere",
+      "twitter-url":"mfiguiere",
+      "viadeo-url":"mfiguiere "
     }
   ]
 }

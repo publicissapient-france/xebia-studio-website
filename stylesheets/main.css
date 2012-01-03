@@ -293,3 +293,7 @@ a.savoirplus {
     color: #653a71;
     font-weight: bold;
 }
+
+img.bio-big {
+  width:300;
+}
