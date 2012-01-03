@@ -7,8 +7,9 @@ title: L'equipe
 <script type="text/javascript" src="javascripts/bootstrap-twipsy.js"></script>
 <script type="text/javascript" src="javascripts/bootstrap-popover.js"></script>
 
-{% raw %}
+
 <script id="craftmen-template" type="text/x-handlebars-template">
+{% raw %}
     <ul class="media-grid">
       {{#each craftmen}}
       <li>
@@ -27,14 +28,13 @@ title: L'equipe
   <a href="{{viadeo-url}}"><img src="images/viadeo_logo.png" height="20px" alt="{{name}} on Viadeo"></a>
   <a href="{{twitter-url}}"><img src="images/google_plus_logo.png" height="20px" alt="{{name}} on Google+"></a>
   <b>eMail :</b><a href="mailto:{{email}}">{{email}}</a>
-  <div class="row">
-    <div class="span8">
-      {{abstract}}
-      <img class="bio-big" width="400" src="images/equipe/{{big-picture}}"/>
-    </div>
+  <div class="break">
+  {{abstract}}
+  <img class="bio-big" width="600" src="images/equipe/{{big-picture}}"/>
   </div>
-</script>
 {% endraw %}
+</script>
+
 
   <script type="text/javascript">
     var json;
@@ -59,13 +59,13 @@ title: L'equipe
 
 <div class="container">
     <div class="row">
-        <div class="span8">
+        <div class="span6">
             <div>
                 <h2>L'équipe</h2>
                 <div id="craftmen"></div>
             </div>
         </div>
-        <div class="span8">
+        <div class="span10">
             <div id="bio" class="bio"></div>
         </div>
     </div>
