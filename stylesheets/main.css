@@ -32,7 +32,6 @@ body {
 .bio {
     font-size: 100%;
     padding-top: 20px;
-    width: 640px;
     background-color: #eee;
     padding: 0px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eee));
@@ -76,6 +75,10 @@ h2 {
 
 h2.inline {
     display: inline;
+}
+
+div.break {
+  display:block;
 }
 
 a {
