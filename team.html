@@ -1,0 +1,72 @@
+---
+layout: main
+title: L'equipe
+---
+<script type="text/javascript" src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.4.js"></script>
+
+<script type="text/javascript" src="javascripts/bootstrap-twipsy.js"></script>
+<script type="text/javascript" src="javascripts/bootstrap-popover.js"></script>
+
+{% raw %}
+<script id="craftmen-template" type="text/x-handlebars-template">
+    <ul class="media-grid">
+      {{#each craftmen}}
+      <li>
+        <a href="#" class="craftman" title="{{name}}" rel="popover" data-content="{{title}}">
+            <img id="{{id}}" class="thumbnail" height="90px"
+                 src="images/equipe/{{small-picture}}"
+                 alt="{{title}}">
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+</script>
+<script id="bio-template" type="text/x-handlebars-template">
+  <h2 class="inline">{{name}}</h2>
+  <a href="{{linkedin-url}}"><img src="images/linkedin_logo.png" height="20px" alt="{{name}} on LinkedIn"></a>
+  <a href="{{viadeo-url}}"><img src="images/viadeo_logo.png" height="20px" alt="{{name}} on Viadeo"></a>
+  <a href="{{twitter-url}}"><img src="images/google_plus_logo.png" height="20px" alt="{{name}} on Google+"></a>
+  <b>eMail :</b><a href="mailto:{{email}}">{{email}}</a>
+  <div class="row">
+    <div class="span8">
+      {{abstract}}
+      <img class="bio-big" width="400" src="images/equipe/{{big-picture}}"/>
+    </div>
+  </div>
+</script>
+{% endraw %}
+
+  <script type="text/javascript">
+    var json;
+    $(document).ready(function() {
+       var craftmen_template = Handlebars.compile($('#craftmen-template').html());
+       var bio_template = Handlebars.compile($('#bio-template').html());
+       
+       Handlebars.registerHelper('abstract', function() {
+         return new Handlebars.SafeString(this.abstract);
+       });
+       
+       $.getJSON('team.json',function(json) {
+         $('#craftmen').html(craftmen_template(json));      
+         $("a[rel=popover]").popover({offset:10, placement:'below', animate:true});
+         $('a.craftman').click(function() {
+           $('#bio').html(bio_template(json.craftmen[event.target.id]));      
+         });
+       });
+       
+     });
+  </script>
+
+<div class="container">
+    <div class="row">
+        <div class="span8">
+            <div>
+                <h2>L'équipe</h2>
+                <div id="craftmen"></div>
+            </div>
+        </div>
+        <div class="span8">
+            <div id="bio" class="bio"></div>
+        </div>
+    </div>
+</div>

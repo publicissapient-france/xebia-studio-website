@@ -5,34 +5,28 @@
 
     <title>Xebia Studio - {{ page.title }}</title>
 
-    <link rel="stylesheet" href="stylesheets/bootstrap-1.3.0.min.css"/>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-1.3.0.min.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css"/>
-    <script type="text/javascript" src="javascripts/konami.js"></script>
-    <script type="text/javascript">
-        konami = new Konami()
-        konami.code = function () {
-            // e.preventDefault();
-            $('img').each(function () {
-                $(this).attr('src', "images/babe.jpg");
-            });
-        }
 
-        konami.load()
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+     <script type="text/javascript" src="javascripts/konami.js"></script>
+     
+     <script type="text/javascript">
+     $(document).ready(function() {
+         konami = new Konami()
+         konami.code = function () {
+             $('img').each(function () {
+                 $(this).attr('src', "images/babe.jpg");
+             });
+         }
+         konami.load()
+       });
     </script>
 
-    <script type="text/javascript" src="javascripts/jquery-1.5.2.min.js"></script>
-    <script type="text/javascript" src="javascripts/NannuFeed.js"></script>
-    <script type="text/javascript">
-        $('div.feeds').NannuFeed({
-            'count':5,
-            'errmsg':'Something Wrong', //Error Message
-            'description':true, //if true descriptions are loaded
-            'more':true, // More enables append link or image etc at bottom
-            'innerHTML':true, //Loads feed directly
-            'moretip':'Something'//Adds something at the bottom
-        });
-    </script>
+    
 </head>
 <body>
 
@@ -46,7 +40,7 @@
                     Studio</a></li>
                 <li class="{% if page.title contains 'Craftsmanship' %}active{% endif %}"><a href="craftsmanship.html">Valeurs</a>
                 </li>
-                <li class="{% if page.title contains 'équipe' %}active{% endif %}"><a href="team/teammembers.html">L'équipe</a>
+                <li class="{% if page.title contains 'équipe' %}active{% endif %}"><a href="team.html">L'équipe</a>
                 </li>
                 <li class="{% if page.title contains 'Technologies' %}active{% endif %}"><a href="technologies.html">Technologies</a>
                 </li>
