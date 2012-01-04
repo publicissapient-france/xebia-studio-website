@@ -300,3 +300,22 @@ a.savoirplus {
 img.bio-big {
   width:300;
 }
+
+dl dt, dl dd {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+dl {
+  margin-bottom:0px;
+}
+
+dl.decroche {
+  margin-top: 20px;
+}
+
+dl dt {
+  margin-top:10px;
+}
+
