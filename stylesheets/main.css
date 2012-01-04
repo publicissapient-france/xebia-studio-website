@@ -194,7 +194,7 @@ footer ul {
 
 footer li {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     line-height: 22px;
     color: #404040;
 }
