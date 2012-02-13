@@ -5,13 +5,11 @@
 
     <title>Xebia Studio - {{ page.title }}</title>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-1.3.0.min.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css"/>
-
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-2.0.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/fonts.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main-new.css"/>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
     <script type="text/javascript" src="javascripts/konami.js"></script>
 
     <script type="text/javascript">
@@ -29,22 +27,24 @@
 
 </head>
 <body>
+<div class="navbar navbar-static">
+    <div class="navbar-inner">
+        <a id="logo" class="brand" href="index.html"></a>
 
-<div class="topbar">
-    <div class="fill">
         <div class="container">
-            <a id="logo" class="brand" href="index.html"></a>
             <ul class="nav">
 
-                <li class="{% if page.title contains 'Le Studio' %}active{% endif %}"><a href="studio.html">XEBIA STUDIO</a></li>
+                <li class="{% if page.title contains 'Le Studio' %}active{% endif %}"><a href="studio.html">XEBIA
+                    STUDIO</a></li>
                 <li class="{% if page.title contains 'Craftsmanship' %}active{% endif %}"><a href="craftsmanship.html">VALEURS</a>
                 </li>
                 <li class="{% if page.title contains 'équipe' %}active{% endif %}"><a href="team.html">L'ÉQUIPE</a>
                 </li>
                 <li class="{% if page.title contains 'Technologies' %}active{% endif %}"><a href="technologies.html">TECHNOLOGIES</a>
                 </li>
-                <li class="{% if page.title contains 'rejoindre' %}active{% endif %}"><a href="joinus.html">NOUS REJOINDRE
-                    </a></li>
+                <li class="{% if page.title contains 'rejoindre' %}active{% endif %}"><a href="joinus.html">NOUS
+                    REJOINDRE
+                </a></li>
                 <li class="{% if page.title contains 'propos' %}active{% endif %}"><a href="about.html">À PROPOS</a>
                 </li>
             </ul>
@@ -55,78 +55,47 @@
 {{ content }}
 
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="span4 left">
-                <p><b>Xebia IT Architects</b><br/>
-                    156 boulevard Haussmann<br/>
-                    75008 PARIS &nbsp;
-                    {% comment %}<a href="http://g.co/maps/56s4x"><img
+    <div class="footer-inner">
+        <div class="container">
+            <div class="row">
+                <div class="span4">
+                    <h2>XEBIA IT ARCHITECTS</h2>
+
+                    <p>
+                        156 boulevard Haussmann<br/>
+                        75008 PARIS &nbsp;
+                        {% comment %}<a href="http://g.co/maps/56s4x"><img
                             src="images/marker.png" height="10px"
                             alt=""></a>}
-                    {% endcomment %}
-                    <br/> <br/>
-                    Téléphone : +33 1 53 89 99 96<br/>
-
-                    Email :studio@xebia.fr</p>
-
-            </div>
-            <div class="span4">
-                <ul>
-                    <li>
-                        <a href="studio.html"><b>Xebia Studio</b></a>
-                    </li>
-                    <li>
-                        <a href="craftsmanship.html">Nos valeurs</a>
-                    </li>
-                    <li>
-                        <a href="team.html">L'équipe</a>
-                    </li>
-                    <li>
-                        <a href="technologies.html">Technologies</a>
-                    </li>
-                    <li>
-                        <a href="joinus.html">Nous rejoindre</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="span4">
-
-                <ul>
-                    <li>
-                        <a href="http://www.xebia.fr"><b>Xebia</b></a>
-                    </li>
-                    <li>
-                        <a href="http://blog.xebia.fr">Le blog</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/XebiaFr">Twitter Xebia</a>
-                    </li>
-                    <li>
-                        <a href="http://vimeo.com/xebia/videos">Xebia sur Vimeo</a>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="span4 left">
-                <ul>
-                    <li>
-                        <b>L'univers Xebia</b>
-                    </li>
-                    <li>
-                        <a href="http://training.xebia.fr">Xebia Training</a>
-                    </li>
-                    <li>
-                        <a href="www.xebialabs.com">Xebia Labs</a>
-                    </li>
-                    <li>
-                        <a href="http://contrat-agile.org">Contrat-Agile</a>
-                    </li>
-                </ul>
+                        {% endcomment %}
+                        <br/> <br/>
+                        +33 1 53 89 99 96<br/>
+                        studio@xebia.fr</p>
+                </div>
+                <div class="span4">
+                    <h2>L'UNIVERS XEBIA</h2>
+                    <ul>
+                        <li>
+                            <a href="http://xebia.fr"><b>Xebia</b></a>
+                        </li>
+                        <li>
+                            <a href="http://training.xebia.fr/">Xebia Training</a>
+                        </li>
+                        <li>
+                            <a href="www.xebialabs.com/">Xebia Labs</a>
+                        </li>
+                        <li>
+                            <a href="http://contrat-agile.org">Contrat agile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h2>SUIVEZ-NOUS !</h2>
+                    <a href="http://blog.xebia.fr"><b>Retrouvez nous sur le blog de Xebia</b></a>
+                </div>
             </div>
         </div>
     </div>
-
 </footer>
 </body>
 </html>
