@@ -2,28 +2,11 @@
 layout: main
 title: Accueil
 ---
-<script type="text/javascript" src="javascripts/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="javascripts/bootstrap-carousel.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('#slider1').bxSlider({
-            auto:false,
-            controls:true,
-            prevImage:"images/arrow_left.png",
-            nextImage:"images/arrow_right.png"
-
-        });
-    });
-
-    $(document).ready(function () {
-        $('#slider2').bxSlider({
-            auto:true,
-            controls:true,
-            pause:5000,
-            speed:2000,
-            prevImage:"images/arrow_left.png",
-            nextImage:"images/arrow_right.png"
-        });
+    $(function() {
+        $('#indexCarousel').carousel();
     });
 </script>
 
@@ -37,107 +20,133 @@ title: Accueil
             </p>
         </div>
     </div>
+    <br/>
+
     <div class="row">
-        <div class="span12 slider">
-            <div class="row">
-                <div class="span8">
-                    <img src="images/caplette_home.png" alt="Caplette" align="left">
+        <div class="span12">
+            <div id="indexCarousel" class="carousel">
+                <div class="carousel-inner">
+                    <div class="row item">
+                        <div class="span8">
+                            <img src="images/caplette_home.png" alt="Caplette" align="left">
+                        </div>
+                        <div class="span4">
+                            <h2>XEBIA STUDIO</h2>
+                            <br/>
+
+                            <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le
+                                livrer
+                                pour avant-hier ? </p>
+
+                            <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
+                                expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
+                        </div>
+                    </div>
+                    <div class="row item">
+                        <div class="span8">
+                            <img src="images/caplette_home.jpg" alt="Caplette" align="left">
+                        </div>
+                        <div class="span4">
+                            <br/>
+
+                            <h2>XEBIA STUDIO</h2>
+                            <br/>
+
+                            <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le livrer
+                                pour avant-hier ? </p>
+
+                            <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
+                                expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défis.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="span4">
-                    <br/>
-
-                    <h2>XEBIA STUDIO</h2>
-                    <br/>
-
-                    <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le livrer
-                        pour avant-hier ? </p>
-
-                    <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
-                        expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
-                </div>
+                <a class="carousel-control left" href="#indexCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#indexCarousel" data-slide="next">&rsaquo;</a>
             </div>
+
         </div>
     </div>
+
     <br>
 
-    <div class="slider_container">
-        <div id="slider1">
-            <!-- <div class="row">
-                <div class="span10">
-                    <img src="images/caplette_home.png" alt="Caplette" align="left">
-                </div>
-                <div class="span5">
-                    <h2>XEBIA STUDIO</h2>
-                    <br/>
+    <!-- <div class="row">
+        <div class="span10">
+            <img src="images/caplette_home.png" alt="Caplette" align="left">
+        </div>
+        <div class="span5">
+            <h2>XEBIA STUDIO</h2>
+            <br/>
 
-                    <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le livrer
-                        pour avant-hier ? </p>
+            <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le livrer
+                pour avant-hier ? </p>
 
-                    <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
-                        expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="span10">
-                    <img src="images/caplette_home.png" alt="Caplette" align="left">
-                </div>
-                <div class="span5">
-                    <h2>XEBIA STUDIO</h2>
-                    <br/>
-
-                    <p>Nous sommes à la pointe de la technologie. Avant-gardistes, early adopters, geeks, nous
-                        utilisons et éprouvons les nouveaux outils, les derniers frameworks et langages.
-                    </p>
-
-                    <p>Nous vous proposons des solutions innovantes pour adresser votre besoin métier. Nos choix
-                        sont toujours pragmatiques et nous veillons à ce que votre projet ne devienne jamais un
-                        laboratoire. </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="span10">
-                    <img src="images/caplette_home.png" alt="Caplette" align="left">
-                </div>
-                <div class="span5">
-                    <h2>XEBIA STUDIO</h2>
-                    <br/>
-
-                    <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le livrer
-                        pour avant-hier ? </p>
-
-                    <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
-                        expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
-                </div>
-            </div>-->
+            <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
+                expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
         </div>
     </div>
+    <div class="row">
+        <div class="span10">
+            <img src="images/caplette_home.png" alt="Caplette" align="left">
+        </div>
+        <div class="span5">
+            <h2>XEBIA STUDIO</h2>
+            <br/>
+
+            <p>Nous sommes à la pointe de la technologie. Avant-gardistes, early adopters, geeks, nous
+                utilisons et éprouvons les nouveaux outils, les derniers frameworks et langages.
+            </p>
+
+            <p>Nous vous proposons des solutions innovantes pour adresser votre besoin métier. Nos choix
+                sont toujours pragmatiques et nous veillons à ce que votre projet ne devienne jamais un
+                laboratoire. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span10">
+            <img src="images/caplette_home.png" alt="Caplette" align="left">
+        </div>
+        <div class="span5">
+            <h2>XEBIA STUDIO</h2>
+            <br/>
+
+            <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le livrer
+                pour avant-hier ? </p>
+
+            <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
+                expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
+        </div>
+    </div>-->
     <br/> <br/><br/>
 
     <div class="row columns">
         <div class="span12">
             <div class="row">
                 <div class="span4">
-                    <img src="images/fusee_index.png" style="margin-top:-45px;padding-right: 30px" alt="fusee"
+                    <img src="images/index/fusee_index.png" style="margin-top:-45px;padding-right: 30px" alt="fusee"
                          align="left">
 
                     <h2>TECHNOLOGIES</h2>
                     <br/>
 
                     <p>
-                        Nous avons une expertise reconnue dans une vaste variété de langages.</p>
+                        Nous avons une expertise reconnue dans l'écosystème Java.</p>
 
-                    <p> Nous maîtrisons un grand nombre de technologies que nous avons déjà éprouvées dans nos
+                    <p> Nous maîtrisons un grand nombre de technologies comme Grails, Play! et PhoneGap. Nous les avons
+                        déjà éprouvées dans nos
                         projets.</p>
 
-                    <p> Nous utilisons des techniques de développement avancées qui font appel à notre longue expérience
+                    <p> Nous utilisons des techniques de développement issues de l'eXtreme Programming qui font appel à
+                        notre longue expérience
                         de développement.
                     </p>
+                    <br/>
 
                     <p><a class="savoirplus" href="technologies.html">En savoir plus &raquo;</a></p>
                 </div>
 
+
                 <div class="span4">
-                    <img src="images/ballon_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon"
+                    <img src="images/index/ballon_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon"
                          align="left">
 
                     <h2>L'ÉQUIPE</h2>
@@ -148,15 +157,17 @@ title: Accueil
                     <p>Elles sont composées d'ingénieurs de Xebia expérimentés dont les compétences sont
                         complémentaires.</p>
 
-                    <p>L'équipe accueille volontiers des développeurs ou architecte de vos équipes pour des projets en
+                    <p>L'équipe accueille volontiers des développeurs ou architectes de vos équipes pour des projets en
                         co-développement.
                     </p>
+                    <br/>
 
                     <p><a class="savoirplus" href="team.html">En savoir plus &raquo;</a></p>
                 </div>
 
+
                 <div class="span4">
-                    <img src="images/champi_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon"
+                    <img src="images/index/champi_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon"
                          align="left">
 
                     <h2>CULTURE</h2>
@@ -170,6 +181,7 @@ title: Accueil
                     <p>Nous sommes des agilistes convaincus et pratiquons Scrum et les meilleures pratiques d'XP depuis
                         de
                         nombreuses années</p>
+                    <br/>
 
                     <p><a class="savoirplus" href="craftsmanship.html">En savoir plus &raquo;</a></p>
                 </div>
