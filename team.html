@@ -2,41 +2,53 @@
 layout: main
 title: L'équipe
 ---
-<script type="text/javascript"
-        src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.4.js"></script>
+<script type="text/javascript" src="javascripts/handlebars-1.0.0.beta.4.js"></script>
+<script type="text/javascript" src="javascripts/bootstrap.js"></script>
 
-<script type="text/javascript" src="javascripts/bootstrap-twipsy.js"></script>
-<script type="text/javascript" src="javascripts/bootstrap-popover.js"></script>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <h1>L'ÉQUIPE</h1>
+            <div id="bio"></div>            
+            <div id="craftmen"></div>            
+        </div>
+    </div>
+</div>
 
-
+{% raw %}            
 <script id="craftmen-template" type="text/x-handlebars-template">
-    {% raw %}
-    <ul class="media-grid">
+    <ul class="thumbnails">
         {{#each craftmen}}
-        <li>
-            <a href="#" class="craftman" title="{{name}}" rel="popover" data-content="{{title}}">
-                <img id="{{id}}" class="thumbnail" height="90px"
-                     src="images/equipe/{{small-picture}}"
-                     alt="{{title}}">
-            </a>
+        <li class="span2">
+            <div class="thumbnail">
+                <a class="craftman" href="#"><img id="{{id}}" class="border" src="images/equipe/{{small-picture}}" width="140px" height="140px" alt="{{name}}"></a>
+                <h5>{{name}}</h5>
+            </div>
         </li>
         {{/each}}
     </ul>
 </script>
+
 <script id="bio-template" type="text/x-handlebars-template">
-    <h2 class="inline">{{name}}</h2>
-    <a href="{{linkedin-url}}"><img src="images/linkedin_logo.png" height="20px" alt="{{name}} on LinkedIn"></a>
-    <a href="{{viadeo-url}}"><img src="images/viadeo_logo.png" height="20px" alt="{{name}} on Viadeo"></a>
-    <a href="{{twitter-url}}"><img src="images/google_plus_logo.png" height="20px" alt="{{name}} on Google+"></a>
-    <b>eMail :</b><a href="mailto:{{email}}">{{email}}</a>
-
-    <div class="break">
-        {{abstract}}
-        <img class="bio-big" width="600" src="images/equipe/{{big-picture}}"/>
-    </div>
-    {% endraw %}
+        <div class="grey_wrapper bio">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid" style="vertical-align: bottom;">
+                            <div class="span6">
+                                <h2 class="craftsmanship_title">{{name}}</h2>
+                                {{abstract}}
+                            </div>
+                            <div class="span6">
+                                <img class="border craftsmanship_pict" src="images/equipe/{{big-picture}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </script>
-
+{% endraw %}  
 
 <script type="text/javascript">
     var json;
@@ -49,33 +61,15 @@ title: L'équipe
         });
 
         $.getJSON('team.json', function(json) {
+            $('#bio').html(bio_template(json.craftmen[0]));
             $('#craftmen').html(craftmen_template(json));
-            $("a[rel=popover]").popover({offset:10, placement:'below', animate:true});
             $('a.craftman').click(function() {
-                $('#bio').html(bio_template(json.craftmen[event.target.id]));
+                 $('#bio').html(bio_template(json.craftmen[event.target.id]));
+                 return false;
             });
         });
 
     });
 </script>
 
-<div class="container">
-    <div class="row">
-        <div class="span12">
-            <div>
-                <h1>L'ÉQUIPE</h1>
-                <ul class="thumbnails">
-                    <li class="span3">
-                        <a href="#" class="thumbnail">
-                            <img src="http://placehold.it/210x150" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <div id="craftmen"></div>
-            </div>
-        </div>
-        <div class="span10">
-            <div id="bio" class="bio"></div>
-        </div>
-    </div>
-</div>
+
