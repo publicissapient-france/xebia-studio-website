@@ -2,11 +2,11 @@
     "craftmen" : [
         {
             "id":"0",
-            "name":"Jean-Laurent de Morlhon",
+            "name":"JL de Morlhon",
             "nick":"jlmorlhon",
             "title":"Master Craftman",
             "email":"jlmorlhon@xebia.fr",
-            "small-picture":"jlmorlhon.jpg",
+            "small-picture":"jlmorlhon.png",
             "big-picture":"jlmorlhon-big.jpg",
             "linkedin-url":"morlhon",
             "twitter-url":"morlhon",
@@ -33,7 +33,7 @@
             "email":"fdubois@xebia.fr",
             "title":"I'm rock SOLID !",
             "abstract":"Frédéric BlahBlah",
-            "small-picture":"fdubois.jpg",
+            "small-picture":"fdubois.png",
             "big-picture":"fdubois-big.png",
             "linkedin-url":"fdubois",
             "twitter-url":"fdubois",
@@ -46,8 +46,8 @@
             "title":"C'est MA méthode.",
             "email":"gmantel@xebia.fr",
             "abstract":"Gilles BlahBlah",
-            "small-picture":"gmantel.jpg",
-            "big-picture":"gmantel-big.jpg",
+            "small-picture":"gmantel.png",
+            "big-picture":"gmantel-big.png",
             "linkedin-url":"gmantel",
             "twitter-url":"gmantel",
             "viadeo-url":"gmantel"
@@ -71,24 +71,24 @@
             "nick":"jhelou",
             "title":"NewComer",
             "abstract":"Jean BlahBlah",
-            "small-picture":"jhelou.jpg",
-            "big-picture":"jhelou-big.jpg",
+            "small-picture":"jhelou.png",
+            "big-picture":"jhelou-big.png",
             "linkedin-url":"jhelou",
             "twitter-url":"jhelou",
             "viadeo-url":"jhelou"
         },
         {
             "id":"6",
-            "name":"Nicolas Griso",
-            "nick":"ngriso",
-            "email":"ngriso@xebia.fr",
+            "name":"Pablo Lopez",
+            "nick":"plopez",
+            "email":"plopez@xebia.fr",
             "title":"Don't REST with me !",
-            "abstract":"Nicolas BlahBlah",
-            "small-picture":"ngriso.png",
-            "big-picture":"ngriso-big.jpg",
-            "linkedin-url":"ngriso",
-            "twitter-url":"ngriso",
-            "viadeo-url":"ngriso"
+            "abstract":"Pablo BlahBlah",
+            "small-picture":"plopez.png",
+            "big-picture":"plopez-big.jpg",
+            "linkedin-url":"plopez",
+            "twitter-url":"plopez",
+            "viadeo-url":"plopez"
         },
         {
             "id":"7",
@@ -97,7 +97,7 @@
             "email":"mgfiguiere@xebia.fr",
             "title":"My data is bigger than yours",
             "abstract":"<p>Michaël est consultant chez Xebia où il intervient notamment sur des sites Web à fort trafic. A son aise tant avec les environnements JEE qu'avec les technologies de plus bas niveau, il est spécialisé dans les architectures distribuées et les technologies innovantes telles que NoSQL, les moteurs de recherche, ou encore le data mining.</p>",
-            "small-picture":"mfiguiere.jpg",
+            "small-picture":"mfiguiere.png",
             "big-picture":"mfiguiere-big.jpg",
             "linkedin-url":"mfiguiere",
             "twitter-url":"mfiguiere",
@@ -110,8 +110,8 @@
             "email":"hgeissmann@xebia.fr",
             "title":"I sell whatever you want, especially bac+5 meat.",
             "abstract":"<p>Vous venez pour une deux chevaux, vous partez avec une porshe.</p>",
-            "small-picture":"hugo.jpeg",
-            "big-picture":"hugo-big.jpg",
+            "small-picture":"hgeissmann.png",
+            "big-picture":"hgeissmann-big.png",
             "linkedin-url":"hgeissmann",
             "twitter-url":"hgeissmann",
             "viadeo-url":"hgeissmann"
@@ -141,6 +141,19 @@
             "linkedin-url":"amaury",
             "twitter-url":"amaury",
             "viadeo-url":"amaury"
+        },
+        {
+            "id":"11",
+            "name":"Issam El Fatmi",
+            "nick":"ielfatmi",
+            "email":"ielfatmi@xebia.fr",
+            "title":"Groovy Baby !",
+            "abstract":"<p>Groovy Baby !</p>",
+            "small-picture":"ielfatmi.png",
+            "big-picture":"ielfatmi-big.png",
+            "linkedin-url":"ielfatmi",
+            "twitter-url":"v",
+            "viadeo-url":"ielfatmi"
         }
     ]
 }
