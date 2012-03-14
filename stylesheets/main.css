@@ -48,6 +48,12 @@ p {
     font-size: 15px;
 }
 
+/*ul li {
+    font-family: AsapRegular, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}*/
+
 img.border {
     border: 5px solid #ffffff;
     -moz-box-shadow: 0px 8px 15px #444;
@@ -253,8 +259,10 @@ footer h2 {
 /*      Valeurs        */
 /***********************/
 
-.craftsmanship {
-
+ul.craftsmanship li {
+    font-family: AsapRegular, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 h2.craftsmanship_title {
@@ -280,7 +288,6 @@ img.craftsmanship_pict {
 }
 
 p.joinus_p {
-    font-size: 17px;
     line-height: 22px;
 }
 
@@ -288,6 +295,8 @@ img.joinus_pict {
     margin-top: 30px;
     margin-left: 100px;
 }
+
+
 
 /***********************/
 /*      About         */
@@ -302,7 +311,12 @@ img.joinus_pict {
 }
 
 p.about_p {
-    font-size: 17px;
+    line-height: 22px;
+}
+
+ul.about_ul li {
+    font-family: AsapRegular, sans-serif;
+    font-size: 15px;
     line-height: 22px;
 }
 
