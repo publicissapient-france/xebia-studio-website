@@ -9,19 +9,30 @@ title: L'équipe
     <div class="row-fluid">
         <div class="span12">
             <h1>L'ÉQUIPE</h1>
-            <div id="bio"></div>            
-            <div id="craftmen"></div>            
+        </div>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <div id="bio"></div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div id="craftmen"></div>
         </div>
     </div>
 </div>
 
-{% raw %}            
+{% raw %}
 <script id="craftmen-template" type="text/x-handlebars-template">
     <ul class="thumbnails">
         {{#each craftmen}}
         <li class="span2">
             <div class="thumbnail">
-                <a class="craftman" href="#"><img id="{{id}}" class="border" src="images/equipe/{{small-picture}}" width="140px" height="140px" alt="{{name}}"></a>
+                <a class="craftman" href="#"><img id="{{id}}" class="border" src="images/equipe/{{small-picture}}"
+                                                  width="140px" height="140px" alt="{{name}}"></a>
                 <h5>{{name}}</h5>
             </div>
         </li>
@@ -30,46 +41,46 @@ title: L'équipe
 </script>
 
 <script id="bio-template" type="text/x-handlebars-template">
-        <div class="grey_wrapper bio">
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span12">
-                        <div class="row-fluid" style="vertical-align: bottom;">
-                            <div class="span6">
-                                <h2 class="craftsmanship_title">{{name}}</h2>
-                                {{abstract}}
-                            </div>
-                            <div class="span6">
-                                <img class="border craftsmanship_pict" src="images/equipe/{{big-picture}}">
-                            </div>
+    <div class="grey_wrapper bio">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="row-fluid" style="vertical-align: bottom;">
+                        <div class="span6">
+                            <h2 class="craftsmanship_title">{{name}}</h2>
+                            {{abstract}}
+                        </div>
+                        <div class="span6">
+                            <img class="craftsmanship_pict" src="images/equipe/{{big-picture}}">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </script>
-{% endraw %}  
+{%endraw %}
 
-<script type="text/javascript">
-    var json;
-    $(document).ready(function() {
-        var craftmen_template = Handlebars.compile($('#craftmen-template').html());
-        var bio_template = Handlebars.compile($('#bio-template').html());
+<script type = "text/javascript">
+var json;
+$(document).ready(function() {
+    var craftmen_template = Handlebars.compile($('#craftmen-template').html());
+    var bio_template = Handlebars.compile($('#bio-template').html());
 
-        Handlebars.registerHelper('abstract', function() {
-            return new Handlebars.SafeString(this.abstract);
-        });
-
-        $.getJSON('team.json', function(json) {
-            $('#bio').html(bio_template(json.craftmen[0]));
-            $('#craftmen').html(craftmen_template(json));
-            $('a.craftman').click(function() {
-                 $('#bio').html(bio_template(json.craftmen[event.target.id]));
-                 return false;
-            });
-        });
-
+    Handlebars.registerHelper('abstract', function() {
+        return new Handlebars.SafeString(this.abstract);
     });
-</script>
+
+    $.getJSON('team.json', function(json) {
+        $('#bio').html(bio_template(json.craftmen[0]));
+        $('#craftmen').html(craftmen_template(json));
+        $('a.craftman').click(function() {
+            $('#bio').html(bio_template(json.craftmen[event.target.id]));
+            return false;
+        });
+    });
+
+});
+        </script>
 
 
