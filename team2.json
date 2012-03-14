@@ -1,0 +1,216 @@
+{
+    "craftmen" : [
+        {
+            "id":"0",
+            "name":"JL de Morlhon",
+            "nick":"jlmorlhon",
+            "title":"Master Craftman",
+            "email":"jlmorlhon@xebia.fr",
+            "small-picture":"jlmorlhon.png",
+            "big-picture":"jlmorlhon-big.jpg",
+            "linkedin-url":"morlhon",
+            "twitter-url":"morlhon",
+            "viadeo-url":"morlhon",
+            "abstract":"<p>Jean-Laurent blahblahblah</p>"
+        },
+        {
+            "id":"1",
+            "name":"Cyrille Leclerc",
+            "nick":"cleclerc",
+            "title":"CTO",
+            "email":"cleclerc@xebia.fr",
+            "small-picture":"hgeissmann.png",
+            "big-picture":"cleclerc-big.png",
+            "linkedin-url":"cleclerc",
+            "twitter-url":"cleclerc",
+            "viadeo-url":"cleclerc",
+            "abstract":"<p>CTO de Xebia, Cyrille est aussi committer sur le projet Apache CXF.</p><p>Après être récemment intervenu sur les sites web et les plateformes de web service à fort traffic d'opérateurs de télécommunication, Cyrille est actuellement responsable de la mise en place d'une grille de données inter-continentale pour une grande institution financière française.</p><p> Après 7 ans chez IBM Global Services et 5 ans chez Xebia, Cyrille a une expérience variée allant du monde commercial aux écosystèmes Open Source dans des approches aussi bien très cadrées et contractuelles que légères et agiles.</p><p>Cyrille est aussi blogger sur blog.xebia.fr et speaker dans des conférences (In Memory Data Grids &amp; NoSQL, applications prêtes pour la production, etc)..</p>"
+        },
+        {
+            "id":"2",
+            "name":"Frédéric Dubois",
+            "nick":"fdubois",
+            "email":"fdubois@xebia.fr",
+            "title":"I'm rock SOLID !",
+            "abstract":"Frédéric BlahBlah",
+            "small-picture":"fdubois.png",
+            "big-picture":"fdubois-big.png",
+            "linkedin-url":"fdubois",
+            "twitter-url":"fdubois",
+            "viadeo-url":"fdubois"
+        },
+        {
+            "id":"3",
+            "name":"Gilles Mantel",
+            "nick":"gmantel",
+            "title":"C'est MA méthode.",
+            "email":"gmantel@xebia.fr",
+            "abstract":"Gilles BlahBlah",
+            "small-picture":"gmantel.png",
+            "big-picture":"gmantel-big.png",
+            "linkedin-url":"gmantel",
+            "twitter-url":"gmantel",
+            "viadeo-url":"gmantel"
+        },
+        {
+            "id":"4",
+            "name":"Simon Caplette",
+            "nick":"scaplette",
+            "title":"Refactoring Dude",
+            "email":"scaplette@xebia.fr",
+            "abstract":"Simon BlahBlah",
+            "small-picture":"scaplette.png",
+            "big-picture":"scaplette-big.png",
+            "linkedin-url":"scaplette",
+            "twitter-url":"scaplette",
+            "viadeo-url":"scaplette"
+        },
+        {
+            "id":"5",
+            "name":"Jean Helou",
+            "nick":"jhelou",
+            "title":"NewComer",
+            "abstract":"Jean BlahBlah",
+            "small-picture":"jhelou.png",
+            "big-picture":"jhelou-big.png",
+            "linkedin-url":"jhelou",
+            "twitter-url":"jhelou",
+            "viadeo-url":"jhelou"
+        },
+        {
+            "id":"8",
+            "name":"Hugo Geissmann",
+            "nick":"hgeissmann",
+            "email":"hgeissmann@xebia.fr",
+            "title":"I sell whatever you want, especially bac+5 meat.",
+            "abstract":"<p>Vous venez pour une deux chevaux, vous partez avec une porshe.</p>",
+            "small-picture":"hgeissmann.png",
+            "big-picture":"hgeissmann-big.png",
+            "linkedin-url":"hgeissmann",
+            "twitter-url":"hgeissmann",
+            "viadeo-url":"hgeissmann"
+        },
+
+
+
+
+        {
+            "id":"12",
+            "name":"Benoit Lemoine",
+            "nick":"blemoine",
+            "email":"blemoine@xebia.fr",
+            "title":"Groovy Baby !",
+            "abstract":"<p>Groovy Baby !</p>",
+            "small-picture":"blemoine.png",
+            "big-picture":"blemoine-big.png",
+            "linkedin-url":"ielfatmi",
+            "twitter-url":"v",
+            "viadeo-url":"ielfatmi"
+        },
+        {
+            "id":"6",
+            "name":"Pablo Lopez",
+            "nick":"plopez",
+            "email":"plopez@xebia.fr",
+            "title":"Don't REST with me !",
+            "abstract":"Pablo BlahBlah",
+            "small-picture":"plopez.png",
+            "big-picture":"plopez-big.jpg",
+            "linkedin-url":"plopez",
+            "twitter-url":"plopez",
+            "viadeo-url":"plopez"
+        },
+
+        {
+            "id":"12",
+            "name":"Benoit Lemoine",
+            "nick":"blemoine",
+            "email":"blemoine@xebia.fr",
+            "title":"Groovy Baby !",
+            "abstract":"<p>Groovy Baby !</p>",
+            "small-picture":"blemoine.png",
+            "big-picture":"blemoine-big.png",
+            "linkedin-url":"ielfatmi",
+            "twitter-url":"v",
+            "viadeo-url":"ielfatmi"
+        }
+            ,
+        {
+            "id":"12",
+            "name":"Benoit Lemoine",
+            "nick":"blemoine",
+            "email":"blemoine@xebia.fr",
+            "title":"Groovy Baby !",
+            "abstract":"<p>Groovy Baby !</p>",
+            "small-picture":"blemoine.png",
+            "big-picture":"blemoine-big.png",
+            "linkedin-url":"ielfatmi",
+            "twitter-url":"v",
+            "viadeo-url":"ielfatmi"
+        },
+
+        {
+            "id":"12",
+            "name":"Benoit Lemoine",
+            "nick":"blemoine",
+            "email":"blemoine@xebia.fr",
+            "title":"Groovy Baby !",
+            "abstract":"<p>Groovy Baby !</p>",
+            "small-picture":"blemoine.png",
+            "big-picture":"blemoine-big.png",
+            "linkedin-url":"ielfatmi",
+            "twitter-url":"v",
+            "viadeo-url":"ielfatmi"
+        } ,
+            {
+            "id":"0",
+            "name":"JL de Morlhon",
+            "nick":"jlmorlhon",
+            "title":"Master Craftman",
+            "email":"jlmorlhon@xebia.fr",
+            "small-picture":"jlmorlhon.png",
+            "big-picture":"jlmorlhon-big.jpg",
+            "linkedin-url":"morlhon",
+            "twitter-url":"morlhon",
+            "viadeo-url":"morlhon",
+            "abstract":"<p>Jean-Laurent blahblahblah</p>"
+        },
+        {
+            "id":"1",
+            "name":"Cyrille Leclerc",
+            "nick":"cleclerc",
+            "title":"CTO",
+            "email":"cleclerc@xebia.fr",
+            "small-picture":"cleclerc.jpg",
+            "big-picture":"cleclerc-big.png",
+            "linkedin-url":"cleclerc",
+            "twitter-url":"cleclerc",
+            "viadeo-url":"cleclerc",
+            "abstract":"<p>CTO de Xebia, Cyrille est aussi committer sur le projet Apache CXF.</p><p>Après être récemment intervenu sur les sites web et les plateformes de web service à fort traffic d'opérateurs de télécommunication, Cyrille est actuellement responsable de la mise en place d'une grille de données inter-continentale pour une grande institution financière française.</p><p> Après 7 ans chez IBM Global Services et 5 ans chez Xebia, Cyrille a une expérience variée allant du monde commercial aux écosystèmes Open Source dans des approches aussi bien très cadrées et contractuelles que légères et agiles.</p><p>Cyrille est aussi blogger sur blog.xebia.fr et speaker dans des conférences (In Memory Data Grids &amp; NoSQL, applications prêtes pour la production, etc)..</p>"
+        },
+        {
+            "id":"2",
+            "name":"Frédéric Dubois",
+            "nick":"fdubois",
+            "email":"fdubois@xebia.fr",
+            "title":"I'm rock SOLID !",
+            "abstract":"Frédéric BlahBlah",
+            "small-picture":"fdubois.png",
+            "big-picture":"fdubois-big.png",
+            "linkedin-url":"fdubois",
+            "twitter-url":"fdubois",
+            "viadeo-url":"fdubois"
+        },
+        {
+            "id":"3",
+            "name":"Gilles Mantel",
+            "nick":"gmantel",
+            "title":"C'est MA méthode.",
+            "email":"gmantel@xebia.fr",
+            "abstract":"Gilles BlahBlah",
+            "small-picture":"gmantel.png",
+            "big-picture":"gmantel-big.png",
+            "linkedin-url":"gmantel",
+            "twitter-url":"gmantel",
+            "viadeo-url":"gmantel"
+        }
