@@ -48,12 +48,6 @@ p {
     font-size: 15px;
 }
 
-/*ul li {
-    font-family: AsapRegular, sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-}*/
-
 img.border {
     border: 5px solid #ffffff;
     -moz-box-shadow: 0px 8px 15px #444;
@@ -267,6 +261,7 @@ ul.craftsmanship li {
 
 h2.craftsmanship_title {
     color: #323338;
+    margin-bottom:20px;
 }
 
 p.craftsmanship_p {
