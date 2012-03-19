@@ -74,7 +74,7 @@ $(document).ready(function() {
     $.getJSON('team.json', function(json) {
         $('#bio').html(bio_template(json.craftmen[0]));
         $('#craftmen').html(craftmen_template(json));
-        $('a.craftman').click(function() {
+        $('a.craftman').click(function(event) {
             $('#bio').html(bio_template(json.craftmen[event.target.id]));
             return false;
         });
