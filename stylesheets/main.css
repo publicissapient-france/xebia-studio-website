@@ -127,7 +127,15 @@ img.border {
     padding-top: 10px;
     font-size: 150%;
     font-family: AsapRegular, sans-serif;
+}
 
+#indexCarousel {
+  margin-top:20px;
+  margin-bottom:80px;
+}
+
+#belowCarousel {
+  margin-bottom:30px;
 }
 
 .carousel-inner {
