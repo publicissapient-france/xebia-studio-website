@@ -144,6 +144,12 @@ img.border {
 
 .carousel-inner h2 {
     color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.carousel p {
+  margin-bottom:35px;
 }
 
 .carousel-inner div {
@@ -225,8 +231,11 @@ footer h2 {
     text-decoration: underline;
 }
 
-.footer-inner ul {
+.picto-home {
+  margin-top: -30px;
+  padding-right: 30px
 }
+
 
 /***********************/
 /*       Xebia Studio  */
