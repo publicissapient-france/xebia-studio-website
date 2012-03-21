@@ -7,16 +7,16 @@ title: L'équipe
 
 <div class="container-fluid">
     <div class="row-fluid">
+        <div class="span12"><h1>L'ÉQUIPE</h1></div>
+    </div>
+</div>
+<!-- no container to "ease" getting the pixel on the left -->
+    <div class="row-fluid">
         <div class="span12">
-            <h1>L'ÉQUIPE</h1>
+          <div id="bio"></div>
         </div>
     </div>
-</div>
-<div class="row-fluid">
-    <div class="span12">
-        <div id="bio"></div>
-    </div>
-</div>
+
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span12">
@@ -25,7 +25,33 @@ title: L'équipe
     </div>
 </div>
 
+<!-- 
 {%raw%}
+-->
+<script id="bio-template" type="text/x-handlebars-template">
+    <div class="grey_wrapper bio">
+        <div class="container-fluid">
+            <div class="row-fluid">
+            
+                <div class="span12">
+                    <div id="a-craftman" class="row-fluid">
+                    
+                        <div class="span6">
+                            <h2 class="craftsmanship_title">{{name}}</h2>
+                            {{abstract}}
+                        </div>
+                        <div class="span6">
+                            <img id="a-craftman-big-picture" class="craftsmanship_pict" src="images/equipe/{{big-picture}}">
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</script>
+
 <script id="craftmen-template" type="text/x-handlebars-template">
     <ul class="thumbnails">
         {{#each craftmen}}
@@ -39,27 +65,9 @@ title: L'équipe
         {{/each}}
     </ul>
 </script>
-
-<script id="bio-template" type="text/x-handlebars-template">
-    <div class="grey_wrapper bio">
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span12">
-                    <div class="row-fluid" style="vertical-align: bottom;">
-                        <div class="span6">
-                            <h2 class="craftsmanship_title">{{name}}</h2>
-                            {{abstract}}
-                        </div>
-                        <div class="span6">
-                            <img class="craftsmanship_pict" src="images/equipe/{{big-picture}}">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</script>
+<!-- 
 {%endraw%}
+-->
 
 <script type = "text/javascript">
 var json;
@@ -74,7 +82,7 @@ $(document).ready(function() {
     $.getJSON('team.json', function(json) {
         $('#bio').html(bio_template(json.craftmen[0]));
         $('#craftmen').html(craftmen_template(json));
-        $('a.craftman').click(function() {
+        $('a.craftman').click(function(event) {
             $('#bio').html(bio_template(json.craftmen[event.target.id]));
             return false;
         });
