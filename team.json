@@ -11,7 +11,7 @@
             "linkedin-url":"morlhon",
             "twitter-url":"morlhon",
             "viadeo-url":"morlhon",
-            "abstract":"<p>Jean-Laurent blahblahblah</p>"
+            "abstract":"<p>Jean-Laurent blahblahblah <h2> I THROW FIREBALLS ! </p>"
         },
         {
             "id":"1",
@@ -96,7 +96,7 @@
             "nick":"plopez",
             "email":"plopez@xebia.fr",
             "title":"Don't REST with me !",
-            "abstract":"<p>Éléphant est un nom vernaculaire ambigu désignant en français certains grands mammifères, pour la plupart éteints qui font partie, tout comme les mammouths et d'autres espèces disparues, de la famille des Elephantidae, répartis dans divers genres biologiques de cette famille. Les animaux encore en vie au xxie siècle sont l'éléphant de savane, l'éléphant de forêt, autrefois regroupés sous l’expression « éléphant d'Afrique », et l'éléphant d'Asie, parfois anciennement appelé « éléphant indien ». Ils se différencient par certaines caractéristiques anatomiques, les éléphants d'Asie étant en général plus petits avec des oreilles plus petites, ou encore une différence du bout de la trompe. Ces espèces survivantes font localement l'objet de programmes ou de projets de réintroduction et de protection.</p><iframe width='420' height='315' src='http://www.youtube.com/embed/7isTJUUTUcM' frameborder='0' allowfullscreen></iframe>",
+            "abstract":"<p>Éléphant est un nom vernaculaire ambigu désignant en français certains grands mammifères, pour la plupart éteints qui font partie, tout comme les mammouths et d'autres espèces disparues, de la famille des Elephantidae, répartis dans divers genres biologiques de cette famille. Les animaux encore en vie au xxie siècle sont l'éléphant de savane, l'éléphant de forêt, autrefois regroupés sous l’expression « éléphant d'Afrique », et l'éléphant d'Asie, parfois anciennement appelé « éléphant indien ». Ils se différencient par certaines caractéristiques anatomiques, les éléphants d'Asie étant en général plus petits avec des oreilles plus petites, ou encore une différence du bout de la trompe. Ces espèces survivantes font localement l'objet de programmes ou de projets de réintroduction et de protection.</p>",
             "small-picture":"plopez.png",
             "big-picture":"plopez-big-plus.png",
             "linkedin-url":"plopez",

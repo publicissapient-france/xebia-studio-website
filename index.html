@@ -4,13 +4,6 @@ title: Accueil
 ---
 
 <script type="text/javascript" src="javascripts/bootstrap.js"></script>
-<script type="text/javascript">
-    $(function() {
-        $('.carousel').carousel({
-          interval: -1;
-        });
-    });
-</script>
 
 <div class="row-fluid">
     <div class="span12 center index-title">
@@ -24,6 +17,7 @@ title: Accueil
 
 <div id="indexCarousel" class="carousel">
     <div class="carousel-inner">
+      
         <div class="active item">
             <div class="row-fluid">
                 <div class="span12 offset4">
@@ -32,20 +26,17 @@ title: Accueil
                             <img src="images/caplette_home.jpg" alt="Caplette" align="left">
                         </div>
                         <div class="span4">
-                            <h2>XEBIA STUDIO</h2>
-                            <br/>
+                            <h2>Votre projet est pour avant-hier ?</h2>
+                            
+                            <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le livrer pour avant-hier ?</p>
 
-                            <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le
-                                livrer
-                                pour avant-hier ? </p>
-
-                            <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
-                                expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
+                            <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <div class="item">
             <div class="row-fluid">
                 <div class="span12 offset4">
@@ -54,8 +45,7 @@ title: Accueil
                             <img src="images/caplette_home.jpg" alt="Caplette" align="left">
                         </div>
                         <div class="span4">
-                            <h2>XEBIA STUDIO</h2>
-                            <br/>
+                            <h2>Vous voulez bénéficier des dernieres innovations</h2>
 
                             <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le
                                 livrer
@@ -68,19 +58,45 @@ title: Accueil
                 </div>
             </div>
         </div>
+        
+        <div class="item">
+            <div class="row-fluid">
+                <div class="span12 offset4">
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <img src="images/caplette_home.jpg" alt="Caplette" align="left">
+                        </div>
+                        <div class="span4">
+                            <h2>Vous voulez bénéficier des dernieres innovations</h2>
+
+                            <p>Votre projet est critique, ambitieux, technologiquement innovant et vous devez le
+                                livrer
+                                pour avant-hier ? </p>
+
+                            <p>Nous pouvons vous aider ! Nous sommes une équipe de développeurs
+                                expérimentés, agiles, créatifs et pragmatiques qui aimons ce type de défi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
     </div>
+    
     <a class="carousel-control left" href="#indexCarousel" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#indexCarousel" data-slide="next">&rsaquo;</a>
+    
 </div>
 
 <div id="belowCarousel" class="row columns">
+  
     <div class="span5">
         <div class="column">
-            <img src="images/index/fusee_index.png" style="margin-top:-45px;padding-right: 30px" alt="fusee"
-                 align="left">
-
+            <a href="technologies.html">
+              <img src="images/index/fusee_index.png" style="margin-top:-45px;padding-right: 30px" alt="fusee" align="left">
+            </a>
             <h2>TECHNOLOGIES</h2>
-
             <p>
                 Nous avons une expertise reconnue dans l'écosystème Java.</p>
 
@@ -92,18 +108,19 @@ title: Accueil
                 notre longue expérience
                 de développement.
             </p>
-            <br/>
 
             <p><a class="savoirplus" href="technologies.html">En savoir plus &raquo;</a></p>
         </div>
     </div>
+    
     <div class="span5">
         <div class="midcolumn">
-            <img src="images/index/ballon_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon"
-                 align="left">
+            <a href="team.html">
+              <img src="images/index/ballon_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon" align="left">
+            </a>
 
             <h2>L'ÉQUIPE</h2>
-
+            
             <p>Nous constituons des équipes dédiées à la réalisation de votre produit.
 
             <p>Elles sont composées d'ingénieurs de Xebia expérimentés dont les compétences sont
@@ -112,18 +129,17 @@ title: Accueil
             <p>L'équipe accueille volontiers des développeurs ou architectes de vos équipes pour des projets en
                 co-développement.
             </p>
-            <br/>
 
             <p><a class="savoirplus" href="team.html">En savoir plus &raquo;</a></p>
         </div>
     </div>
+    
     <div class="span5">
         <div class="column">
-            <img src="images/index/champi_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon"
-                 align="left">
-
+            <a href="craftsmanship.html">
+              <img src="images/index/champi_index.png" style="margin-top:-30px;padding-right: 30px" alt="ballon" align="left">
+            </a>
             <h2>CULTURE</h2>
-
             <p>Nous sommes passionnés par le développement de logiciel, nous avons un culture d'excellence
                 mélangée
                 de
@@ -132,11 +148,11 @@ title: Accueil
             <p>Nous sommes des agilistes convaincus et pratiquons Scrum et les meilleures pratiques d'XP depuis
                 de
                 nombreuses années.</p>
-            <br/>
 
             <p><a class="savoirplus" href="craftsmanship.html">En savoir plus &raquo;</a></p>
         </div>
     </div>
+    
 </div>
 
 
