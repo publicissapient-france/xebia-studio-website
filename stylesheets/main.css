@@ -14,6 +14,19 @@ body {
     box-shadow: 0 0 10px 10px #cccccc;
 }
 
+blockquote {
+    margin-left: 10%;
+}
+
+blockquote small {
+    color: #FFFFFF;
+}
+
+blockquote p {
+    font-family: AsapRegular, sans-serif;
+    font-size: 15px;
+}
+
 h1 {
     margin-top: 15px;
     color: #6d2960;
@@ -82,7 +95,7 @@ img.border {
     font-family: MisoRegular, sans-serif;
 }
 
-.navbar .nav .active > a {
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
     color: white;
     text-decoration: none;
     background-color: #6d2960;
@@ -130,12 +143,12 @@ img.border {
 }
 
 #indexCarousel {
-  margin-top:20px;
-  margin-bottom:80px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 #belowCarousel {
-  margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .carousel-inner {
@@ -144,6 +157,12 @@ img.border {
 
 .carousel-inner h2 {
     color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.carousel p {
+    margin-bottom: 35px;
 }
 
 .carousel-inner div {
@@ -225,7 +244,9 @@ footer h2 {
     text-decoration: underline;
 }
 
-.footer-inner ul {
+.picto-home {
+    margin-top: -30px;
+    padding-right: 30px
 }
 
 /***********************/
@@ -269,7 +290,7 @@ ul.craftsmanship li {
 
 h2.craftsmanship_title {
     color: #323338;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 p.craftsmanship_p {
@@ -277,8 +298,9 @@ p.craftsmanship_p {
     line-height: 22px;
 }
 
-img.craftsmanship_pict {
+img#craftsmanship_picture {
     margin-top: 15px;
+    margin-left: 40px;
     margin-bottom: -20px;
 }
 
@@ -298,8 +320,6 @@ img.joinus_pict {
     margin-top: 30px;
     margin-left: 100px;
 }
-
-
 
 /***********************/
 /*      About         */
@@ -366,15 +386,15 @@ ul.about_ul li {
 }
 
 #a-craftman {
-  vertical-align: bottom;
-  display:block;
-  height:400px;
+    vertical-align: bottom;
+    display: block;
+    height: 400px;
 }
 
-/*#a-craftman-big-picture {
-  position: absolute;
-  bottom: 0;
-}*/
+img.team-big-picture {
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
 
 /***********************/
 /*      Technos           */

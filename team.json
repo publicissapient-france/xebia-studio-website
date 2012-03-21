@@ -11,7 +11,7 @@
             "linkedin-url":"morlhon",
             "twitter-url":"morlhon",
             "viadeo-url":"morlhon",
-            "abstract":"<p>Jean-Laurent blahblahblah</p>"
+            "abstract":"<p>Jean-Laurent blahblahblah <b> I THROW FIREBALLS !</b> </p>"
         },
         {
             "id":"1",
@@ -33,7 +33,7 @@
             "title":"CTO",
             "email":"cleclerc@xebia.fr",
             "small-picture":"cleclerc.jpg",
-            "big-picture":"cleclerc-big.png",
+            "big-picture":"cleclerc-big-plus2.png",
             "linkedin-url":"cleclerc",
             "twitter-url":"cleclerc",
             "viadeo-url":"cleclerc",
@@ -96,7 +96,7 @@
             "nick":"plopez",
             "email":"plopez@xebia.fr",
             "title":"Don't REST with me !",
-            "abstract":"<p>Éléphant est un nom vernaculaire ambigu désignant en français certains grands mammifères, pour la plupart éteints qui font partie, tout comme les mammouths et d'autres espèces disparues, de la famille des Elephantidae, répartis dans divers genres biologiques de cette famille. Les animaux encore en vie au xxie siècle sont l'éléphant de savane, l'éléphant de forêt, autrefois regroupés sous l’expression « éléphant d'Afrique », et l'éléphant d'Asie, parfois anciennement appelé « éléphant indien ». Ils se différencient par certaines caractéristiques anatomiques, les éléphants d'Asie étant en général plus petits avec des oreilles plus petites, ou encore une différence du bout de la trompe. Ces espèces survivantes font localement l'objet de programmes ou de projets de réintroduction et de protection.</p><iframe width='420' height='315' src='http://www.youtube.com/embed/7isTJUUTUcM' frameborder='0' allowfullscreen></iframe>",
+            "abstract":"<p>Éléphant est un nom vernaculaire ambigu désignant en français certains grands mammifères, pour la plupart éteints qui font partie, tout comme les mammouths et d'autres espèces disparues, de la famille des Elephantidae, répartis dans divers genres biologiques de cette famille. Les animaux encore en vie au xxie siècle sont l'éléphant de savane, l'éléphant de forêt, autrefois regroupés sous l’expression « éléphant d'Afrique », et l'éléphant d'Asie, parfois anciennement appelé « éléphant indien ». Ils se différencient par certaines caractéristiques anatomiques, les éléphants d'Asie étant en général plus petits avec des oreilles plus petites, ou encore une différence du bout de la trompe. Ces espèces survivantes font localement l'objet de programmes ou de projets de réintroduction et de protection.</p>",
             "small-picture":"plopez.png",
             "big-picture":"plopez-big-plus.png",
             "linkedin-url":"plopez",
@@ -104,17 +104,17 @@
             "viadeo-url":"plopez"
         },
         {
-            "id":"8",
-            "name":"Aurelien Maury",
-            "nick":"amaury",
-            "email":"amaury@xebia.fr",
-            "title":"Groovy Baby !",
-            "abstract":"<p>Groovy Baby !</p>",
-            "small-picture":"aurelien.jpeg",
-            "big-picture":"aurelien-big.jpg",
-            "linkedin-url":"amaury",
-            "twitter-url":"amaury",
-            "viadeo-url":"amaury"
+          "id":"8",
+          "name":"Audrey Pedro",
+          "nick":"apedro",
+          "email":"apedro@xebia.fr",
+          "title":"Analyzing business !",
+          "abstract":"<p>La PO, la force féminine du Studio.</p><p>Business Analyst / Product Owner chez Xebia, Audrey est CSPO. Après un an de conseil en sécurité (notamment sur des missions d'analyse de risques métier), Audrey se positionne en tant que lien fonctionnel entre le métier et l'équipe Xebia Studio lors d'un projet.</p><p>Audrey a suivi une formation d'ingénieur lui permettant de mieux appréhender les problématiques techniques des projets Studio. Elle a travaillé en France et en Allemagne, ce qui lui confère une grande adaptabilité à tout type d'organisation.</p>",
+          "small-picture":"audrey.jpeg",
+          "big-picture":"audrey-big.jpg",
+          "linkedin-url":"apedro",
+          "twitter-url":"apedro",
+          "viadeo-url":"apedro"
         },
         {
             "id":"9",
@@ -141,33 +141,6 @@
             "linkedin-url":"ielfatmi",
             "twitter-url":"v",
             "viadeo-url":"ielfatmi"
-        },
-        {
-            "id":"11",
-            "name":"Audrey Pedro",
-            "nick":"apedro",
-            "email":"apedro@xebia.fr",
-            "title":"Analyzing business !",
-            "abstract":"<p>La PO, la force féminine du Studio.</p><p>Business Analyst / Product Owner chez Xebia, Audrey est CSPO. Après un an de conseil en sécurité (notamment sur des missions d'analyse de risques métier), Audrey se positionne en tant que lien fonctionnel entre le métier et l'équipe Xebia Studio lors d'un projet.</p><p>Audrey a suivi une formation d'ingénieur lui permettant de mieux appréhender les problématiques techniques des projets Studio. Elle a travaillé en France et en Allemagne, ce qui lui confère une grande adaptabilité à tout type d'organisation.</p>",
-            "small-picture":"audrey.jpeg",
-            "big-picture":"audrey-big.jpg",
-            "linkedin-url":"apedro",
-            "twitter-url":"apedro",
-            "viadeo-url":"apedro"
-        },
-        {
-            "id":"12",
-            "name":"Michael Figuiere",
-            "nick":"mfiguiere",
-            "email":"mgfiguiere@xebia.fr",
-            "title":"My data is bigger than yours",
-            "abstract":"<p>Michaël est consultant chez Xebia où il intervient notamment sur des sites Web à fort trafic. A son aise tant avec les environnements JEE qu'avec les technologies de plus bas niveau, il est spécialisé dans les architectures distribuées et les technologies innovantes telles que NoSQL, les moteurs de recherche, ou encore le data mining.</p>",
-            "small-picture":"mfiguiere.png",
-            "big-picture":"mfiguiere-big-plus.png",
-            "linkedin-url":"mfiguiere",
-            "twitter-url":"mfiguiere",
-            "viadeo-url":"mfiguiere "
         }
-
     ]
 }
