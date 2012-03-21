@@ -3,7 +3,8 @@ layout: main
 title: L'équipe
 ---
 <script type="text/javascript" src="javascripts/handlebars-1.0.0.beta.4.js"></script>
-<script type="text/javascript" src="javascripts/bootstrap.js"></script>
+
+<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/team.css"/>
 
 <div class="container-fluid">
     <div class="row-fluid">
@@ -41,7 +42,7 @@ title: L'équipe
                             {{abstract}}
                         </div>
                         <div class="span6">
-                            <img id="{{nick}}" class="craftsmanship_pict" src="images/equipe/{{big-picture}}">
+                            <img id="{{nick}}" class="team-big-picture" src="images/equipe/{{big-picture}}">
                         </div>
                         
                     </div>
@@ -57,8 +58,7 @@ title: L'équipe
         {{#each craftmen}}
         <li class="span2">
             <div class="thumbnail">
-                <a class="craftman" href="#"><img id="{{id}}" class="border" src="images/equipe/{{small-picture}}"
-                                                  width="140px" height="140px" alt="{{name}}"></a>
+                <a class="craftman" href="#"><img id="{{id}}" class="border" src="images/equipe/{{small-picture}}" alt="{{name}}"></a>
                 <h5>{{name}}</h5>
             </div>
         </li>
