@@ -160,11 +160,13 @@ img.border {
 .carousel-inner h2 {
     color: #ffffff;
     margin-bottom: 20px;
+    text-align: left;
     font-size: 25px;
 }
 
 .carousel p {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
+    padding-right: 20px;
 }
 
 .carousel-inner div {
@@ -194,8 +196,8 @@ img.border {
 }
 
 div.leftcolumn {
-    padding-left:40px;
-    padding-right:13.5px;
+    padding-left: 40px;
+    padding-right: 13.5px;
 }
 
 div.midcolumn {
@@ -463,4 +465,45 @@ p.technologies {
 
 img.team {
     margin-bottom: 10px;
+}
+
+/***********************/
+/*      Technos           */
+/***********************/
+
+.carousel-control {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    width: 32px;
+    height: 32px;
+    margin-top: 140px;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 23px;
+    color: #ffffff;
+    text-align: center;
+    background: #222222;
+    border: 2px solid #ffffff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+}
+
+.carousel-control.right {
+    left: auto;
+    right: 3%;
+}
+
+.carousel-control.left {
+    left: 88%;
+}
+
+.carousel-control:hover {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
 }
