@@ -3,11 +3,12 @@
         {
             "id":"0",
             "name":"JL de Morlhon",
+            "firstname":"Jean-Laurent",
             "nick":"jlmorlhon",
             "title":"Master Craftman",
             "email":"jlmorlhon@xebia.fr",
             "small-picture":"jlmorlhon.png",
-            "big-picture":"jlmorlhon-big-plus.png",
+            "big-picture":"jlmorlhon-big-plus2.png",
             "linkedin-url":"morlhon",
             "github-url":"morlhon",
             "twitter-url":"morlhon",
@@ -17,6 +18,7 @@
         {
             "id":"1",
             "name":"Hugo Geissmann",
+            "firstname":"Hugo",
             "nick":"hgeissmann",
             "email":"hgeissmann@xebia.fr",
             "title":"I sell whatever you want, especially bac+5 meat.",
@@ -30,6 +32,7 @@
         {
             "id":"2",
             "name":"Cyrille Leclerc",
+            "firstname":"Cyrille",
             "nick":"cleclerc",
             "title":"CTO",
             "email":"cleclerc@xebia.fr",
@@ -43,6 +46,7 @@
         {
             "id":"3",
             "name":"Gilles Mantel",
+            "firstname":"Gilles",
             "nick":"gmantel",
             "title":"C'est MA méthode.",
             "email":"gmantel@xebia.fr",
@@ -56,6 +60,7 @@
         {
             "id":"4",
             "name":"Frédéric Dubois",
+            "firstname":"Frédéric",
             "nick":"fdubois",
             "email":"fdubois@xebia.fr",
             "title":"I'm rock SOLID !",
@@ -69,6 +74,7 @@
         {
             "id":"5",
             "name":"Simon Caplette",
+            "firstname":"Simon",
             "nick":"scaplette",
             "title":"Refactoring Dude",
             "email":"scaplette@xebia.fr",
@@ -82,6 +88,7 @@
         {
             "id":"6",
             "name":"Jean Helou",
+            "firstname":"Jean",
             "nick":"jhelou",
             "title":"NewComer",
             "abstract":"<p>Curieux et passionné, Jean est un touche à tout de l'informatique. Il a travaillé sur des projets et à des postes variés, acquérant un large spectre technologique même au-delà de l'environnement de la JVM. Véritablement impliqué dans ses projets il a très vite acquis une sensibilité importante à la qualité, aux performances et à l'urbanisation des applications qu'il aide à créer. Cherchant toujours l'amélioration continue du projet auquel il participe, il  pratique une veille technique active et aide à former ses collègues aux techniques de l'état de l'art. Par son expérience et son implication, il a également acquis une sensibilité aux relations avec les utilisateurs et aux problématiques de la conduite de projet qui l'a naturellement amené aux pratiques agiles. En un mot, un ingénieur passionné et polyvalent.</p>",
@@ -94,6 +101,7 @@
         {
             "id":"7",
             "name":"Pablo Lopez",
+            "firstname":"Pablo",
             "nick":"plopez",
             "email":"plopez@xebia.fr",
             "title":"Don't REST with me !",
@@ -105,34 +113,38 @@
             "gplus-url":"plopez"
         },
         {
-          "id":"8",
-          "name":"Audrey Pedro",
-          "nick":"apedro",
-          "email":"apedro@xebia.fr",
-          "title":"Analyzing business !",
-          "abstract":"<p>La PO, la force féminine du Studio.</p><p>Business Analyst / Product Owner chez Xebia, Audrey est CSPO. Après un an de conseil en sécurité (notamment sur des missions d'analyse de risques métier), Audrey se positionne en tant que lien fonctionnel entre le métier et l'équipe Xebia Studio lors d'un projet.</p><p>Audrey a suivi une formation d'ingénieur lui permettant de mieux appréhender les problématiques techniques des projets Studio. Elle a travaillé en France et en Allemagne, ce qui lui confère une grande adaptabilité à tout type d'organisation.</p>",
-          "small-picture":"audrey.jpeg",
-          "big-picture":"audrey-big.jpg",
-          "linkedin-url":"apedro",
-          "twitter-url":"apedro",
-          "gplus-url":"apedro"
+            "id":"8",
+            "name":"Audrey Pedro",
+            "firstname":"Audrey",
+            "nick":"apedro",
+            "email":"apedro@xebia.fr",
+            "title":"Analyzing business !",
+            "abstract":"<p>La PO, la force féminine du Studio.</p><p>Business Analyst / Product Owner chez Xebia, Audrey est CSPO. Après un an de conseil en sécurité (notamment sur des missions d'analyse de risques métier), Audrey se positionne en tant que lien fonctionnel entre le métier et l'équipe Xebia Studio lors d'un projet.</p><p>Audrey a suivi une formation d'ingénieur lui permettant de mieux appréhender les problématiques techniques des projets Studio. Elle a travaillé en France et en Allemagne, ce qui lui confère une grande adaptabilité à tout type d'organisation.</p>",
+            "small-picture":"audrey.jpeg",
+            "big-picture":"audrey-big.jpg",
+            "linkedin-url":"apedro",
+            "twitter-url":"apedro",
+            "gplus-url":"apedro"
         },
         {
             "id":"9",
             "name":"Benoit Lemoine",
+            "firstname":"Benoit",
             "nick":"blemoine",
+            "title":"Développeur",
             "email":"blemoine@xebia.fr",
-            "title":"Groovy Baby !",
-            "abstract":"<p>Groovy Baby !</p>",
             "small-picture":"blemoine.png",
             "big-picture":"blemoine-big-plus.png",
-            "linkedin-url":"ielfatmi",
-            "twitter-url":"v",
-            "gplus-url":"ielfatmi"
+            "linkedin-url":"?????",
+            "github-url":"https://github.com/blemoine",
+            "twitter-url":"empty",
+            "gplus-url":"empty",
+            "abstract":"<p>Contrairement <a href=\"http://fr.wikipedia.org/wiki/Samson\">Samson</a>, Benoit ne tire pas ses compétences de sa chevelure mais bel bien de sa passion et de son travail. Et heureusement, car malgrè une calvitie naissante, il développe avec succés des applications web depuis plus de 4 ans !</p><p> Convaincu que le développement logiciel, s'il n'est un art, est au moins un artisanat, Benoit est intransigeant sur la qualité de ce qu'il produit, et réalisera pour vous le logiciel dont vous avez besoin !</p>"
         },
         {
             "id":"10",
             "name":"Issam El Fatmi",
+            "firstname":"Issam",
             "nick":"ielfatmi",
             "email":"ielfatmi@xebia.fr",
             "title":"Groovy Baby !",
