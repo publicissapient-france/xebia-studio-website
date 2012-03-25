@@ -9,8 +9,9 @@
             "small-picture":"jlmorlhon.png",
             "big-picture":"jlmorlhon-big-plus.png",
             "linkedin-url":"morlhon",
+            "github-url":"morlhon",
             "twitter-url":"morlhon",
-            "viadeo-url":"morlhon",
+            "gplus-url":"morlhon",
             "abstract":"<p>Jean-Laurent blahblahblah <b> I THROW FIREBALLS !</b> </p>"
         },
         {
@@ -24,7 +25,7 @@
             "big-picture":"hgeissmann-big.png",
             "linkedin-url":"hgeissmann",
             "twitter-url":"hgeissmann",
-            "viadeo-url":"hgeissmann"
+            "gplus-url":"hgeissmann"
         },
         {
             "id":"2",
@@ -36,7 +37,7 @@
             "big-picture":"cleclerc-big-plus2.png",
             "linkedin-url":"cleclerc",
             "twitter-url":"cleclerc",
-            "viadeo-url":"cleclerc",
+            "gplus-url":"cleclerc",
             "abstract":"<p>CTO de Xebia, Cyrille est aussi committer sur le projet Apache CXF.</p><p>Après être récemment intervenu sur les sites web et les plateformes de web service à fort traffic d'opérateurs de télécommunication, Cyrille est actuellement responsable de la mise en place d'une grille de données inter-continentale pour une grande institution financière française.</p><p> Après 7 ans chez IBM Global Services et 5 ans chez Xebia, Cyrille a une expérience variée allant du monde commercial aux écosystèmes Open Source dans des approches aussi bien très cadrées et contractuelles que légères et agiles.</p><p>Cyrille est aussi blogger sur blog.xebia.fr et speaker dans des conférences (In Memory Data Grids &amp; NoSQL, applications prêtes pour la production, etc)..</p>"
         },
         {
@@ -50,7 +51,7 @@
             "big-picture":"gmantel-big-plus.png",
             "linkedin-url":"gmantel",
             "twitter-url":"gmantel",
-            "viadeo-url":"gmantel"
+            "gplus-url":"gmantel"
         },
         {
             "id":"4",
@@ -63,7 +64,7 @@
             "big-picture":"fdubois-big.png",
             "linkedin-url":"fdubois",
             "twitter-url":"fdubois",
-            "viadeo-url":"fdubois"
+            "gplus-url":"fdubois"
         },
         {
             "id":"5",
@@ -76,7 +77,7 @@
             "big-picture":"scaplette-big-plus.png",
             "linkedin-url":"scaplette",
             "twitter-url":"scaplette",
-            "viadeo-url":"scaplette"
+            "gplus-url":"scaplette"
         },
         {
             "id":"6",
@@ -88,7 +89,7 @@
             "big-picture":"jhelou-big-plus.png",
             "linkedin-url":"jhelou",
             "twitter-url":"jhelou",
-            "viadeo-url":"jhelou"
+            "gplus-url":"jhelou"
         },
         {
             "id":"7",
@@ -101,7 +102,7 @@
             "big-picture":"plopez-big-plus.png",
             "linkedin-url":"plopez",
             "twitter-url":"plopez",
-            "viadeo-url":"plopez"
+            "gplus-url":"plopez"
         },
         {
           "id":"8",
@@ -114,7 +115,7 @@
           "big-picture":"audrey-big.jpg",
           "linkedin-url":"apedro",
           "twitter-url":"apedro",
-          "viadeo-url":"apedro"
+          "gplus-url":"apedro"
         },
         {
             "id":"9",
@@ -127,7 +128,7 @@
             "big-picture":"blemoine-big-plus.png",
             "linkedin-url":"ielfatmi",
             "twitter-url":"v",
-            "viadeo-url":"ielfatmi"
+            "gplus-url":"ielfatmi"
         },
         {
             "id":"10",
@@ -140,7 +141,7 @@
             "big-picture":"ielfatmi-big.png",
             "linkedin-url":"ielfatmi",
             "twitter-url":"v",
-            "viadeo-url":"ielfatmi"
+            "gplus-url":"ielfatmi"
         }
     ]
 }

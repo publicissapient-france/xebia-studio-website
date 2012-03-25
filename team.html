@@ -12,11 +12,11 @@ title: L'équipe
     </div>
 </div>
 <!-- no container to "ease" getting the pixel on the left -->
-    <div class="row-fluid">
-        <div class="span12">
-          <div id="bio"></div>
-        </div>
+<div class="row-fluid">
+    <div class="span12">
+        <div id="bio"></div>
     </div>
+</div>
 
 <div class="container-fluid">
     <div class="row-fluid">
@@ -33,62 +33,71 @@ title: L'équipe
     <div class="grey_wrapper bio">
         <div class="container-fluid">
             <div class="row-fluid">
-            
+
                 <div class="span12">
+
                     <div id="a-craftman" class="row-fluid">
-                    
-                        <div class="span6">
+                        <div class="span6" style="height:100%;">
                             <h2 class="craftsmanship_title">{{name}}</h2>
+
                             {{abstract}}
+                            <div id="picto">
+                                <a href="{{github-url}}"><img class="picto" src="images/equipe/picto/github.png" alt=""></a>
+                                <a href="{{gplus-url}}"><img class="picto" src="images/equipe/picto/gplus.png" alt=""> </a>
+                                <a href="{{linkedin-url}}"><img class="picto" src="images/equipe/picto/linkedin.png" alt="">  </a>
+                                <a href="mailto:{{email}}"><img class="picto" src="images/equipe/picto/mail.png" alt=""></a>
+                            </div>
                         </div>
                         <div class="span6">
                             <img id="{{nick}}" class="team-big-picture" src="images/equipe/{{big-picture}}">
                         </div>
-                        
+
                     </div>
+
                 </div>
-                
+
             </div>
+
         </div>
     </div>
 </script>
 
-<script id="craftmen-template" type="text/x-handlebars-template">
-    <ul class="thumbnails">
-        {{#each craftmen}}
-        <li class="span2">
-            <div class="thumbnail">
-                <a class="craftman" href="#"><img id="{{id}}" class="border" src="images/equipe/{{small-picture}}" alt="{{name}}"></a>
-                <h5>{{name}}</h5>
-            </div>
-        </li>
-        {{/each}}
-    </ul>
+<script id = "craftmen-template" type = "text/x-handlebars-template" >
+<ul class = "thumbnails" >
+{{#each craftmen}}
+<li class = "span2">
+        <div class = "thumbnail" >
+        <a class = "craftman" href = "#" > <img id = "{{id}}" class = "border" src = "images/equipe/{{small-picture}}" alt = "{{name}}" > </a>
+        <h5> {{name}}</h5>
+        </div>
+</li>
+{{/each}}
+</ul>
 </script>
 <!-- 
 {%endraw%}
 -->
 
-<script type = "text/javascript">
-var json;
-$(document).ready(function() {
-    var craftmen_template = Handlebars.compile($('#craftmen-template').html());
-    var bio_template = Handlebars.compile($('#bio-template').html());
+<script type="text/javascript">
+    var json;
+    $(document).ready(function() {
+        var craftmen_template = Handlebars.compile($('#craftmen-template').html());
+        var bio_template = Handlebars.compile($('#bio-template').html());
 
-    Handlebars.registerHelper('abstract', function() {
-        return new Handlebars.SafeString(this.abstract);
-    });
-
-    $.getJSON('team.json', function(json) {
-        $('#bio').html(bio_template(json.craftmen[0]));
-        $('#craftmen').html(craftmen_template(json));
-        $('a.craftman').click(function(event) {
-            $('#bio').html(bio_template(json.craftmen[event.target.id]));
-            return false;
+        Handlebars.registerHelper('abstract', function() {
+            return new Handlebars.SafeString(this.abstract);
         });
-    });
 
-});
+        $.getJSON('team.json', function(json) {
+            $('#bio').html(bio_template(json.craftmen[0]));
+            $('#craftmen').html(craftmen_template(json));
+            $('a.craftman').click(function(event) {
+                $('#bio').html(bio_template(json.craftmen[event.target.id]));
+                return false;
+            });
+        });
+
+    });
 </script>
 
 
