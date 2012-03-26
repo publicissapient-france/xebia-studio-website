@@ -11,6 +11,7 @@ title: L'équipe
         <div class="span12"><h1>L'ÉQUIPE</h1></div>
     </div>
 </div>
+        <br><br>
 <!-- no container to "ease" getting the pixel on the left -->
 <div class="row-fluid">
     <div class="span12">
@@ -29,6 +30,7 @@ title: L'équipe
 <!-- 
 {%raw%}
 -->
+
 <script id="bio-template" type="text/x-handlebars-template">
     <div class="grey_wrapper bio">
         <div class="container-fluid">
@@ -37,18 +39,18 @@ title: L'équipe
                 <div class="span12">
 
                     <div id="a-craftman" class="row-fluid">
-                        <div class="span5" style="height:100%;">
-                            <h2 class="craftsmanship_title">{{name}}</h2>
-
+                        <div class="span{{spanleft}}" style="height:100%;">
+                            <h2>{{name}}</h2>
+                            <h3>"{{title}}"</h3>
                             {{abstract}}
-                            <div id="picto">
+                        </div>
+                        <div id="picto">
                                 <a href="{{github-url}}"><img class="picto" src="images/equipe/picto/github.png" alt=""></a>
                                 <a href="{{gplus-url}}"><img class="picto" src="images/equipe/picto/gplus.png" alt=""> </a>
                                 <a href="{{linkedin-url}}"><img class="picto" src="images/equipe/picto/linkedin.png" alt="">  </a>
                                 <a href="mailto:{{email}}"><img class="picto" src="images/equipe/picto/mail.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="span7">
+                         </div>
+                        <div class="span{{spanright}}">
                             <img id="{{nick}}" class="team-big-picture" src="images/equipe/{{big-picture}}">
                         </div>
 

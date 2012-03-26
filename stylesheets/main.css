@@ -286,19 +286,19 @@ img#picto-champignon {
     color: #ffffff;
 }
 
-.video_bootstrap_text {
-    padding-left: 35px;
-    font-size: 115%;
-
-}
-
 .video_bootstrap h2 {
-    padding-left: 35px;
+    padding-left: 0px;
     color: #323338;
     font-family: MisoLight, sans-serif;
-    font-size: 200%;
-    line-height: 16px;
+    font-size: 180%;
+    line-height: 25px;
     text-align: left;
+}
+
+.video_bootstrap_text {
+    padding-left: 10px;
+    font-size: 115%;
+
 }
 
 /***********************/
@@ -414,6 +414,18 @@ ul.about_ul li {
     height: 400px;
 }
 
+#a-craftman h2{
+    color: #323338;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+#a-craftman h3 {
+    padding-left: 20px;
+    margin-top: -17px;
+    margin-bottom: 20px;
+}
+
 img.team-big-picture {
     margin-top: 15px;
     margin-bottom: -20px;
@@ -427,8 +439,9 @@ img.picto {
 }
 
 div#picto {
+    position: absolute;
+    margin-top: 360px;
     padding-left: 40px;
-    bottom: 0px;
 }
 
 /***********************/
@@ -467,7 +480,7 @@ img.team {
 
 .carousel-control {
     position: absolute;
-    top: 40%;
+    top: 43%;
     left: 15px;
     width: 32px;
     height: 32px;
@@ -488,11 +501,11 @@ img.team {
 
 .carousel-control.right {
     left: auto;
-    right: 3%;
+    right: 2%;
 }
 
 .carousel-control.left {
-    left: 88%;
+    left: 90%;
 }
 
 .carousel-control:hover {
