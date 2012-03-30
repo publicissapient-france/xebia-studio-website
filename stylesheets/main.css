@@ -309,6 +309,11 @@ img#picto-champignon {
 /*      Valeurs        */
 /***********************/
 
+div#craftsmanship {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 ul.craftsmanship li {
     font-family: AsapRegular, sans-serif;
     font-size: 15px;
@@ -337,6 +342,7 @@ img#craftsmanship_picture {
 
 .joinus {
     border-top: 7px solid #6d747a;
+    margin-bottom: -30px;
 }
 
 p.joinus_p {
