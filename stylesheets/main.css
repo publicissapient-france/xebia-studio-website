@@ -166,6 +166,7 @@ img.border {
     margin-bottom: 20px;
     text-align: left;
     font-size: 25px;
+    line-height: 25px;
 }
 
 .carousel p {
@@ -243,9 +244,10 @@ footer h2 {
 }
 
 .footer-inner {
+    padding-top: 50px;
     background-color: #323338;
     color: #999999;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .footer-inner a:hover {
@@ -462,7 +464,7 @@ div#picto {
 
 .bio {
     margin-top: -19px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-top: 40px;
 }
 
@@ -497,10 +499,10 @@ img.team {
     position: absolute;
     top: 43%;
     left: 15px;
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
     margin-top: 155px;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 100;
     line-height: 23px;
     color: #ffffff;
@@ -516,11 +518,11 @@ img.team {
 
 .carousel-control.right {
     left: auto;
-    right: 1%;
+    right: 10px;
 }
 
 .carousel-control.left {
-    left: 91%;
+    left: 870px;
 }
 
 .carousel-control:hover {
