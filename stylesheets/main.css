@@ -67,8 +67,9 @@ img.border {
 .grey_wrapper {
     background: transparent url(../images/backgrounds/background-grey1.png) repeat;
     background-color: #b0adb4;
-    margin-top: -20px;
-    padding-top: 0px;
+    width: 100%;
+    margin-top: -18px;
+    padding-top: 20px;
     padding-bottom: 15px;
     border-bottom: 7px solid #6d747a;
     color: #ffffff;
@@ -92,17 +93,17 @@ img.border {
 }
 
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
-    color: white;
+    color: #cccccc;
     text-decoration: none;
     background-color: #6d2960;
 }
 
-.navbar .nav > li > a{
-
+.navbar .nav > li > a {
+    color: #cccccc;
 }
 
 .navbar-inner {
-    height: 85px;
+    height: 90px;
     background-color: #6d2960;
 }
 
@@ -202,8 +203,8 @@ div.leftcolumn {
 }
 
 div.midcolumn {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
 
 div.rightcolumn {
@@ -235,13 +236,13 @@ footer {
 footer h2 {
     color: #ffffff;
     font-family: MisoRegular, sans-serif;
-    font-size: 150%;
+    font-size: 200%;
 }
 
 .footer-inner {
     background-color: #323338;
     color: #999999;
-    padding-top: 0px;
+    padding-bottom: 100px;
 }
 
 .footer-inner a:hover {
@@ -314,7 +315,6 @@ ul.craftsmanship li {
 h2.craftsmanship_title {
     color: #323338;
     margin-bottom: 20px;
-    margin-top: -10px;
 }
 
 p.craftsmanship_p {
@@ -360,6 +360,10 @@ img.joinus_pict {
 p.about_p {
     line-height: 22px;
     text-align: left;
+}
+
+img#about_pict {
+    margin-top: -16px;
 }
 
 ul.about_ul li {
@@ -468,6 +472,11 @@ img.technologies {
 
 p.technologies {
     line-height: 22px;
+}
+
+div#pragmatisme {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 img.team {
