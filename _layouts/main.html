@@ -5,7 +5,7 @@
 
     <title>Xebia Studio - {{ page.title }}</title>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-old.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/fonts.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css"/>
     <link rel="shortcut icon" type="image/png" href="images/faviconXebia.png"/>
@@ -17,27 +17,27 @@
 <body>
 <div class="navbar navbar-static">
     <div class="navbar-inner">
-        <a id="logo" class="brand" href="index.html"></a>
-
-        <div class="container-fluid">
-            <ul class="nav">
-
-                <li class="{% if page.title contains 'Le Studio' %}active{% endif %}"><a href="studio.html">XEBIA
-                    STUDIO</a></li>
-                <li class="{% if page.title contains 'Craftsmanship' %}active{% endif %}"><a
-                        href="craftsmanship.html">VALEURS</a>
-                </li>
-                <li class="{% if page.title contains 'équipe' %}active{% endif %}"><a href="team.html">L'ÉQUIPE</a>
-                </li>
-                <li class="{% if page.title contains 'Technologies' %}active{% endif %}"><a
-                        href="technologies.html">TECHNOLOGIES</a>
-                </li>
-                <li class="{% if page.title contains 'rejoindre' %}active{% endif %}"><a href="joinus.html">NOUS
-                    REJOINDRE
-                </a></li>
-                <li class="{% if page.title contains 'propos' %}active{% endif %}"><a href="about.html">À PROPOS</a>
-                </li>
-            </ul>
+        <div class="container">
+            <a id="logo" class="brand" href="index.html"></a>
+            <div class="container-fluid">
+                <ul class="nav">
+                    <li class="{% if page.title contains 'Le Studio' %}active{% endif %}"><a href="studio.html">XEBIA
+                        STUDIO</a></li>
+                    <li class="{% if page.title contains 'Craftsmanship' %}active{% endif %}"><a
+                            href="craftsmanship.html">VALEURS</a>
+                    </li>
+                    <li class="{% if page.title contains 'équipe' %}active{% endif %}"><a href="team.html">L'ÉQUIPE</a>
+                    </li>
+                    <li class="{% if page.title contains 'Technologies' %}active{% endif %}"><a
+                            href="technologies.html">TECHNOLOGIES</a>
+                    </li>
+                    <li class="{% if page.title contains 'rejoindre' %}active{% endif %}"><a href="joinus.html">NOUS
+                        REJOINDRE
+                    </a></li>
+                    <li class="{% if page.title contains 'propos' %}active{% endif %}"><a href="about.html">À PROPOS</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
