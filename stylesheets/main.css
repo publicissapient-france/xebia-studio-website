@@ -1,16 +1,12 @@
 body {
     text-align: justify;
     -webkit-font-smoothing: antialiased;
-    background-color: #FFFFFF;
+    background-color: #f2f3f7;
     font-family: AsapRegular, sans-serif;
 }
 
 .container {
     margin-top: -5px;
-    background-color: #f2f3f7;
-    -moz-box-shadow: 0px 8px 15px #444;
-    -webkit-box-shadow: 0px 8px 15px #444;
-    box-shadow: 0px 8px 15px #444;
 }
 
 blockquote {
@@ -101,6 +97,10 @@ img.border {
     background-color: #6d2960;
 }
 
+.navbar .nav > li > a{
+
+}
+
 .navbar-inner {
     height: 85px;
     background-color: #6d2960;
@@ -111,7 +111,7 @@ img.border {
 }
 
 .nav {
-    font-size: 140%;
+    font-size: 200%;
     margin-top: 10px;
 }
 
@@ -123,9 +123,9 @@ img.border {
     width: 200px;
     height: 100px;
     padding: 0px;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top: 17px;
-    margin-right: 20px;
+    margin-right: 250px;
 }
 
 /***********************/
@@ -197,18 +197,18 @@ img.border {
 }
 
 div.leftcolumn {
-    padding-left: 40px;
-    padding-right: 13.5px;
+    padding-left: 0px;
+    padding-right: 5px;
 }
 
 div.midcolumn {
-    padding-left: 26.5px;
-    padding-right: 26.5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 div.rightcolumn {
-    padding-left: 13.5px;
-    padding-right: 40px;
+    padding-left: 5px;
+    padding-right: 0px;
 }
 
 .column p, .endcolumn p, .midcolumn p {
@@ -414,7 +414,7 @@ ul.about_ul li {
     height: 400px;
 }
 
-#a-craftman h2{
+#a-craftman h2 {
     color: #323338;
     margin-bottom: 20px;
     margin-top: -10px;
