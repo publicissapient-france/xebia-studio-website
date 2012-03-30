@@ -58,7 +58,7 @@ p {
 }
 
 img.border {
-    border: 5px solid #ffffff;
+    border: 3px solid #ffffff;
     -moz-box-shadow: 0px 8px 15px #444;
     -webkit-box-shadow: 0px 8px 15px #444;
     box-shadow: 0px 8px 15px #444;
@@ -232,6 +232,7 @@ div.rightcolumn {
 
 footer {
     border-top: 6px solid #757577;
+    margin-top: 30px;
 }
 
 footer h2 {
@@ -324,7 +325,7 @@ p.craftsmanship_p {
 }
 
 img#craftsmanship_picture {
-    margin-top: 15px;
+    margin-top: 70px;
     margin-left: 40px;
     margin-bottom: -20px;
 }
@@ -494,7 +495,7 @@ img.team {
     left: 15px;
     width: 32px;
     height: 32px;
-    margin-top: 140px;
+    margin-top: 155px;
     font-size: 48px;
     font-weight: 100;
     line-height: 23px;
@@ -511,11 +512,11 @@ img.team {
 
 .carousel-control.right {
     left: auto;
-    right: 2%;
+    right: 1%;
 }
 
 .carousel-control.left {
-    left: 90%;
+    left: 91%;
 }
 
 .carousel-control:hover {
