@@ -93,9 +93,13 @@ img.border {
     font-family: MisoRegular, sans-serif;
 }
 
+span#navbar{
+    text-align: right;
+}
+
 .navbar .nav {
     font-size: 190%;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-left: 40px;
 }
 
