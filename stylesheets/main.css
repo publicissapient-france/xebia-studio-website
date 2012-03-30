@@ -340,9 +340,16 @@ img#craftsmanship_picture {
 /*      Join Us        */
 /***********************/
 
+#joinus {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .joinus {
     border-top: 7px solid #6d747a;
     margin-bottom: -30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 p.joinus_p {
@@ -350,16 +357,19 @@ p.joinus_p {
     text-align: left;
 }
 
-img.joinus_pict {
-    margin-top: 30px;
-}
 
 /***********************/
 /*      About         */
 /***********************/
 
+#about {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .about {
     border-top: 7px solid #6d747a;
+    margin-bottom: -30px;
 }
 
 .about_row {
@@ -373,11 +383,6 @@ p.about_p {
 
 img#about_pict {
     margin-top: -16px;
-}
-
-div#map {
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 ul.about_ul li {
