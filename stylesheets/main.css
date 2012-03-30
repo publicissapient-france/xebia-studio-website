@@ -1,7 +1,7 @@
 body {
     text-align: justify;
     -webkit-font-smoothing: antialiased;
-    background-color: #f2f3f7;
+    background: transparent url(../images/backgrounds/background_body.jpg) repeat;
     font-family: AsapRegular, sans-serif;
 }
 
@@ -65,7 +65,7 @@ img.border {
 }
 
 .grey_wrapper {
-    background: transparent url(../images/backgrounds/background-grey1.png) repeat;
+    background: transparent url(../images/backgrounds/background_grey.jpg) repeat;
     background-color: #b0adb4;
     width: 100%;
     margin-top: -18px;
@@ -89,13 +89,14 @@ img.border {
 
 .navbar {
     border-bottom: 8px solid #48183e;
+    background: transparent url(../images/backgrounds/background_header.jpg) repeat;
     font-family: MisoRegular, sans-serif;
 }
 
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
     color: #cccccc;
     text-decoration: none;
-    background-color: #6d2960;
+    background: transparent url(../images/backgrounds/background_header.jpg) repeat;
 }
 
 .navbar .nav > li > a {
@@ -278,7 +279,7 @@ img#picto-champignon {
 /***********************/
 
 .video_bootstrap {
-    background: transparent url(../images/backgrounds/background-grey2.png) repeat;
+    background: transparent url(../images/backgrounds/background_header.jpg) repeat;
     background-color: #a8abba;
     border-bottom: 6px solid #6d747a;
     padding: 20px;
