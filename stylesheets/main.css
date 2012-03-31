@@ -129,7 +129,7 @@ span#navbar{
     background: transparent url(../images/logo.png) no-repeat;
     width: 200px;
     height: 100px;
-    padding: 0px;
+    padding-left: 20px;
     margin-top: 25px;
     margin-right: 0px;
 }
