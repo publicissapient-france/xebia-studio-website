@@ -93,7 +93,7 @@ img.border {
     font-family: MisoRegular, sans-serif;
 }
 
-span#navbar{
+span#navbar {
     text-align: right;
 }
 
@@ -266,7 +266,7 @@ footer h2 {
     text-decoration: underline;
 }
 
-.picto-home {
+.picto {
     padding-right: 30px
 }
 
@@ -330,6 +330,18 @@ img#craftsmanship_picture {
     margin-top: 70px;
     margin-left: 40px;
     margin-bottom: -20px;
+}
+
+img#picto-agilite {
+    margin-top: -30px;
+}
+
+img#picto-chrono {
+    margin-top: -30px;
+}
+
+img#picto-excellence {
+    margin-top: -30px;
 }
 
 /***********************/
