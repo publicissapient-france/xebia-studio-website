@@ -368,6 +368,10 @@ img#picto-excellence {
     padding-bottom: 50px;
 }
 
+img.joinus_pict{
+    margin-top: 15px;
+}
+
 p.joinus_p {
     line-height: 22px;
     text-align: left;
@@ -377,9 +381,18 @@ p.joinus_p {
 /*      About         */
 /***********************/
 
-#about {
+h1.about_h1{
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+h2.about_h2{
+     padding-bottom: 25px;
+}
+
+div#about{
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .about {
