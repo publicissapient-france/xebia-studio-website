@@ -406,6 +406,14 @@ ul.about_ul li {
     line-height: 22px;
 }
 
+#about-title {
+  margin-bottom:20px;
+}
+
+#about-contact {
+  margin-top:30px;
+}
+
 /***********************/
 /*      Team           */
 /***********************/
