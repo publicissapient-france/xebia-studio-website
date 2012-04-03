@@ -487,6 +487,11 @@ div#picto {
 h1.technologies {
     background: transparent url(../images/backgrounds/background-h1.png) repeat-x;
     background-position: bottom;
+    margin-bottom: 25px;
+}
+
+h2.technologies{
+   margin-bottom: 15px;
 }
 
 img.technologies {
