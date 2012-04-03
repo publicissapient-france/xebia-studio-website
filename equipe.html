@@ -6,11 +6,6 @@ title: L'équipe
 
 <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/team.css"/>
 
-<!--<div class="container">
-    <div class="row-fluid">
-        <div class="span12"><h1>L'ÉQUIPE</h1></div>
-    </div>
-</div>-->
 <!-- no container to "ease" getting the pixel on the left -->
 <div class="row-fluid">
     <div class="span12">
@@ -42,11 +37,16 @@ title: L'équipe
                             {{abstract}}
                         </div>
                         <div id="picto">
-                                <a target="_blank" href="{{github-url}}"><img class="picto" src="images/equipe/picto/github.png" alt=""></a>
-                                <a target="_blank" href="{{twitter-url}}"><img class="picto" src="images/equipe/picto/twitter.png" alt=""> </a>
-                                <a target="_blank" href="{{linkedin-url}}"><img class="picto" src="images/equipe/picto/linkedin.png" alt=""></a>
-                                <a target="_blank" href="{{gplus-url}}"><img class="picto" src="images/equipe/picto/gplus.png" alt=""></a>
-                                <a target="_blank" href="mailto:{{email}}"><img class="picto" src="images/equipe/picto/mail.png" alt=""></a>
+                                {{#if github-url}}
+                                <a target="_blank" href="{{github-url}}"><img class="picto" src="images/equipe/picto/github.png" alt="Github de {{name}}"></a>
+                                {{/if}}
+                                {{#if twitter-url}}
+                                <a target="_blank" href="{{twitter-url}}"><img class="picto" src="images/equipe/picto/twitter.png" alt="Twitter de {{name}}"> </a>
+                                {{/if}}
+                                {{#if linkedin-url}}
+                                <a target="_blank" href="{{linkedin-url}}"><img class="picto" src="images/equipe/picto/linkedin.png" alt="Linkedin de {{name}}">  </a>
+                                {{/if}}
+                                <a target="_blank" href="mailto:{{email}}"><img class="picto" src="images/equipe/picto/mail.png" alt="email de {{name}}"></a>
                          </div>
                         <div class="span{{spanright}}">
                             <img id="{{nick}}" class="team-big-picture" src="images/equipe/{{big-picture}}">
@@ -64,7 +64,7 @@ title: L'équipe
 <li class = "span2">
         <div class = "thumbnail">
         <a class = "craftman" href = "#" > <img id="{{id}}" class="border" src="images/equipe/{{small-picture}}" alt ="{{name}}"></a>
-        <h5> {{firstname}}</h5>
+        <h5>{{firstname}}</h5>
         </div>
 </li>
 {{/each}}
