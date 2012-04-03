@@ -267,7 +267,7 @@ footer h2 {
 }
 
 .picto {
-    padding-right: 30px
+    padding-right: 10px
 }
 
 img#picto-fusee {
@@ -463,9 +463,8 @@ img.team-big-picture {
 
 img.picto {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 div#picto {
