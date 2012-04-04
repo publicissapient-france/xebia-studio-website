@@ -32,5 +32,5 @@ Vérifiez que vos modifs sont valides w3c comme il se doit, si vous utilisez des
 
 Url Utiles
 ----------
-[Trello du projet](https://trello.com/b/7yz1euuy)
-[http://studio.xebia.fr](http://studio.xebia.fr)
+* [Trello du projet](https://trello.com/b/7yz1euuy)
+* [http://studio.xebia.fr](http://studio.xebia.fr)
