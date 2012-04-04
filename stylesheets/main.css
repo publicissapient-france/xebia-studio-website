@@ -274,6 +274,10 @@ footer h2 {
     float:left;
 }
 
+#social-bar{
+    margin-top: 15px;
+}
+
 img#picto-fusee {
     margin-top: -50px;
 }
