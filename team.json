@@ -24,7 +24,7 @@
             "nick":"hgeissmann",
             "email":"hgeissmann@xebia.fr",
             "title":"A geek in a suit.",
-            "abstract":"<p>Hugo est un ancien consultant passé de l'autre côté de la force : Le commercial.</p><p>Malgré le costume et la calculatrice, Hugo reste un geek passionné par l'innovation technologique et métier.</p><p> Au sein des projets, Hugo joue un rôle de couteau suisse en participant aux ateliers métiers et techniques. Son but est de huiler tous les rouages pour que les équipes Xebia Studio soient hyper-productives.</p><p>Avec le soutien des dirigeants de Xebia, Hugo co-pilote le Studio avec Jean-Laurent</p>",
+            "abstract":"<p>Hugo est un ancien consultant passé de l'autre côté de la force : Le commercial.</p><p>Malgré le costume et la calculatrice, Hugo reste un geek passionné par l'innovation technologique et métier.</p><p> Au sein des projets, Hugo joue un rôle de couteau suisse en participant aux ateliers métiers et techniques. Son but est de huiler tous les rouages pour que les équipes Xebia Studio soient hyper-productives.</p><p>Hugo co-pilote le Studio avec Jean-Laurent</p>",
             "small-picture":"hgeissmann.png",
             "big-picture":"hgeissmann-big.png",
             "linkedin-url":"http://fr.linkedin.com/in/hgeissmann",
@@ -49,7 +49,7 @@
             "gplus-url":"https://plus.google.com/108360901552446341103/posts",
             "spanleft":6,
             "spanright":6,
-            "abstract":"<p>CTO de Xebia, Cyrille est aussi committer sur le projet Apache CXF.</p><p>Après être récemment intervenu sur les sites web et les plateformes de web service à fort traffic d'opérateurs de télécommunication, Cyrille est actuellement responsable de la mise en place d'une grille de données inter-continentale pour une grande institution financière française.</p><p> Cyrille a passé 7 ans chez IBM Global Services et est depuis 5 ans chez Xebia</p><p>Spécialiste de l'open-source, Cyrille est aussi blogger sur le blog de Xebia et speaker dans des conférences (In Memory Data Grids &amp; NoSQL, applications prêtes pour la production, etc)..</p>"
+            "abstract":"<p>CTO de Xebia, Cyrille est aussi committer sur le projet Apache CXF.</p><p>Après être récemment intervenu sur les sites web et les plateformes de web service à fort traffic d'opérateurs de télécommunication, Cyrille est actuellement responsable de la mise en place d'une grille de données inter-continentale pour une grande institution financière française.</p><p>Cyrille a passé 7 ans chez IBM Global Services avant d'intégrer Xebia il y a 5 ans</p><p>Spécialiste de l'open-source, Cyrille est aussi blogger sur le blog de Xebia et speaker dans des conférences (In Memory Data Grids &amp; NoSQL, applications prêtes pour la production, etc)..</p>"
         },
         {
             "id":"3",
@@ -144,7 +144,7 @@
             "nick":"apedro",
             "email":"apedro@xebia.fr",
             "title":"Analyzing business !",
-            "abstract":"<p>La PO, la force féminine du Studio.</p><p>Business Analyst / Product Owner chez Xebia. Après un an de conseil en sécurité (notamment sur des missions d'analyse de risques métier), Audrey se positionne en tant que lien fonctionnel entre le métier et l'équipe Xebia Studio lors d'un projet.</p><p>Audrey a suivi une formation d'ingénieur lui permettant de mieux appréhender les problématiques techniques des projets Studio.</p>",
+            "abstract":"<p>Après une expérience dans le conseil en sécurité (notamment sur des missions d'analyse de risques métier), Audrey est maintenant business analyst/product owner chez Xebia. Elle se positionne en tant que lien fonctionnel entre le métier et l'équipe Xebia Studio lors d'un projet.</p><p>Audrey vous aidera notamment à exprimer votre besoin, à comprendre le marché et la concurrence ainsi qu'à prioriser les actions à mener. Ayant suivi une formation d'ingénieur, elle est très curieuse face aux problématiques et innovations techniques des projets Studio.</p>",
             "small-picture":"audrey.jpeg",
             "big-picture":"audrey-big.jpg",
             "linkedin-url":"http://fr.linkedin.com/pub/audrey-pedro/46/a61/801/en",
@@ -184,7 +184,7 @@
             "github-url":"https://github.com/ielfatmi",
             "twitter-url":"https://twitter.com/ielfatmi",
             "gplus-url":"http://gplus.to/ielfatmi",
-            "abstract":"<p>Passionné par l'informatique et ses diverses technologies, Issam s'adapte facilement à l'environnement technique auquel il est confronté.</p><p>Doté d'une grande capacité d'analyse et d'abstraction, il sait mettre en place des solutions simples qui permettent de résoudre des problèmes complexes.</p><p>Convaincu par le concept de la dette technique,  \"qualité de code\" et \"performance des applications\" sont durement inscrits dans son code d'honneur.</p><p>Capable d’autonomie dans son travail, il est apte à tenir des deadlines fixes faisant ainsi preuve d’engagement.</p>",
+            "abstract":"<p>Passionné par l'informatique et ses diverses technologies, Issam s'adapte facilement à l'environnement technique auquel il est confronté.</p><p>Doté d'une grande capacité d'analyse et d'abstraction, il sait mettre en place des solutions simples qui permettent de résoudre des problèmes complexes.</p><p>Convaincu par le concept de la dette technique,  \"qualité de code\" et \"performance des applications\" sont durement inscrites dans son code d'honneur.</p><p>Capable d’autonomie dans son travail, il est apte à tenir des deadlines fixes faisant ainsi preuve d’engagement.</p>",
             "spanleft":7,
             "spanright":5
 
