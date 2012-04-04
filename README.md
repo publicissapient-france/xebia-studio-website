@@ -33,4 +33,4 @@ Vérifiez que vos modifs sont valides w3c comme il se doit, si vous utilisez des
 Production
 ----------
 
-http://studio.xebia.fr
+[http://studio.xebia.fr](http://studio.xebia.fr)
