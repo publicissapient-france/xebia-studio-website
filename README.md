@@ -30,7 +30,7 @@ Allez sur github, selectionnez la branche `ce_sur_quoi_je_veux_bosser`, et faite
 
 Vérifiez que vos modifs sont valides w3c comme il se doit, si vous utilisez des hack liquid ou que vous introduisez des lib js/css de ouf, dites le nous dans le texte de la pullrequest.
 
-Production
+Url Utiles
 ----------
-
+[Trello du projet](https://trello.com/b/7yz1euuy)
 [http://studio.xebia.fr](http://studio.xebia.fr)
