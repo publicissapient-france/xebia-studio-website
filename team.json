@@ -173,7 +173,7 @@
         },
         {
             "id":"10",
-            "name":"Issam EL FATMI",
+            "name":"Issam El Fatmi",
             "firstname":"Issam",
             "nick":"ielfatmi",
             "title":"Among every Season, it's SPRING I like the most",
@@ -187,6 +187,24 @@
             "abstract":"<p>Passionné par l'informatique et ses diverses technologies, Issam s'adapte facilement à l'environnement technique auquel il est confronté.</p><p>Doté d'une grande capacité d'analyse et d'abstraction, il sait mettre en place des solutions simples qui permettent de résoudre des problèmes complexes.</p><p>Convaincu par le concept de la dette technique,  \"qualité de code\" et \"performance des applications\" sont durement inscrites dans son code d'honneur.</p><p>Capable d’autonomie dans son travail, il est apte à tenir des deadlines fixes faisant ainsi preuve d’engagement.</p>",
             "spanleft":7,
             "spanright":5
+
+        },
+        {
+            "id":"11",
+            "name":"Nicolas Jozwiak",
+            "firstname":"Nicolas",
+            "nick":"njozwiak",
+            "title":"",
+            "email":"ielfatmi@xebia.fr",
+            "small-picture":"njozwiak.jpg",
+            "big-picture":"njozwiak-big-plus.png",
+            "linkedin-url":"",
+            "github-url":"",
+            "twitter-url":"",
+            "gplus-url":"",
+            "abstract":"",
+            "spanleft":6,
+            "spanright":6
 
         }
     ]
