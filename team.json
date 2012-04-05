@@ -88,6 +88,23 @@
         },
         {
             "id":"5",
+            "name":"Alexis Kinsella",
+            "firstname":"Alexis",
+            "nick":"akinsella",
+            "title":"",
+            "email":"akinsella@xebia.fr",
+            "abstract":"",
+            "small-picture":"akinsella.jpg",
+            "big-picture":"akinsella-big.png",
+            "linkedin-url":"",
+            "twitter-url":"",
+            "github-url":"",
+            "gplus-url":"",
+            "spanleft":5,
+            "spanright":7
+        },
+        {
+            "id":"6",
             "name":"Simon Caplette",
             "firstname":"Simon",
             "nick":"scaplette",
@@ -104,7 +121,7 @@
             "spanright":6
         },
         {
-            "id":"6",
+            "id":"7",
             "name":"Jean Helou",
             "firstname":"Jean",
             "nick":"jhelou",
@@ -121,7 +138,7 @@
             "spanright":5
         },
         {
-            "id":"7",
+            "id":"8",
             "name":"Pablo Lopez",
             "firstname":"Pablo",
             "nick":"plopez",
@@ -138,7 +155,7 @@
             "spanright":5
         },
         {
-            "id":"8",
+            "id":"9",
             "name":"Audrey Pedro",
             "firstname":"Audrey",
             "nick":"apedro",
@@ -155,7 +172,7 @@
             "spanright":7
         },
         {
-            "id":"9",
+            "id":"10",
             "name":"Benoit Lemoine",
             "firstname":"Benoit",
             "nick":"blemoine",
@@ -172,7 +189,7 @@
             "spanright":6
         },
         {
-            "id":"10",
+            "id":"11",
             "name":"Issam El Fatmi",
             "firstname":"Issam",
             "nick":"ielfatmi",
@@ -189,7 +206,7 @@
             "spanright":5
         },
         {
-            "id":"11",
+            "id":"12",
             "name":"Nicolas Jozwiak",
             "firstname":"Nicolas",
             "nick":"njozwiak",
@@ -207,7 +224,7 @@
 
         },
         {
-            "id":"12",
+            "id":"13",
             "name":"Diego Lemos",
             "firstname":"Diego",
             "nick":"dlemos",
