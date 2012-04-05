@@ -187,7 +187,6 @@
             "abstract":"<p>Passionné par l'informatique et ses diverses technologies, Issam s'adapte facilement à l'environnement technique auquel il est confronté.</p><p>Doté d'une grande capacité d'analyse et d'abstraction, il sait mettre en place des solutions simples qui permettent de résoudre des problèmes complexes.</p><p>Convaincu par le concept de la dette technique,  \"qualité de code\" et \"performance des applications\" sont durement inscrites dans son code d'honneur.</p><p>Capable d’autonomie dans son travail, il est apte à tenir des deadlines fixes faisant ainsi preuve d’engagement.</p>",
             "spanleft":7,
             "spanright":5
-
         },
         {
             "id":"11",
@@ -205,6 +204,24 @@
             "abstract":"",
             "spanleft":6,
             "spanright":6
+
+        },
+        {
+            "id":"12",
+            "name":"Diego Lemos",
+            "firstname":"Diego",
+            "nick":"dlemos",
+            "title":"",
+            "email":"dlemos@xebia.fr",
+            "small-picture":"dlemos.jpg",
+            "big-picture":"dlemos-big.png",
+            "linkedin-url":"",
+            "github-url":"",
+            "twitter-url":"",
+            "gplus-url":"",
+            "abstract":"",
+            "spanleft":5,
+            "spanright":7
 
         }
     ]
