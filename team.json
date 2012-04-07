@@ -78,7 +78,7 @@
             "title":"I'm rock SOLID !",
             "abstract":"<p>Fort de 10 années d'experience, Frédéric est un incontournable craftsman. Il est en mesure de piloter des projets agiles tout en ayant un excellent sens du design objet.</p><p>Maitrise du process agile et des pratiques techniques permettent à Frédéric de mener les projets à bien.</p>",
             "small-picture":"fdubois.png",
-            "big-picture":"fdubois-big.png",
+            "big-picture":"fdubois-big-reduced.png",
             "linkedin-url":"http://www.linkedin.com/profile/view?id=21004526",
             "twitter-url":"",
             "gplus-url":"",
@@ -88,23 +88,6 @@
         },
         {
             "id":"5",
-            "name":"Alexis Kinsella",
-            "firstname":"Alexis",
-            "nick":"akinsella",
-            "title":"",
-            "email":"akinsella@xebia.fr",
-            "abstract":"",
-            "small-picture":"akinsella.jpg",
-            "big-picture":"akinsella-big.png",
-            "linkedin-url":"",
-            "twitter-url":"",
-            "github-url":"",
-            "gplus-url":"",
-            "spanleft":5,
-            "spanright":7
-        },
-        {
-            "id":"6",
             "name":"Simon Caplette",
             "firstname":"Simon",
             "nick":"scaplette",
@@ -121,7 +104,7 @@
             "spanright":6
         },
         {
-            "id":"7",
+            "id":"6",
             "name":"Jean Helou",
             "firstname":"Jean",
             "nick":"jhelou",
@@ -138,7 +121,7 @@
             "spanright":5
         },
         {
-            "id":"8",
+            "id":"7",
             "name":"Pablo Lopez",
             "firstname":"Pablo",
             "nick":"plopez",
@@ -155,7 +138,7 @@
             "spanright":5
         },
         {
-            "id":"9",
+            "id":"8",
             "name":"Audrey Pedro",
             "firstname":"Audrey",
             "nick":"apedro",
@@ -172,14 +155,14 @@
             "spanright":7
         },
         {
-            "id":"10",
+            "id":"9",
             "name":"Benoit Lemoine",
             "firstname":"Benoit",
             "nick":"blemoine",
             "title":"Don't REST with me !",
             "email":"blemoine@xebia.fr",
             "small-picture":"blemoine.png",
-            "big-picture":"blemoine-big-plus-reduced.png",
+            "big-picture":"blemoine-big.png",
             "linkedin-url":"",
             "github-url":"https://github.com/blemoine",
             "twitter-url":"",
@@ -189,14 +172,14 @@
             "spanright":6
         },
         {
-            "id":"11",
+            "id":"10",
             "name":"Issam El Fatmi",
             "firstname":"Issam",
             "nick":"ielfatmi",
             "title":"Among every Season, it's SPRING I like the most",
             "email":"ielfatmi@xebia.fr",
             "small-picture":"ielfatmi.png",
-            "big-picture":"ielfatmi-big-reduced.png",
+            "big-picture":"ielfatmi-big.png",
             "linkedin-url":"http://www.linkedin.com/pub/issam-el-fatmi/22/278/265",
             "github-url":"https://github.com/ielfatmi",
             "twitter-url":"https://twitter.com/ielfatmi",
@@ -206,12 +189,12 @@
             "spanright":5
         },
         {
-            "id":"12",
+            "id":"11",
             "name":"Nicolas Jozwiak",
             "firstname":"Nicolas",
             "nick":"njozwiak",
             "title":"Technical debt hunter",
-            "email":"ielfatmi@xebia.fr",
+            "email":"njozwiak@xebia.fr",
             "small-picture":"njozwiak.jpg",
             "big-picture":"njozwiak-big-plus.png",
             "linkedin-url":"http://fr.linkedin.com/pub/nicolas-jozwiak/3/2ba/893",
@@ -221,24 +204,6 @@
             "abstract":"<p>Avec 6 années d'expérience dans la conception, le développement et la mise en place des méthodes agiles, Nicolas accompagne les équipes sur le terrain.</p><p> Armé de solides compétences dans le domaine de la qualité et de l'industrialisation (intégration continue, tests), Nicolas s’attache à mettre à profit quotidiennement son expérience. Il est reconnu pour son approche pragmatique, proactive et pédagogique.</p>",
             "spanleft":6,
             "spanright":6
-
-        },
-        {
-            "id":"13",
-            "name":"Diego Lemos",
-            "firstname":"Diego",
-            "nick":"dlemos",
-            "title":"",
-            "email":"dlemos@xebia.fr",
-            "small-picture":"dlemos.jpg",
-            "big-picture":"dlemos-big.png",
-            "linkedin-url":"",
-            "github-url":"",
-            "twitter-url":"",
-            "gplus-url":"",
-            "abstract":"",
-            "spanleft":5,
-            "spanright":7
 
         }
     ]
