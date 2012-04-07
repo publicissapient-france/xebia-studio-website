@@ -78,7 +78,7 @@
             "title":"I'm rock SOLID !",
             "abstract":"<p>Fort de 10 années d'experience, Frédéric est un incontournable craftsman. Il est en mesure de piloter des projets agiles tout en ayant un excellent sens du design objet.</p><p>Maitrise du process agile et des pratiques techniques permettent à Frédéric de mener les projets à bien.</p>",
             "small-picture":"fdubois.png",
-            "big-picture":"fdubois-big.png",
+            "big-picture":"fdubois-big-reduced.png",
             "linkedin-url":"http://www.linkedin.com/profile/view?id=21004526",
             "twitter-url":"",
             "gplus-url":"",
@@ -145,14 +145,14 @@
             "email":"apedro@xebia.fr",
             "title":"Analyzing business !",
             "abstract":"<p>Après une expérience dans le conseil en sécurité (notamment sur des missions d'analyse de risques métier), Audrey est maintenant business analyst/product owner chez Xebia. Elle se positionne en tant que lien fonctionnel entre le métier et l'équipe Xebia Studio lors d'un projet.</p><p>Audrey vous aidera notamment à exprimer votre besoin, à comprendre le marché et la concurrence ainsi qu'à prioriser les actions à mener. Ayant suivi une formation d'ingénieur, elle est très curieuse face aux problématiques et innovations techniques des projets Studio.</p>",
-            "small-picture":"audrey.jpeg",
-            "big-picture":"audrey-big.jpg",
+            "small-picture":"apedro.jpg",
+            "big-picture":"apedro-big.png",
             "linkedin-url":"http://fr.linkedin.com/pub/audrey-pedro/46/a61/801/en",
             "twitter-url":"",
             "gplus-url":"https://plus.google.com/109375464646756023880/posts",
             "github-url":"",
-            "spanleft":7,
-            "spanright":5
+            "spanleft":5,
+            "spanright":7
         },
         {
             "id":"9",
@@ -162,7 +162,7 @@
             "title":"Don't REST with me !",
             "email":"blemoine@xebia.fr",
             "small-picture":"blemoine.png",
-            "big-picture":"blemoine-big-plus-reduced.png",
+            "big-picture":"blemoine-big.png",
             "linkedin-url":"",
             "github-url":"https://github.com/blemoine",
             "twitter-url":"",
@@ -173,13 +173,13 @@
         },
         {
             "id":"10",
-            "name":"Issam EL FATMI",
+            "name":"Issam El Fatmi",
             "firstname":"Issam",
             "nick":"ielfatmi",
             "title":"Among every Season, it's SPRING I like the most",
             "email":"ielfatmi@xebia.fr",
             "small-picture":"ielfatmi.png",
-            "big-picture":"ielfatmi-big-reduced.png",
+            "big-picture":"ielfatmi-big.png",
             "linkedin-url":"http://www.linkedin.com/pub/issam-el-fatmi/22/278/265",
             "github-url":"https://github.com/ielfatmi",
             "twitter-url":"https://twitter.com/ielfatmi",
@@ -187,6 +187,23 @@
             "abstract":"<p>Passionné par l'informatique et ses diverses technologies, Issam s'adapte facilement à l'environnement technique auquel il est confronté.</p><p>Doté d'une grande capacité d'analyse et d'abstraction, il sait mettre en place des solutions simples qui permettent de résoudre des problèmes complexes.</p><p>Convaincu par le concept de la dette technique,  \"qualité de code\" et \"performance des applications\" sont durement inscrites dans son code d'honneur.</p><p>Capable d’autonomie dans son travail, il est apte à tenir des deadlines fixes faisant ainsi preuve d’engagement.</p>",
             "spanleft":7,
             "spanright":5
+        },
+        {
+            "id":"11",
+            "name":"Nicolas Jozwiak",
+            "firstname":"Nicolas",
+            "nick":"njozwiak",
+            "title":"Technical debt hunter",
+            "email":"njozwiak@xebia.fr",
+            "small-picture":"njozwiak.jpg",
+            "big-picture":"njozwiak-big-plus.png",
+            "linkedin-url":"http://fr.linkedin.com/pub/nicolas-jozwiak/3/2ba/893",
+            "github-url":"",
+            "twitter-url":"https://twitter.com/#!/njozwiak",
+            "gplus-url":"https://plus.google.com/105479791700103003714/posts",
+            "abstract":"<p>Avec 6 années d'expérience dans la conception, le développement et la mise en place des méthodes agiles, Nicolas accompagne les équipes sur le terrain.</p><p> Armé de solides compétences dans le domaine de la qualité et de l'industrialisation (intégration continue, tests), Nicolas s’attache à mettre à profit quotidiennement son expérience. Il est reconnu pour son approche pragmatique, proactive et pédagogique.</p>",
+            "spanleft":6,
+            "spanright":6
 
         }
     ]
