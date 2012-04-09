@@ -15,22 +15,4 @@
             "spanleft":5,
             "spanright":7
 
-        },
-        {
-            "id":"14",
-            "name":"Nicolas Demengel",
-            "firstname":"Nicolas",
-            "nick":"ndemengel",
-            "title":"",
-            "email":"ndemengel@xebia.fr",
-            "small-picture":"ndemengel.jpg",
-            "big-picture":"ndemengel-big.png",
-            "linkedin-url":"",
-            "github-url":"",
-            "twitter-url":"",
-            "gplus-url":"",
-            "abstract":"",
-            "spanleft":5,
-            "spanright":7
-
         }
