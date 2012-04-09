@@ -1,21 +1,3 @@
-
-        {
-            "id":"5",
-            "name":"Alexis Kinsella",
-            "firstname":"Alexis",
-            "nick":"akinsella",
-            "title":"",
-            "email":"akinsella@xebia.fr",
-            "abstract":"",
-            "small-picture":"akinsella.jpg",
-            "big-picture":"akinsella-big.png",
-            "linkedin-url":"",
-            "twitter-url":"",
-            "github-url":"",
-            "gplus-url":"",
-            "spanleft":5,
-            "spanright":7
-        },
         {
             "id":"13",
             "name":"Diego Lemos",

@@ -221,7 +221,23 @@
             "abstract":"<p>Avec 6 années d'expérience dans la conception, le développement et la mise en place des méthodes agiles, Nicolas accompagne les équipes sur le terrain.</p><p> Armé de solides compétences dans le domaine de la qualité et de l'industrialisation (intégration continue, tests), Nicolas s’attache à mettre à profit quotidiennement son expérience. Il est reconnu pour son approche pragmatique, proactive et pédagogique.</p>",
             "spanleft":6,
             "spanright":6
-
+        },
+        {
+            "id":"13",
+            "name":"Nicolas Demengel",
+            "firstname":"Nicolas",
+            "nick":"ndemengel",
+            "title":"Quality Boy",
+            "email":"ndemengel@xebia.fr",
+            "abstract":"<p>Nicolas est un développeur passionné et pragmatique. Il aime la technologie mais n'oublie pas que la finalité d'un produit, c'est le service rendu à l'utilisateur. </p><p>Son credo : un produit doit se construire et prouver sa qualité avec du feedback et des tests !</p><p>Pour cette raison, Nicolas travaille également sur le plug-in <a href=\"http://moreunit.sourceforge.net\">MoreUnit</a> pour Eclipse.</p><p>Nicolas est arrivé chez Xebia en 2010 et a 4 ans d'expérience sur le développement d'applications Java/Web.</p>",
+            "small-picture":"ndemengel.jpg",
+            "big-picture":"ndemengel-big.png",
+            "github-url":"https://github.com/ndemengel",
+            "gplus-url":"",
+            "linkedin-url":"http://www.linkedin.com/in/nicolasdemengel",
+            "twitter-url":"https://twitter.com/#!/nicolasdemengel",
+            "spanleft":7,
+            "spanright":5
         }
     ]
 }
