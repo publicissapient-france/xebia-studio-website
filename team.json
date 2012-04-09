@@ -24,7 +24,7 @@
             "nick":"hgeissmann",
             "email":"hgeissmann@xebia.fr",
             "title":"A geek in a suit.",
-            "abstract":"<p>Hugo est un ancien consultant passé de l'autre côté de la force : Le commercial.</p><p>Malgré le costume et la calculatrice, Hugo reste un geek passionné par l'innovation technologique et métier.</p><p> Au sein des projets, Hugo joue un rôle de couteau suisse en participant aux ateliers métiers et techniques. Son but est de huiler tous les rouages pour que les équipes Xebia Studio soient hyper-productives.</p><p>Hugo co-pilote le Studio avec Jean-Laurent</p>",
+            "abstract":"<p>Hugo est un ancien consultant passé de l'autre côté de la Force : Le commercial.</p><p>Malgré le costume et la calculatrice, Hugo reste un geek passionné par les nouveaux usages et par l'innovation technologique.</p><p> Au sein des projets, Hugo joue un rôle de couteau suisse en participant aux ateliers métiers et techniques. Son but est de huiler tous les rouages pour que les équipes Xebia Studio soient hyper-productives.</p><p>Hugo co-pilote le Studio avec Jean-Laurent.</p>",
             "small-picture":"hgeissmann.png",
             "big-picture":"hgeissmann-big.png",
             "linkedin-url":"http://fr.linkedin.com/in/hgeissmann",
@@ -88,6 +88,23 @@
         },
         {
             "id":"5",
+            "name":"Alexis Kinsella",
+            "firstname":"Alexis",
+            "nick":"akinsella",
+            "title":"Mobile Addict",
+            "email":"akinsella@xebia.fr",
+            "small-picture":"akinsella.jpg",
+            "big-picture":"akinsella-big-plus.png",
+            "linkedin-url":"http://fr.linkedin.com/in/alexiskinsella",
+            "github-url":"https://github.com/akinsella",
+            "twitter-url":"http://twitter.com/#!/alexiskinsella",
+            "gplus-url":"https://plus.google.com/110933524696741027500/posts",
+            "abstract":"<p>Passionné de mobilité depuis de nombreuses années, Alexis a exploré les différentes générations de plateformes.</p><p> Aujourd'hui il s'est spécialisé dans l'univers du Web mobile et des tablettes.</p><p>Son expérience des backends Java et du Web sont autant d'atouts qui font d'Alexis une ressource majeure pour les projets du Studio.</p>",
+            "spanleft":5,
+            "spanright":7
+        },
+        {
+            "id":"6",
             "name":"Simon Caplette",
             "firstname":"Simon",
             "nick":"scaplette",
@@ -97,14 +114,14 @@
             "small-picture":"scaplette.png",
             "big-picture":"scaplette-big-plus.png",
             "linkedin-url":"http://uk.linkedin.com/in/simoncaplette",
-            "twitter-url":"scaplette",
+            "twitter-url":"",
             "github-url":"https://github.com/simcap",
             "gplus-url":"",
             "spanleft":6,
             "spanright":6
         },
         {
-            "id":"6",
+            "id":"7",
             "name":"Jean Helou",
             "firstname":"Jean",
             "nick":"jhelou",
@@ -121,7 +138,7 @@
             "spanright":5
         },
         {
-            "id":"7",
+            "id":"8",
             "name":"Pablo Lopez",
             "firstname":"Pablo",
             "nick":"plopez",
@@ -138,7 +155,7 @@
             "spanright":5
         },
         {
-            "id":"8",
+            "id":"9",
             "name":"Audrey Pedro",
             "firstname":"Audrey",
             "nick":"apedro",
@@ -155,7 +172,7 @@
             "spanright":7
         },
         {
-            "id":"9",
+            "id":"10",
             "name":"Benoit Lemoine",
             "firstname":"Benoit",
             "nick":"blemoine",
@@ -172,7 +189,7 @@
             "spanright":6
         },
         {
-            "id":"10",
+            "id":"11",
             "name":"Issam El Fatmi",
             "firstname":"Issam",
             "nick":"ielfatmi",
@@ -189,7 +206,7 @@
             "spanright":5
         },
         {
-            "id":"11",
+            "id":"12",
             "name":"Nicolas Jozwiak",
             "firstname":"Nicolas",
             "nick":"njozwiak",
