@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     <title>Xebia Studio - {{ page.title }}</title>
 
@@ -9,6 +10,29 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/fonts.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css"/>
     <link rel="shortcut icon" type="image/png" href="images/faviconXebia.png"/>
+
+  <!--[if IE]>
+    <script type="text/javascript" 
+     src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+
+    <style>
+     .chromeFrameInstallDefaultStyle {
+       
+       width: 100%; /* default is 800px */
+       border: 5px solid blue;
+       z-index: 10;
+     }
+    </style>
+    
+    <script>
+     window.attachEvent("onload", function() {
+       CFInstall.check({
+         mode:"overlay",
+         node: "prompt"
+       });
+     });
+    </script>
+  <![endif]-->
 
     <script src="javascripts/jquery-1.7.1.min.js"></script>
     <script type="text/javascript">
@@ -30,6 +54,7 @@
 
 </head>
 <body>
+<div id="prompt"></div>
 <div class="navbar navbar-static">
     <div class="navbar-inner">
         <div class="container">
