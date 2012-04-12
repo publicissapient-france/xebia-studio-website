@@ -306,7 +306,10 @@ img#picto-champignon {
 .video_bootstrap_text {
     padding-left: 10px;
     font-size: 115%;
+}
 
+.iframe{
+	frameborder:2px;
 }
 
 /***********************/
