@@ -3,6 +3,7 @@ layout: main
 title: L'équipe
 ---
 <script type="text/javascript" src="javascripts/handlebars-1.0.0.beta.4.js"></script>
+<script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
 
 <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/team.css"/>
 
@@ -58,7 +59,7 @@ title: L'équipe
 {{#each craftmen}}
 <li class = "span2">
         <div class = "thumbnail">
-        <a class = "craftman" href = "#" > <img id="{{id}}" class="border" src="images/equipe/{{small-picture}}" alt ="{{name}}"></a>
+        <a class = "craftman" href = "#bio"> <img id="{{id}}" class="border" src="images/equipe/{{small-picture}}" alt ="{{name}}"></a>
         <h5>{{firstname}}</h5>
         </div>
 </li>
@@ -84,10 +85,12 @@ title: L'équipe
             $('#craftmen').html(craftmen_template(json));
             $('a.craftman').click(function(event) {
                 $('#bio').html(bio_template(json.craftmen[event.target.id]));
+                $('html, body').animate({
+                        scrollTop:$('#navbar').offset().top
+                     }, 'slow');
                 return false;
             });
         });
-
     });
 </script>
 
