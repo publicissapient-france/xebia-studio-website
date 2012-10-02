@@ -1,36 +1,34 @@
-Site Web de Xebia Studio
+Xebia Studio Website
+--------------------
+This repository contains the source code of the Xebia Studio Website.
+It is served by Jekyll, with a little bit of Liquid templating and some JavaScript.
+
+* Install [jekyll](https://github.com/mojombo/jekyll/wiki/install)
+* Clone the repository
+* Run jekyll --server
+* Open http://localhost:4000 in your browser.
+* If you change code, it is immediately available in your browser (after a page refresh).
+
+Contribute
 ----------
-Ce dépôt contient le code source du site web de Xebia Studio
-Il tourne avec Jekyll, avec un minimum de liquid et un peu de js.
+Fork the project and clone your fork locally. After that add the upstream:
 
-* Installez [jekyll](https://github.com/mojombo/jekyll/wiki/install)
-* Clonez le dépôt.
-* Executez jekyll --server
-* Ouvrez votre navigateur sur http://localhost:4000
-* Changez du code, c'est instanement dans votre navigateur.
+     git remote add upstream git://github.com/xebia/xebia-studio-website.git
 
+Create your feature branch
 
-Contribuer
-----------
-Forkez le projet et clonez votre fork en local. Puis ajoutez l'upstream
-
-     git remote add upstream git://github.com/xebia-france/xebia-studio-website.git
-
-Créez votre feature branch
-
-    git checkout -b ce_sur_quoi_je_veux_bosser
-    
+    git checkout -b what_I_want_to_work_on
 
 Hack, commit, hack, HACK, commit !
-Poussez votre branche modifiée sur votre clone
+Push your changed branch to your clone
 
-    git push origin ce_sur_quoi_je_veux_bosser:ce_sur_quoi_je_veux_bosser
-    
-Allez sur github, selectionnez la branche `ce_sur_quoi_je_veux_bosser`, et faites une pull request. Si vous corrigez une ano connue, pensez à ajouter au choix `fixes #xxxx` ou `closes #xxx` pour que votre fix soit rattaché automatiquement à l'ano.
+    git push origin what_I_want_to_work_on:what_I_want_to_work_on
 
-Vérifiez que vos modifs sont valides w3c comme il se doit, si vous utilisez des hack liquid ou que vous introduisez des lib js/css de ouf, dites le nous dans le texte de la pullrequest.
+Go to GitHub, select the branch `what_I_want_to_work_on` and make a pull request. If you fix a known issue, consider adding `fixes #xxxx` or `closes #xxx` to your commit comment, so your fix is automatically added to the issue.
 
-Url Utiles
-----------
-* [Trello du projet](https://trello.com/b/7yz1euuy)
-* [http://studio.xebia.fr](http://studio.xebia.fr)
+Make sure your changes are W3C compliant, if you hack Liquid or add new JS/CSS, please tell us in the pullrequest.
+
+Links
+-----
+* [http://xebia.github.com/xebia-studio-website/](http://xebia.github.com/xebia-studio-website/)
+* [http://studio.xebia.fr/](http://studio.xebia.fr/)
