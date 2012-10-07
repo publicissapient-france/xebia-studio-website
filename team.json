@@ -526,6 +526,23 @@
             "abstract":"<p></p>",
             "spanleft":7,
             "spanright":5
+        },
+        {
+            "id":"31",
+            "name":"Gerbrand van Dieijen",
+            "firstname":"Gerbrand",
+            "nick":"Gerbrand",
+            "title":"ontwikkelaar",
+            "email":"",
+            "small-picture":"GerbrandvanDieijen.jpg",
+            "big-picture":"GerbrandvanDieijen.jpg",
+            "linkedin-url":"",
+            "github-url":"",
+            "twitter-url":"",
+            "gplus-url":"",
+            "abstract":"<p></p>",
+            "spanleft":7,
+            "spanright":5
         }
     ]
 }
