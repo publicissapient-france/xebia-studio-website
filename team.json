@@ -1,7 +1,6 @@
 {
     "craftmen" : [
         {
-            "id":"0",
             "name":"Peter Petit",
             "firstname":"Peter",
             "nick":"Peter",
@@ -281,23 +280,6 @@
             "email":"",
             "small-picture":"JeroenLeenarts.jpg",
             "big-picture":"JeroenLeenarts.jpg",
-            "linkedin-url":"",
-            "github-url":"",
-            "twitter-url":"",
-            "gplus-url":"",
-            "abstract":"<p></p>",
-            "spanleft":7,
-            "spanright":5
-        },
-        {
-            "id":"17",
-            "name":"Jeroen van Wilgenburg",
-            "firstname":"Jeroen",
-            "nick":"Jeroen",
-            "title":"ontwikkelaar",
-            "email":"",
-            "small-picture":"JeroenvanWilgenburg.jpg",
-            "big-picture":"JeroenvanWilgenburg.jpg",
             "linkedin-url":"",
             "github-url":"",
             "twitter-url":"",
