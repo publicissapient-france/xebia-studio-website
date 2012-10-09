@@ -14,8 +14,8 @@
             "twitter-url":"",
             "gplus-url":"",
             "abstract":"<p></p>",
-            "spanleft":5,
-            "spanright":7
+            "spanleft":7,
+            "spanright":5
         },
         {
             "id":"1",
@@ -23,7 +23,7 @@
             "firstname":"Gerard",
             "nick":"",
             "title":"unit management",
-            "email":"",
+            "email":"gjanssen@xebia.com",
             "small-picture":"GerardJanssen.jpg",
             "big-picture":"GerardJanssen.jpg",
             "linkedin-url":"",
@@ -40,7 +40,7 @@
             "firstname":"Elgert",
             "nick":"Elgert",
             "title":"projectmanagement",
-            "email":"",
+            "email":"everhoef@xebia.com",
             "small-picture":"ElgertVerhoef.jpg",
             "big-picture":"ElgertVerhoef.jpg",
             "linkedin-url":"",
@@ -512,23 +512,6 @@
         },
         {
             "id":"30",
-            "name":"Gerbrand van Dieijen",
-            "firstname":"Gerbrand",
-            "nick":"Gerbrand",
-            "title":"ontwikkelaar",
-            "email":"",
-            "small-picture":"GerbrandvanDieijen.jpg",
-            "big-picture":"GerbrandvanDieijen.jpg",
-            "linkedin-url":"",
-            "github-url":"",
-            "twitter-url":"",
-            "gplus-url":"",
-            "abstract":"<p></p>",
-            "spanleft":7,
-            "spanright":5
-        },
-        {
-            "id":"31",
             "name":"Gerbrand van Dieijen",
             "firstname":"Gerbrand",
             "nick":"Gerbrand",
