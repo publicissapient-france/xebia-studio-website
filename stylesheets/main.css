@@ -111,6 +111,7 @@ span#navbar {
 
 .navbar .nav > li > a {
     color: #cccccc;
+    padding-right: 14px;
 }
 
 .navbar-inner {
