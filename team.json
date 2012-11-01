@@ -190,23 +190,6 @@
         },
         {
             "id":"11",
-            "name":"Issam El Fatmi",
-            "firstname":"Issam",
-            "nick":"ielfatmi",
-            "title":"Among every Season, it's SPRING I like the most",
-            "email":"ielfatmi@xebia.fr",
-            "small-picture":"ielfatmi.png",
-            "big-picture":"ielfatmi-big.png",
-            "linkedin-url":"http://www.linkedin.com/pub/issam-el-fatmi/22/278/265",
-            "github-url":"https://github.com/ielfatmi",
-            "twitter-url":"https://twitter.com/ielfatmi",
-            "gplus-url":"http://gplus.to/ielfatmi",
-            "abstract":"<p>Passionné par l'informatique et ses diverses technologies, Issam s'adapte facilement à l'environnement technique auquel il est confronté.</p><p>Doté d'une grande capacité d'analyse et d'abstraction, il sait mettre en place des solutions simples qui permettent de résoudre des problèmes complexes.</p><p>Convaincu par le concept de la dette technique,  \"qualité de code\" et \"performance des applications\" sont durement inscrites dans son code d'honneur.</p><p>Capable d’autonomie dans son travail, il est apte à tenir des deadlines fixes faisant ainsi preuve d’engagement.</p>",
-            "spanleft":7,
-            "spanright":5
-        },
-        {
-            "id":"12",
             "name":"Nicolas Jozwiak",
             "firstname":"Nicolas",
             "nick":"njozwiak",
@@ -223,7 +206,7 @@
             "spanright":6
         },
         {
-            "id":"13",
+            "id":"12",
             "name":"Nicolas Demengel",
             "firstname":"Nicolas",
             "nick":"ndemengel",
