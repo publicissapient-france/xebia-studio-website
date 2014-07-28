@@ -59,6 +59,10 @@ p, span, div, th, td, a, input, address, h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  font-weight: 300;
+}
+
 //Specific
 
 @xebiaColor: #6C1D5F;
@@ -330,7 +334,6 @@ main {
         width: @widthBlockAtSecondBreakpoint;
         height: auto;
 
-
         float: none;
         vertical-align: top;
 
@@ -353,6 +356,72 @@ main {
 
       .solution-description {
         width: auto;
+      }
+    }
+  }
+
+  .specialites {
+    background-color: @alternativeBackgroundColor;
+    min-height: 700px;
+    .centering {
+      .clearFloat();
+      text-align: center;
+
+    }
+    .speciality-wrapper {
+      text-align: left;
+      width: 33%;
+      display: inline-block;
+      vertical-align: top;
+      max-width: 270px;
+      position: relative;
+
+      margin-left: 3%;
+      margin-right: 3%;
+
+      h3 {
+        color: @contrastColor;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid @xebiaBackgroundTextColor;
+        font-weight: bold;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      strong {
+        font-weight: 500;
+      }
+
+      p {
+        margin-bottom: 30px;
+      }
+
+      a {
+        position: absolute;
+        top: 600px;
+      }
+    }
+
+    @media (max-width: @firstBreakPoint) {
+      .speciality-wrapper {
+        margin-left: 5px;
+        margin-right: 5px;
+        max-width: 240px;
+      }
+    }
+
+    @media (max-width: @secondBreakPoint) {
+      .speciality-wrapper {
+        max-width: none;
+        width:80%;
+        .centerBlock();
+        display: block;
+        a {
+          position: static;
+          top:0;
+        }
       }
     }
   }
