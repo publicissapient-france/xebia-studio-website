@@ -11,6 +11,7 @@ var clean = require('gulp-clean');
 var handlebars = require('gulp-handlebars');
 var defineModule = require('gulp-define-module');
 var declare = require('gulp-declare');
+var fileInclude = require('gulp-file-include');
 
 var paths = {
     scripts: 'scripts/**/*',
@@ -24,7 +25,7 @@ var paths = {
 
 };
 
-var distTasks = ['_image', '_usemin', '_resources', '_fonts'];
+var distTasks = ['_image', '_html', '_resources', '_fonts'];
 (function () {
     var cleanTask = function () {
         return gulp.src(paths.dist, {read: false})
@@ -43,29 +44,34 @@ var distTasks = ['_image', '_usemin', '_resources', '_fonts'];
     var fontsTask = function () {
         gulp.src(paths.font).pipe(gulp.dest(paths.dist + '/font'));
     };
-    var useminTask = function () {
-        return gulp.src(paths.html).pipe(usemin({
-            css: ['concat', less(), minifyCss(), rev()],
-            js: ['concat', uglify(), rev()],
-            hbar: [handlebars(), defineModule('plain'), declare({namespace: 'TEMPLATES'}), 'concat', uglify(), rev()]
-        })).pipe(gulp.dest(paths.dist));
+    var htmlTask = function () {
+        return gulp.src(paths.html)
+            .pipe(fileInclude())
+            .pipe(usemin({
+                css: ['concat', less(), minifyCss(), rev()],
+                js: ['concat', uglify(), rev()],
+                hbar: [handlebars(), defineModule('plain'), declare({namespace: 'TEMPLATES'}), 'concat', uglify(), rev()]
+            })).pipe(gulp.dest(paths.dist));
     };
+
+
     var watchTask = function () {
-        gulp.watch([paths.html, paths.templates, paths.stylesheets, paths.scripts], ['usemin']);
+        gulp.watch([paths.html, paths.templates, paths.stylesheets, paths.scripts], ['html']);
         gulp.watch([paths.images], ['image']);
         gulp.watch(paths.resources, ['resources']);
         gulp.watch([paths.font], ['fonts']);
     };
 
+
     gulp.task('clean', cleanTask);
     gulp.task('fonts', fontsTask);
     gulp.task('resources', resourcesTask);
     gulp.task('image', imageTask);
-    gulp.task('usemin', useminTask);
+    gulp.task('html', htmlTask);
     gulp.task('_fonts', ['clean'], fontsTask);
     gulp.task('_resources', ['clean'], resourcesTask);
     gulp.task('_image', ['clean'], imageTask);
-    gulp.task('_usemin', ['clean'], useminTask);
+    gulp.task('_html', ['clean'], htmlTask);
     gulp.task('watch', distTasks, watchTask);
 
     gulp.task('deploy', distTasks, deployTask);

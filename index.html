@@ -1,75 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Xebia IT Architects"/>
-    <meta name="reply-to" content="marketing@xebia.com"/>
-    <meta name="owner" content="Xebia IT Architects"/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <meta name="content-language" content="fr"/>
-    <meta name="robots" content="follow,index,all"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="icon" href="favicon.ico"/>
 
     <title>Xebia Studio</title>
 
+
+
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 
-    <!-- build:css css/style.css -->
-    <link rel="stylesheet" href="stylesheets/reset.css"/>
+    @@include('templates/standardHead.html')
+
+    <!-- build:css css/home.css -->
+    <link rel="stylesheet" href="stylesheets/vars.less"/>
     <link rel="stylesheet" href="stylesheets/mixin.less"/>
-    <link rel="stylesheet" href="stylesheets/fonts.less"/>
-    <link rel="stylesheet" href="stylesheets/main.less"/>
-    <link rel="stylesheet" href="stylesheets/header.less"/>
-    <link rel="stylesheet" href="stylesheets/footer.less"/>
+    <link rel="stylesheet" href="stylesheets/home.less"/>
     <!-- endbuild -->
 
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-    <!-- build:js js/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
 
 </head>
 <body>
-<header>
-    <div class="header-content">
-        <div class="centering">
+@@include('templates/header.html')
 
-            <div class="mobile-menu-button">
-                <div class="icon-bar"></div>
-                <div class="icon-bar"></div>
-                <div class="icon-bar"></div>
-            </div>
-
-            <img src="images/header/logo-xebia-studio.png" alt="Logo Xebia Studio"
-                 title="Xebia Studio" class="logo-header"/>
-
-            <div class="contact-bloc">
-                <div class="bottom-part">
-                    <a href="http://blog.xebia.fr">Blog</a>
-                    <a href="mailto:studio@xebia.fr">Contact</a>
-                </div>
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a href="">Nos Valeurs</a></li>
-                    <li><a href="">L'équipe</a></li>
-                    <li><a href="">Technologies</a></li>
-                    <li><a href="">Nos Clients</a></li>
-                    <li><a href="">Nous rejoindre</a></li>
-                    <li><a href="">À propos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
 <main>
     <section class="presentation centering">
         <h1>Agile developement done right!</h1>
@@ -192,50 +144,7 @@
     </section>
 
 </main>
-<footer>
-    <section class="social">
-        <a href="http://www.linkedin.com/company/xebia-france" class="socicon socicon-linkedin" target="_blank">
-        </a>
 
-        <a href="https://plus.google.com/100396468532572979348/posts" class="socicon socicon-google" target="_blank">
-        </a>
-
-        <a href="https://twitter.com/XebiaFr" class="socicon socicon-twitter" target="_blank">
-        </a>
-    </section>
-
-
-    <section class="alliancy">
-        <div class="tagline-xebia"></div>
-        <div class="tagline-alliance">
-            <div class="alliance-wrapper">
-                <a href="http://alliance.xebia.fr" class="logo-alliance"><img
-                        src="images/footer/footer-logo-alliance.png"
-                        alt="Alliance Xebia"></a>
-
-                <div><span class="unused">=</span>
-                    <a href="http://www.xebia.fr/">Xebia</a>
-                    <span class="unused">+</span>
-                    <a href="http://xebialabs.com/">XebiaLabs</a>
-                    <span class="unused">+</span>
-                    <a href="http://www.thiga.fr/">Thiga</a>
-                    <span class="unused">+</span>
-                    <a href="http://www.ux-republic.com/">UX-Republic</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="address">
-        <address>
-            <div class="name">Xebia Studio</div>
-            <div class="telephone">+33 (0)1 53 89 99 93 - <a href="mailto:studio@xebia.fr">studio@xebia.fr</a></div>
-        </address>
-    </section>
-
-</footer>
-
-
+@@include('templates/footer.html')
 </body>
 </html>
