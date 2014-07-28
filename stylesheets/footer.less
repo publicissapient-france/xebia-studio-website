@@ -1,0 +1,133 @@
+footer {
+  .social {
+
+    text-align: center;
+    @heightSocial: 100px;
+    height: @heightSocial;
+    line-height: @heightSocial;
+
+    a {
+      display: inline-block;
+      border-radius: 100%;
+      text-decoration: none;
+      color: white;
+      background-color: #E1E1E1;
+      text-align: center;
+      @height: 40px;
+      width: @height;
+      height: @height;
+      line-height: @height;
+      margin: 0 20px;
+      font-size: 24px;
+
+      &:hover {
+        background-color: @xebiaColor;
+      }
+
+    }
+
+  }
+
+  .address {
+    background-color: @xebiaColor;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .name {
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+
+    }
+
+  }
+  .alliancy {
+
+    @footerColor: white;
+    background-color: @footerColor;
+
+    .tagline {
+      width: 462px;
+      margin: auto;
+      height: 170px;
+      background: url('../images/footer/footer-alliance.png') 0 20px no-repeat @footerColor;
+      @media (max-width: 470px) {
+        width: 100%;
+      }
+    }
+
+    .tagline-xebia {
+      width: 462px;
+      margin: auto;
+      height: 111px;
+      background: url('../images/footer/footer-logo-xebia.png') 0 20px no-repeat @footerColor;
+
+      @media (max-width: 470px) {
+        background: url('../images/footer/footer-logo-xebia.png') center 0 no-repeat @footerColor;
+        height: 45px;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+    }
+
+    .tagline-alliance {
+      width: 450px;
+      margin: auto;
+      margin-bottom: 15px;
+      @media (max-width: 470px) {
+        width: 100%;
+      }
+
+      border-top: 1px solid #bebab8;
+      .clearFloat();
+
+      .alliance-wrapper {
+        .clearFloat();
+      }
+      div {
+        text-transform: uppercase;
+        line-height: 16px;
+        text-align: justify;
+        float: left;
+        margin-left: 7px;
+        margin-top: 16px;
+        font-size: 11px;
+        letter-spacing: 1px;
+
+        @media (max-width: 470px) {
+          float: none;
+          text-align: center;
+          .unused {
+            display: none;
+          }
+
+        }
+      }
+
+      a {
+        color: #6d626b;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        @media (max-width: 470px) {
+          display: block;
+        }
+      }
+    }
+
+    .logo-alliance {
+      margin-top: 10px;
+      float: left;
+      @media (max-width: 470px) {
+        float: none;
+      }
+    }
+  }
+}

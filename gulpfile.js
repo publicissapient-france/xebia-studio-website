@@ -45,7 +45,7 @@ var distTasks = ['_image', '_usemin', '_resources', '_fonts'];
     };
     var useminTask = function () {
         return gulp.src(paths.html).pipe(usemin({
-            css: [less(), 'concat', minifyCss(), rev()],
+            css: ['concat', less(), minifyCss(), rev()],
             js: ['concat', uglify(), rev()],
             hbar: [handlebars(), defineModule('plain'), declare({namespace: 'TEMPLATES'}), 'concat', uglify(), rev()]
         })).pipe(gulp.dest(paths.dist));
