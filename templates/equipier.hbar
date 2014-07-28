@@ -1,0 +1,5 @@
+<div class="equipier">
+    <img src="{{urlPhoto}}" alt="{{name}}" />
+    <span class="name">{{name}}</span>
+    <span class="role">{{role}}</span>
+</div>

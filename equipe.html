@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Xebia Studio - Notre équipe</title>
+
+    @@include('templates/standardHead.html')
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+
+    <!-- build:css css/home.css -->
+    <link rel="stylesheet" href="stylesheets/vars.less"/>
+    <link rel="stylesheet" href="stylesheets/mixin.less"/>
+    <link rel="stylesheet" href="stylesheets/equipe.less"/>
+    <!-- endbuild -->
+
+    <!-- build:hbar js/templates.js -->
+    <script src="templates/equipier.hbar"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js js/main.js -->
+    <script src="scripts/data/equipe-data.js"></script>
+    <script src="scripts/equipe.js"></script>
+    <!-- endbuild -->
+
+</head>
+<body>
+@@include('templates/header.html')
+
+<main>
+    <section class="equipe centering">
+        <h1>L'équipe</h1>
+
+        <div class="equipiers" id="equipiers">
+            <!-- rempli depuis equipe-data.js -->
+        </div>
+
+    </section>
+
+</main>
+
+@@include('templates/footer.html')
+</body>
+</html>
