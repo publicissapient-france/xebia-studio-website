@@ -1,0 +1,43 @@
+
+main {
+
+  .pragmatism {
+    h1 {
+      .mainTitle();
+      font-weight: 300;
+    }
+
+    padding-bottom: 40px;
+    border-bottom: 1px solid @alternativeBackgroundColor;
+  }
+
+  .techno {
+
+    h1 {
+      text-align: center;
+      .mainTitle()
+    }
+
+    &:nth-child(odd) {
+      background-color: @alternativeBackgroundColor;
+    }
+
+    .logos {
+      text-align: center;
+      a {
+        margin: 10px 35px;
+        display: inline-block;
+        img {
+          height: 70px;
+        }
+      }
+    }
+  }
+
+  p {
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+}
+

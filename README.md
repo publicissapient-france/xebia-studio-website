@@ -17,3 +17,5 @@ TODO
  * les images dans valeurs
  * les 2 grosses images en bas dans valeurs
  * les photos des gens de l'équipe
+ * Le texte de Data est pas top
+ * Le texte de Mobile est pas bon
