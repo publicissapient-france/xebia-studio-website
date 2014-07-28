@@ -19,3 +19,5 @@ TODO
  * les photos des gens de l'équipe
  * Le texte de Data est pas top
  * Le texte de Mobile est pas bon
+ * le gros bouton mailus dans nous rejoindre
+ * le petit mail à coté de Francois dans nous rejoindre
