@@ -24,3 +24,47 @@ blockquote {
     font-size: 17px;
   }
 }
+
+.craftsmanship, .product-ownership {
+  background-color: @alternativeBackgroundColor;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  h1 {
+    margin-left: 10px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  p {
+    max-width: 95%;
+    text-align: justify;
+    margin-left: 10px;
+    line-height:20px;
+    margin-bottom: 40px;
+  }
+
+  .description, .outils-wrapper {
+    display: inline-block;
+    width: 49%;
+  }
+  .outils-wrapper {
+    text-align: center;
+    vertical-align: top;
+    img {
+      display: inline-block;
+      width:350px;
+    }
+  }
+
+
+  @media (max-width: @secondBreakPoint) {
+
+    .description, .outils-wrapper {
+      display: block;
+      width: 100%;
+    }
+
+
+  }
+}
