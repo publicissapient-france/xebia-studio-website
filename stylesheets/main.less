@@ -20,6 +20,11 @@
   box-shadow: @string;
 }
 
+.centerBlock() {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 //Fonts
 
 @font-face {
@@ -50,7 +55,7 @@
   content: "j";
 }
 
-p, span, div, th, td, a, input, address {
+p, span, div, th, td, a, input, address, h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -59,6 +64,7 @@ p, span, div, th, td, a, input, address {
 @xebiaColor: #6C1D5F;
 @xebiaLightColor: #7B5A77;
 @xebiaBackgroundTextColor: #4A4A4A;
+@alternativeBackgroundColor: #F0F0F0;
 @contrastColor: #00A396;
 
 @firstBreakPoint: 1024px;
@@ -196,7 +202,6 @@ header {
       margin: 0;
       padding-bottom: 0;
 
-
       &.shown {
         max-height: 600px; // attention à modifier si le menu change
       }
@@ -244,6 +249,113 @@ html, body {
 
 main {
   border-top: 1px solid @xebiaBackgroundTextColor;
+
+  h2 {
+    color: @xebiaBackgroundTextColor;
+  }
+
+  .presentation {
+    h1 {
+      margin-top: 50px;
+      text-align: left;
+      color: @xebiaColor;
+      font-size: 70px;
+    }
+
+    h2 {
+      margin-top: 20px;
+      text-align: left;
+      font-size: 45px;
+    }
+
+    @media (max-width: @firstBreakPoint) {
+      h1, h2 {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: @secondBreakPoint) {
+      h1 {
+        font-size: 50px;
+        margin-top: 30px;
+      }
+
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+
+  .problems {
+
+    border-top: 1px solid @xebiaBackgroundTextColor;
+    padding-top: 50px;
+    margin-top: 50px;
+
+    h2 {
+      font-size: 27px;
+      padding-bottom: 45px;
+      text-transform: uppercase;
+      margin-left: 10px;
+    }
+
+    > section {
+      .clearFloat();
+      margin-bottom: 70px;
+    }
+
+    img {
+      height: 350px;
+      float: left;
+      margin-right: 70px;
+    }
+
+    p {
+      text-align: justify;
+      margin-bottom: 35px;
+      margin-right: 10px;
+      font-size: 18px;
+      line-height: 27px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+    }
+
+    @widthBlockAtSecondBreakpoint: 550px;
+    @media (max-width: @firstBreakPoint) {
+      img {
+        display: block;
+        width: @widthBlockAtSecondBreakpoint;
+        height: auto;
+
+
+        float: none;
+        vertical-align: top;
+
+        .centerBlock();
+      }
+
+      .solution-description {
+        margin-top: 25px;
+        display: block;
+        width: @widthBlockAtSecondBreakpoint;
+
+        .centerBlock();
+      }
+    }
+
+    @media (max-width: @widthBlockAtSecondBreakpoint) {
+      img {
+        width: 100%;
+      }
+
+      .solution-description {
+        width: auto;
+      }
+    }
+  }
 }
 
 footer {
