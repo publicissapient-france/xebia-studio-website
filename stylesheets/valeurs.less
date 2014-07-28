@@ -1,0 +1,26 @@
+.valeur {
+  h3 {
+    color: @xebiaColor;
+  }
+}
+
+blockquote {
+  margin-left: 40px;
+  margin-right: 40px;
+
+  font-size: 35px;
+  p {
+    &:before {
+      content: '«\0000a0'
+    }
+    &:after {
+      content: '\0000a0»'
+    }
+
+  }
+
+  cite {
+    font-weight: 300;
+    font-size: 17px;
+  }
+}
