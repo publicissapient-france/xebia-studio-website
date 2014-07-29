@@ -54,10 +54,7 @@ a {
   }
 
   a {
-    position: absolute;
-    top: 600px;
     color: @linkColor;
-    text-decoration: none;
   }
 
   @media (max-width: @firstBreakPoint) {
@@ -75,5 +72,21 @@ a {
     .centerBlock();
     display: block;
 
+  }
+}
+
+.person {
+  .name {
+    margin-top: 10px;
+    display: block;
+    color: @contrastColor;
+    font-size: 16px;
+  }
+  .role {
+    margin-top: 5px;
+    display: block;
+    color: @xebiaBackgroundTextColor;
+    font-weight: 300;
+    font-size: 12px;
   }
 }

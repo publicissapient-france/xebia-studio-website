@@ -21,3 +21,9 @@ TODO
  * Le texte de Mobile est pas bon
  * le gros bouton mailus dans nous rejoindre
  * le petit mail à coté de Francois dans nous rejoindre
+ * Image en haut de "a propos"
+ * La carte de "a propos"
+ * les numéros de téléphone dans A propos
+ * Photos dans les contacts
+ * logo mail dans les contacts
+ * tester en vrai sur un téléphone

@@ -1,0 +1,41 @@
+.about-us, .contacts-title {
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    .mainTitle();
+    text-align: center;
+  }
+}
+
+.contacts {
+  padding-top:30px;
+  background-color: @alternativeBackgroundColor;
+  text-align: center;
+  .contact {
+    text-align: center;
+    .name, .role, .tel {
+      display: block;
+    }
+
+    .tel {
+      margin-top:10px;
+      margin-bottom:10px;
+    }
+
+    .social {
+      margin-bottom:35px;
+      > a {
+        background-color: @xebiaBackgroundTextColor;
+        border-radius: 100%;
+        @socialIconSize:30px;
+        height:@socialIconSize;
+        width: @socialIconSize;
+        line-height: @socialIconSize + 3px;
+        display: inline-block;
+        vertical-align: top;
+        color:white;
+      }
+    }
+
+  }
+}
