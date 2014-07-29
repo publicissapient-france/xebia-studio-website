@@ -6,11 +6,9 @@ Site Web de Xebia Studio - Le Retour
 TODO
 ----
 
- 
- * Mot clef
- * Analytics
- * favicon
  * Le menu est sélectionné
+ * Mot clef
+ * favicon
  * le carousel du home
  * les images de spécialité de la home
  * les images dans valeurs

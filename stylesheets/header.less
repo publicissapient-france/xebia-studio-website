@@ -1,12 +1,13 @@
 header {
-  @headerHeight: 190px;
+  @headerHeight: 160px;
   background-color: @xebiaColor;
   padding-top: 15px;
   height: @headerHeight;
 
   .header-content {
-    padding: 10px 0;
+    padding: 2px 0;
     background-color: white;
+    border-bottom: 1px solid @xebiaBackgroundTextColor;
 
     .centering {
       .clearFloat();
@@ -46,25 +47,28 @@ header {
   nav {
     @numberOfLi: 6;
     margin-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 
     ul {
       margin-left: 2%;
       margin-right: 2%;
     }
+
     li {
       display: inline-block;
       width: 95%/@numberOfLi;
       text-align: center;
+
+      &.selected {
+        font-weight: bold;
+      }
 
       a {
         color: @xebiaBackgroundTextColor;
         text-decoration: none;
 
       }
-
     }
-
   }
 
   .mobile-menu-button {
@@ -136,6 +140,11 @@ header {
         border-bottom: 1px solid @xebiaLightColor;
         &:last-child {
           border-bottom: none;
+        }
+
+        &.selected {
+          font-weight: normal;
+          background-color: @xebiaLightColor;
         }
 
         a {
