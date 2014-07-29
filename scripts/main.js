@@ -7,7 +7,7 @@ $(function () {
         var currentUrl = window.location.href;
         var filename = currentUrl.substring(currentUrl.lastIndexOf('/') + 1);
 
-        var currentLi = null
+        var currentLi = null;
         $('nav li').each(function () {
             var $li = $(this);
 
