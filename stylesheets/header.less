@@ -7,7 +7,9 @@ header {
   .header-content {
     padding: 2px 0;
     background-color: white;
-    border-bottom: 1px solid @alternativeBackgroundColor;
+
+    @colorIndicator:#CACACA;
+    border-bottom: 1px solid @colorIndicator;
 
     .indicator {
       position: relative;
@@ -15,7 +17,7 @@ header {
       display: block;
       width: 0;
       @triangleSize: 15px;
-      border-top: @triangleSize solid @alternativeBackgroundColor;
+      border-top: @triangleSize solid @colorIndicator;
       border-left: @triangleSize solid transparent;
       border-right: @triangleSize solid transparent;
 
