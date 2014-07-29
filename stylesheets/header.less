@@ -10,7 +10,7 @@ header {
     border-bottom: 1px solid @alternativeBackgroundColor;
 
     .indicator {
-      position:relative;
+      position: relative;
 
       display: block;
       width: 0;
@@ -19,8 +19,8 @@ header {
       border-left: @triangleSize solid transparent;
       border-right: @triangleSize solid transparent;
 
-      top:@triangleSize + 2px;
-      left:0;
+      top: @triangleSize + 2px;
+      left: 0;
       @media (max-width: @secondBreakPoint) {
         display: none;
       }
@@ -115,7 +115,7 @@ header {
       top: 9px;
     }
 
-    .contact-bloc {
+    .header-content .contact-bloc {
       position: absolute;
       right: 0;
       top: 0;
@@ -184,6 +184,16 @@ header {
         content: "\f0c9";
         color: @xebiaColor;
       }
+    }
+  }
+
+  @media (max-width: @thirdBreakPoint) {
+    .centering {
+      text-align: right;
+    }
+    .header-content .contact-bloc {
+      float:none;
+      position: static;
     }
   }
 }

@@ -13,9 +13,6 @@ TODO
 
  * les photos des gens de l'équipe
 
- * Image en haut de "a propos"
- * La carte de "a propos"
- * Photos dans les contacts
 
   * Le texte de Data est pas top
   * Le texte de Mobile est pas bon
