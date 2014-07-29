@@ -58,14 +58,10 @@
     margin-right: auto;
     margin-bottom: 15px;
 
+    .mail-icon(white, 0.5);
     svg {
-      .transform(scale(0.5));
-
-      path {
-        stroke: white;
-      }
+      vertical-align: middle;
     }
-
   }
 
   .contact-us {
@@ -87,7 +83,6 @@
   max-width: 41%;
   margin-right: 8%;
 
-
   @media (max-width: @secondBreakPoint) {
     display: block;
     max-width: none;
@@ -99,16 +94,10 @@
   border-top: 1px solid @contrastColor;
   text-align: right;
 
+  .mail-icon(@contrastColor, 0.2);
   svg {
     margin-top: 16px;
     margin-right: 5px;
-    height: 23px;
-    width: 23px;
-
-    path {
-      stroke: @contrastColor;
-      .transform(scale(0.2));
-    }
   }
   a {
     margin-top: 15px;

@@ -32,3 +32,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.mail-icon(@color, @factor) {
+  svg {
+
+    height: 114px * @factor;
+    width: 114px * @factor;
+
+    path {
+      stroke: @color;
+      .transform(scale(@factor));
+    }
+  }
+}
