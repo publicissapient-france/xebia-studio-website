@@ -11,7 +11,12 @@ $(function () {
             var $li = $(this);
 
             if ($li.find('a').attr('href') == filename) {
+
                 $li.addClass('selected');
+
+                var $indicator = $('.indicator');
+                var indicatorPosition = $li.position().left + $li.outerWidth() / 2 - $indicator.outerWidth() / 2;
+                $indicator.css('left', indicatorPosition);
             }
         })
 

@@ -9,6 +9,22 @@ header {
     background-color: white;
     border-bottom: 1px solid @xebiaBackgroundTextColor;
 
+    .indicator {
+      position:relative;
+
+      display: block;
+      width: 0;
+      @triangleSize: 15px;
+      border-top: @triangleSize solid @xebiaBackgroundTextColor;
+      border-left: @triangleSize solid transparent;
+      border-right: @triangleSize solid transparent;
+
+      top:@triangleSize + 12px;
+      left:0;
+
+   //   .transition(left 0.5s);
+    }
+
     .centering {
       .clearFloat();
 
@@ -19,7 +35,6 @@ header {
       > div {
         margin-right: 10px;
       }
-
     }
 
     .contact-bloc {
@@ -48,7 +63,7 @@ header {
     @numberOfLi: 6;
     margin-top: 30px;
     padding-bottom: 10px;
-
+    position: relative;
     ul {
       margin-left: 2%;
       margin-right: 2%;
