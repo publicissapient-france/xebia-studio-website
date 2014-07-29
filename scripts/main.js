@@ -13,7 +13,6 @@ $(function () {
 
             if ($li.find('a').attr('href') == filename) {
                 currentLi = $li;
-
             }
         });
 

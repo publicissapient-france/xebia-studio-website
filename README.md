@@ -8,10 +8,9 @@ TODO
 
  * Mot clef
  * favicon
- * le carousel du home
- * les images de spécialité de la home
- * les images dans valeurs
- * les 2 grosses images en bas dans valeurs
+
+
+
  * les photos des gens de l'équipe
 
  * Image en haut de "a propos"
@@ -22,8 +21,8 @@ TODO
   * Le texte de Mobile est pas bon
 
 
-  * certaines images dépasses sur téléphone (mouton, backbone)
-  * mettre une marge sur tel
+
+  * mettre une marge losque l'on est en mode tel
 
 
 
