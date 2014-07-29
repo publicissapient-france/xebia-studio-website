@@ -23,7 +23,7 @@ $(function () {
             var indicatorPosition = currentLi.position().left + currentLi.outerWidth() / 2 - $indicator.outerWidth() / 2;
             $indicator.css('left', indicatorPosition);
         } else {
-            $indicator.css('visibility','hidden');
+            $indicator.css('visibility', 'hidden');
         }
     };
 
