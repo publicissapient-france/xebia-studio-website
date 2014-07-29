@@ -109,10 +109,16 @@ main {
 
   .specialites {
     background-color: @alternativeBackgroundColor;
-    min-height: 700px;
+    min-height: 560px;
 
 
     .speciality-wrapper {
+      text-align: center;
+      padding-bottom:30px;
+
+      img {
+        margin-top:30px;
+      }
 
       h3 {
         color: @contrastColor;
@@ -120,7 +126,8 @@ main {
 
       a {
         position: absolute;
-        top: 600px;
+        top: 500px;
+
         @media (max-width: @secondBreakPoint) {
           position: static;
           top: 0;
