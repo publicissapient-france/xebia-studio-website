@@ -30,10 +30,22 @@
         @socialIconSize:30px;
         height:@socialIconSize;
         width: @socialIconSize;
-        line-height: @socialIconSize + 3px;
+        line-height: @socialIconSize + 2px;
         display: inline-block;
         vertical-align: top;
         color:white;
+
+        svg {
+          margin-top:5px;
+
+          height:19px;
+          width:19px;
+
+          path {
+            stroke: white;
+            .transform(scale(0.17));
+          }
+        }
       }
     }
 

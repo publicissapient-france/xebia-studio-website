@@ -3,7 +3,7 @@ $(function () {
         $('nav').toggleClass('shown');
     });
 
-    (function menu() {
+    var positionMenu = function () {
         var currentUrl = window.location.href;
         var filename = currentUrl.substring(currentUrl.lastIndexOf('/') + 1);
 
@@ -18,8 +18,10 @@ $(function () {
                 var indicatorPosition = $li.position().left + $li.outerWidth() / 2 - $indicator.outerWidth() / 2;
                 $indicator.css('left', indicatorPosition);
             }
-        })
+        });
+    };
 
-    })();
+    positionMenu();
+    $(window).resize(positionMenu);
 
 });
