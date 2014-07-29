@@ -21,16 +21,33 @@ a {
   text-decoration: none;
 }
 
+h1, h2 {
+  color: @subTitle;
+  font-size: 35px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
 p, li {
   color: @subMainTitle;
   font-weight: 300;
   font-size: 20px;
-
 }
 
-main {
-  margin-top: 60px;
+p {
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 35px;
+  @media (max-width: @firstBreakPoint) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
+
 
 .col-wrapper {
   .clearFloat();
@@ -42,11 +59,11 @@ main {
   width: 33%;
   display: inline-block;
   vertical-align: top;
-  max-width: 270px;
+  max-width: 280px;
   position: relative;
 
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
 
   img {
     margin-top: 30px;
@@ -72,7 +89,6 @@ main {
   p {
     margin-bottom: 30px;
     text-align: left;
-
   }
 
   a {

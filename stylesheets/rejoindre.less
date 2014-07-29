@@ -14,11 +14,9 @@
   padding-bottom: 50px;
   h1 {
     color: @contrastColor;
-
+    text-transform: none;
     text-align: center;
-    .mainTitle();
     font-size: 52px;
-
   }
 
   .sheep-wrapper {
@@ -39,9 +37,9 @@
   padding-bottom: 50px;
   background-color: @alternativeBackgroundColor;
   h2 {
-    .mainTitle();
     padding-top: 30px;
     font-size: 52px;
+    text-transform: none;
     @media (max-width: @thirdBreakPoint) {
       font-size: 40px;
       margin-left: 10px;
@@ -88,16 +86,7 @@
 
   max-width: 41%;
   margin-right: 8%;
-  p {
-    font-size: 20px;
-    text-align: justify;
-    line-height: 26px;
-    margin-bottom: 45px;
-    @media (max-width: @firstBreakPoint) {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
+
 
   @media (max-width: @secondBreakPoint) {
     display: block;

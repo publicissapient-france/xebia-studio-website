@@ -16,8 +16,10 @@ blockquote {
   margin-right: 40px;
   margin-bottom: 40px;
 
-  p {
+  h1 {
     color: @subTitle;
+    text-transform: none;
+    font-weight: 300;
     font-size: 50px;
     display: inline;
     &:before {
@@ -49,22 +51,14 @@ blockquote {
   margin-bottom: 20px;
   padding-bottom: 30px;
   h2 {
-    color: @subTitle;
+    text-transform: none;
     margin-left: 10px;
     font-size: 52px;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
+
     @media (max-width: @thirdBreakPoint) {
       font-size: 40px;
     }
-  }
-  p {
-    max-width: 95%;
-    text-align: justify;
-    margin-left: 10px;
-    line-height: 20px;
-    margin-bottom: 40px;
   }
 
   .description, .outils-wrapper {
