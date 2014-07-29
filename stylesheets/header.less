@@ -17,14 +17,25 @@ header {
       display: block;
       width: 0;
       @triangleSize: 15px;
-      border-top: @triangleSize solid @colorIndicator;
+      border-bottom: @triangleSize solid @colorIndicator;
       border-left: @triangleSize solid transparent;
       border-right: @triangleSize solid transparent;
 
-      top: @triangleSize + 2px;
+      top: 3px;
       left: 0;
       @media (max-width: @secondBreakPoint) {
         display: none;
+      }
+
+      .inner-indicator {
+        position: absolute;
+        @decalage:2px;
+        top:@decalage;
+        left:-@triangleSize + @decalage;
+        @innerTriangleSize: @triangleSize - @decalage;
+        border-bottom: @innerTriangleSize solid white;
+        border-left: @innerTriangleSize solid transparent;
+        border-right: @innerTriangleSize solid transparent;
       }
     }
 
@@ -79,14 +90,19 @@ header {
       width: 95%/@numberOfLi;
       text-align: center;
 
-      &.selected {
-        font-weight: normal;
-      }
+
 
       a {
         color: @xebiaBackgroundTextColor;
         text-decoration: none;
         font-size: 22px;
+      }
+
+      &.selected {
+        font-weight: normal;
+        a {
+          color:@contrastColor;
+        }
       }
     }
   }
