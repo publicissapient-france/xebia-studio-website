@@ -14,9 +14,11 @@ main {
     }
 
     h2 {
+      font-weight: 300;
       margin-top: 20px;
       text-align: left;
-      font-size: 45px;
+      font-size: 50px;
+      color:@subTitle;
     }
 
     @media (max-width: @firstBreakPoint) {
@@ -44,10 +46,12 @@ main {
     margin-top: 50px;
 
     h2 {
-      font-size: 27px;
+      font-size: 30px;
       padding-bottom: 45px;
       text-transform: uppercase;
       margin-left: 10px;
+      font-weight: 500;
+      color:@subMainTitle;
     }
 
     > section {
@@ -109,7 +113,7 @@ main {
 
   .specialites {
     background-color: @alternativeBackgroundColor;
-    min-height: 560px;
+    min-height: 680px;
 
 
     .speciality-wrapper {
@@ -122,11 +126,17 @@ main {
 
       h3 {
         color: @contrastColor;
+        font-weight:500;
+        font-size: 25px;
+      }
+      p {
+        text-align: left;
       }
 
       a {
+        font-size:18px;
         position: absolute;
-        top: 500px;
+        top: 620px;
 
         @media (max-width: @secondBreakPoint) {
           position: static;
