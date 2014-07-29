@@ -23,7 +23,10 @@
     .leftColumn();
 
     img {
-      height: 330px;
+      width: 430px;
+      @media (max-width: 430px) {
+        width: 100%;
+      }
     }
 
   }
@@ -98,10 +101,10 @@
   text-align: right;
 
   svg {
-    margin-top:12px;
-    margin-right:5px;
-    height:23px;
-    width:23px;
+    margin-top: 12px;
+    margin-right: 5px;
+    height: 23px;
+    width: 23px;
 
     path {
       stroke: @contrastColor;

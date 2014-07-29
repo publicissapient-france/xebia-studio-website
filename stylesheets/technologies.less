@@ -29,6 +29,13 @@ main {
         display: inline-block;
         img {
           height: 70px;
+
+          @media (max-width: 420px) {
+            height: 60px;
+          }
+          @media (max-width: 370px) {
+            height: 50px;
+          }
         }
       }
     }

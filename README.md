@@ -24,7 +24,7 @@ TODO
 
   * certaines images dépasses sur téléphone (mouton, backbone)
   * mettre une marge sur tel
-  * diminuer la taille du menu responsive
+
 
 
 
