@@ -19,10 +19,11 @@ header {
       border-left: @triangleSize solid transparent;
       border-right: @triangleSize solid transparent;
 
-      top:@triangleSize + 12px;
+      top:@triangleSize + 2px;
       left:0;
-
-   //   .transition(left 0.5s);
+      @media (max-width: @secondBreakPoint) {
+        display: none;
+      }
     }
 
     .centering {
@@ -62,7 +63,7 @@ header {
   nav {
     @numberOfLi: 6;
     margin-top: 30px;
-    padding-bottom: 10px;
+
     position: relative;
     ul {
       margin-left: 2%;
@@ -75,13 +76,13 @@ header {
       text-align: center;
 
       &.selected {
-        font-weight: bold;
+        font-weight: normal;
       }
 
       a {
         color: @xebiaBackgroundTextColor;
         text-decoration: none;
-
+        font-size: 22px;
       }
     }
   }

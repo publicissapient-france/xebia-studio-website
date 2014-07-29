@@ -6,8 +6,6 @@ Site Web de Xebia Studio - Le Retour
 TODO
 ----
 
- * Transformer les H1 en H2
-
  * Mot clef
  * favicon
  * le carousel du home
