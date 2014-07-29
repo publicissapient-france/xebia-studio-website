@@ -6,9 +6,6 @@ Site Web de Xebia Studio - Le Retour
 TODO
 ----
 
-
- * logo mail dans les contacts
-
  * Transformer les H1 en H2
 
  * Mot clef
