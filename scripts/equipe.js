@@ -21,7 +21,7 @@
             return equipierTemplate({
                 name: equipier.name,
                 role: equipier.role,
-                urlPhoto: 'images/equipe/' + toPhotoUrl(equipier.name) + '.jpg'
+                urlPhoto: toPhotoUrl(equipier.name)
             });
         }).join('');
 

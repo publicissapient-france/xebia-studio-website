@@ -32,7 +32,7 @@ window.EQUIPE = [
         role: "Are you so big?"
     },
     {
-        name: "Florent le Falle",
+        name: "Florent LeGall",
         role: "JS or not JS?"
     },
     {
@@ -76,7 +76,7 @@ window.EQUIPE = [
         role: "Consultant"
     },
     {
-        name: "Julien Smardja",
+        name: "Julien Smadja",
         role: "don't play with REST"
     }
 ];
