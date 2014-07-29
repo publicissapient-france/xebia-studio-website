@@ -1,0 +1,8 @@
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+# Files
+Disallow: /CNAME
