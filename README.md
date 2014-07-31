@@ -14,7 +14,7 @@ TODO
 
   * Documenter pour expliquer comment ca marche
   * LOgo grails a retrouver
-  * Logo Node à retrouver
+  
   * Logo android à retrouver
   * Mentions légales
   * Remettre les boutons sociaux en haut
