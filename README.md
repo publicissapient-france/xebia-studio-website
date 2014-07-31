@@ -13,8 +13,8 @@ TODO
   * Le texte de Mobile est pas bon
 
   * Documenter pour expliquer comment ca marche
-  * LOgo grails a retrouver
   
+
   * Logo android à retrouver
   * Mentions légales
   * Remettre les boutons sociaux en haut
