@@ -23,28 +23,12 @@ TODO
 ----
 
   * Mot clef
-  * favicon
   * Le texte de Data est pas top
   * Le texte de Mobile est pas bon
   * Mentions légales
   * Remettre les boutons sociaux en haut
+  * Le texte en haut de client
+  * les clients ont ils des liens ?
+
 
   - De manière, générale, je diminuerai la taille du site (il est bien quand je suis à 75% de zoom sur mon navigateur).
-
-
-
-  - Sur la Home, dans la partie Culture, ça serait bien de couper les guillemets autrement autour de "Craftmen".
-  - Faire la page client
-
-
-
-
-
-
-
-
-
-
-
-
-

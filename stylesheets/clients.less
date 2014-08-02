@@ -1,0 +1,37 @@
+.clients {
+  background-color: @alternativeBackgroundColor;
+
+  h2 {
+    font-size: 52px;
+    text-align: center;
+    text-transform: none;
+  }
+
+  .clients-logo {
+    text-align: center;
+  }
+  .client-logo {
+
+    @logoSize:180px;
+    width: @logoSize;
+    height: 105px;
+    display: inline-block;
+    background-image: url('../images/clients/Spite-logos-Studio.png');
+
+
+
+    &.client-0 {
+      background-position: @logoSize * -0 center;
+    }
+    &.client-1 {
+      background-position: @logoSize * -1 center;
+    }
+    &.client-2 {
+      background-position: @logoSize * -2 center;
+    }
+    &.client-3 {
+      background-position: @logoSize * -3 center;
+    }
+
+  }
+}

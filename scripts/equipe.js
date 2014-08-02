@@ -1,4 +1,4 @@
-(function (TEMPLATES, EQUIPES) {
+(function (TEMPLATES, equipe) {
 
     var toPhotoUrl = function (name) {
 
@@ -12,10 +12,7 @@
 
     $(function () {
 
-
         var equipierTemplate = TEMPLATES['equipier'];
-
-        var equipe = EQUIPE;
 
         var html = equipe.map(function (equipier) {
             return equipierTemplate({
@@ -28,4 +25,4 @@
         $('#equipiers').append(html);
 
     });
-})(window.TEMPLATES, window.EQUIPES);
+})(window.TEMPLATES, window.EQUIPE);
