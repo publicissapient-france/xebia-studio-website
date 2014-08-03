@@ -12,25 +12,136 @@
   }
   .client-logo {
 
-    @logoSize:180px;
-    width: @logoSize;
-    height: 105px;
+    @logoWidth: 160px;
+    @logoMargin: 25px;
+    width: @logoWidth;
+    height: 115px;
+
     display: inline-block;
     background-image: url('../images/clients/Spite-logos-Studio.png');
+    margin: @logoMargin;
+    background-repeat: no-repeat;
 
+    .adjustWidth(@width) {
+      @width: 190px;
+      width: @width;
+      margin-left: @logoMargin -  (@width -  @logoWidth )/2;
+      margin-right: @logoMargin -  (@width -  @logoWidth )/2;
+    }
 
+    &.client-viadeo {
+      background-position: 20px center;
+    }
 
-    &.client-0 {
-      background-position: @logoSize * -0 center;
+    &.client-allianz {
+      background-position: -181px center;
     }
-    &.client-1 {
-      background-position: @logoSize * -1 center;
+
+    &.client-via-michelin {
+      background-position: -401px center;
     }
-    &.client-2 {
-      background-position: @logoSize * -2 center;
+
+    &.client-canal_plus {
+      background-position: -597px center;
     }
-    &.client-3 {
-      background-position: @logoSize * -3 center;
+
+    &.client-mappy {
+      background-position: -779px center;
+    }
+    &.client-ubisoft {
+      background-position: -956px center;
+    }
+    &.client-orange {
+      background-position: -1163px center;
+    }
+    &.client-la-poste {
+      background-position: -1388px center;
+    }
+    &.client-publicis {
+      background-position: -1579px center;
+    }
+    &.client-sanofi {
+      background-position: -1762px center;
+    }
+    &.client-fdj {
+      background-position: -1955px center;
+    }
+    &.client-pages-jaunes {
+      background-position: -2158px center;
+    }
+    &.client-pmu {
+      background-position: -2379px center;
+    }
+    &.client-insee {
+      background-position: -2579px center;
+    }
+    &.client-sacem {
+      background-position: -2756px center;
+    }
+    &.client-sfr {
+      background-position: -2940px center;
+    }
+    &.client-lb-poker {
+      background-position: -3150px center;
+    }
+    &.client-jc-decaux {
+      background-position: -3367px center;
+    }
+    &.client-sncf {
+      background-position: -3566px center;
+    }
+    &.client-credit-agricole {
+      background-position: -3749px center;
+    }
+    &.client-egencia {
+      background-position: -3947px center;
+    }
+    &.client-b-for-bank {
+      background-position: -4149px center;
+    }
+    &.client-bnp-paribas {
+      .adjustWidth(190px);
+      background-position: -4350px center;
+    }
+    &.client-air-france {
+      background-position: -4568px center;
+    }
+    &.client-cofiroute {
+      background-position: -4749px center;
+    }
+    &.client-conseil-d_etat {
+      background-position: -4939px center;
+    }
+    &.client-manpower {
+      background-position: -5139px center;
+    }
+    &.client-voyages-scnf_com {
+      background-position: -5362px center;
+    }
+    &.client-bi-sam {
+      background-position: -5562px center;
+    }
+    &.client-banque-de-france {
+      background-position: -5740px center;
+    }
+    &.client-emailvision {
+      .adjustWidth(170px);
+      background-position: -5952px center;
+    }
+    &.client-alstom {
+
+      background-position: -6159px center;
+    }
+    &.client-vente-privee_com {
+
+      .adjustWidth(188px);
+      background-position: -6348px center;
+    }
+    &.client-ratp {
+      background-position: -6578px center;
+    }
+    &.client-pole-emploi {
+      background-position: -6757px center;
     }
 
   }

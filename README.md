@@ -28,7 +28,7 @@ TODO
   * Mentions légales
   * Remettre les boutons sociaux en haut
   * Le texte en haut de client
-  * les clients ont ils des liens ?
+
 
 
   - De manière, générale, je diminuerai la taille du site (il est bien quand je suis à 75% de zoom sur mon navigateur).

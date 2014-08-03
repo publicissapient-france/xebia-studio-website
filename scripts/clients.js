@@ -1,7 +1,7 @@
 (function (TEMPLATES, clients) {
 
     var slurp = function (str) {
-        return str.replace(/\s/g, '-').replace(/\+/g, '_plus').toLowerCase()
+        return str.replace(/\s/g, '-').replace(/['.]/g, '_').replace(/[ô]/g, 'o').replace(/[éè]/g, 'e').replace(/\+/g, '_plus').toLowerCase()
     };
 
     $(function () {
