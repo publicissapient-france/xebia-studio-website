@@ -25,10 +25,8 @@ TODO
   * Mot clef
   * Le texte de Data est pas top
   * Le texte de Mobile est pas bon
-  * Mentions légales
-  * Remettre les boutons sociaux en haut
   * Le texte en haut de client
+  * Mentions légales
 
 
-  - extraires les tailels dans un fichier de variables
-  - De manière, générale, je diminuerai la taille du site (il est bien quand je suis à 75% de zoom sur mon navigateur).
+

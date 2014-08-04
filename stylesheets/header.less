@@ -29,9 +29,9 @@ header {
 
       .inner-indicator {
         position: absolute;
-        @decalage:2px;
-        top:@decalage;
-        left:-@triangleSize + @decalage;
+        @decalage: 2px;
+        top: @decalage;
+        left: -@triangleSize + @decalage;
         @innerTriangleSize: @triangleSize - @decalage;
         border-bottom: @innerTriangleSize solid white;
         border-left: @innerTriangleSize solid transparent;
@@ -53,24 +53,80 @@ header {
 
     .contact-bloc {
       float: right;
+      @media (max-width: @thirdBreakPoint) {
+        .clearFloat();
+      }
     }
 
-    .bottom-part {
+    @topMenuSize: 18px;
+
+    .left-part, .right-part {
+      display: inline-block;
       margin-top: 15px;
+
+      @media (max-width: @secondBreakPoint) {
+        display: block;
+        margin-top: 5px;
+      }
+
+      @media (max-width: @thirdBreakPoint) {
+        display: inline-block;
+
+      }
       a {
         color: @contrastColor;
-        text-decoration: none;
-        margin-left: 45px;
-        font-size: 18px;
-        font-weight: normal;
-        @media (max-width: @secondBreakPoint) {
-          margin-left: 5px;
-        }
+        font-size: @topMenuSize;
 
         &:visited {
           color: @contrastColor;
           text-decoration: none;
         }
+      }
+    }
+
+    .left-part {
+      border-right: 1px solid @contrastColor;
+      padding-right: 20px;
+
+      .socicon {
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+      }
+
+      @media (max-width: @secondBreakPoint) {
+        padding-right: 0;
+        border: none;
+
+        .socicon {
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+      }
+
+      @media (max-width: @thirdBreakPoint) {
+        float: left;
+      }
+    }
+    .right-part {
+
+      a {
+        color: @contrastColor;
+        text-decoration: none;
+        margin-left: 30px;
+        &:first-child {
+          margin-left: 20px;
+        }
+        font-weight: normal;
+        @media (max-width: @secondBreakPoint) {
+          margin-left: 5px;
+
+          &:first-child {
+            margin-left: 5px;
+          }
+        }
+
       }
     }
   }
@@ -90,8 +146,6 @@ header {
       width: 95%/@numberOfLi;
       text-align: center;
 
-
-
       a {
         color: @xebiaBackgroundTextColor;
         text-decoration: none;
@@ -101,7 +155,7 @@ header {
       &.selected {
         font-weight: normal;
         a {
-          color:@contrastColor;
+          color: @contrastColor;
         }
       }
     }
