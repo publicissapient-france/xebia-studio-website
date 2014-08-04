@@ -30,5 +30,5 @@ TODO
   * Le texte en haut de client
 
 
-
+  - extraires les tailels dans un fichier de variables
   - De manière, générale, je diminuerai la taille du site (il est bien quand je suis à 75% de zoom sur mon navigateur).

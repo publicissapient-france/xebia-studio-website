@@ -20,7 +20,7 @@ blockquote {
     color: @subTitle;
     text-transform: none;
     font-weight: 300;
-    font-size: 50px;
+    .bigFontSize();
     display: inline;
     &:before {
       content: '«\0000a0'
@@ -29,9 +29,6 @@ blockquote {
       content: '\0000a0»'
     }
 
-    @media (max-width: @thirdBreakPoint) {
-      font-size: 40px;
-    }
   }
 
   cite {
@@ -53,12 +50,8 @@ blockquote {
   h2 {
     text-transform: none;
     margin-left: 10px;
-    font-size: 52px;
+    .bigFontSize();
     text-align: center;
-
-    @media (max-width: @thirdBreakPoint) {
-      font-size: 40px;
-    }
   }
 
   .description, .outils-wrapper {

@@ -11,3 +11,26 @@
 @firstBreakPoint: 1024px;
 @secondBreakPoint: 820px;
 @thirdBreakPoint: 400px;
+
+
+@veryBigFontSize:70px;
+@bigFontSize:52px;
+@bigFontSizeResponsive:40px;
+@standardTextSize:18px;
+@defaultTitleSize:35px;
+
+.veryBigFontSize() {
+  font-size: @veryBigFontSize;
+
+  @media (max-width: @thirdBreakPoint) {
+    font-size: @bigFontSize;
+  }
+}
+
+.bigFontSize() {
+  font-size: @bigFontSize;
+
+  @media (max-width: @thirdBreakPoint) {
+    font-size: @bigFontSizeResponsive;
+  }
+}

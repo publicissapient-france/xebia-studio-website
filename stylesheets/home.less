@@ -9,12 +9,12 @@ main {
     }
     h1 {
       color: @xebiaColor;
-      font-size: 70px;
+      .veryBigFontSize();
     }
 
     h2 {
       color: @subTitle;
-      font-size: 50px;
+      .bigFontSize();
       font-weight: 300;
 
       margin-top: 20px;
@@ -28,13 +28,10 @@ main {
 
     @media (max-width: @secondBreakPoint) {
       h1 {
-        font-size: 50px;
         margin-top: 30px;
       }
 
-      h2 {
-        font-size: 35px;
-      }
+
     }
   }
 
@@ -45,7 +42,7 @@ main {
     margin-top: 50px;
 
     h2 {
-      font-size: 30px;
+      font-size: @defaultTitleSize * 0.85;
       padding-bottom: 45px;
       text-transform: uppercase;
       margin-left: 10px;
@@ -124,7 +121,7 @@ main {
       }
 
       a {
-        font-size: 18px;
+        font-size: @standardTextSize;
         position: absolute;
         top: @positionLink;
 

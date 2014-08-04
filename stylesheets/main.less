@@ -23,7 +23,7 @@ a {
 
 h1, h2 {
   color: @subTitle;
-  font-size: 35px;
+  font-size: @defaultTitleSize;
   padding-bottom: 40px;
   text-transform: uppercase;
 }
@@ -35,7 +35,7 @@ h2 {
 p, li {
   color: @subMainTitle;
   font-weight: 300;
-  font-size: 18px;
+  font-size: @standardTextSize;
 }
 
 p {
@@ -75,7 +75,7 @@ p {
   h3 {
     color: @contrastColor;
     font-weight: 500;
-    font-size: 25px;
+    font-size: @defaultTitleSize * 0.71;
     text-transform: uppercase;
     text-align: center;
     border-bottom: 1px solid @xebiaBackgroundTextColor;
@@ -117,14 +117,14 @@ p {
     margin-top: 10px;
     display: block;
     color: @contrastColor;
-    font-size: 18px;
+    font-size: @standardTextSize;
   }
   .role {
     margin-top: 5px;
     display: block;
     color: @xebiaBackgroundTextColor;
     font-weight: 300;
-    font-size: 14px;
+    font-size: @standardTextSize * 0.78;
   }
 }
 
