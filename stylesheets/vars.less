@@ -12,12 +12,12 @@
 @secondBreakPoint: 820px;
 @thirdBreakPoint: 400px;
 
-
-@veryBigFontSize:70px;
-@bigFontSize:52px;
-@bigFontSizeResponsive:40px;
-@standardTextSize:18px;
-@defaultTitleSize:35px;
+@reductionFactor : 0.9;
+@veryBigFontSize: 70px * @reductionFactor;
+@bigFontSize: 52px * @reductionFactor;
+@bigFontSizeResponsive: 40px * @reductionFactor;
+@standardTextSize: 18px * @reductionFactor;
+@defaultTitleSize: 35px * @reductionFactor;
 
 .veryBigFontSize() {
   font-size: @veryBigFontSize;
