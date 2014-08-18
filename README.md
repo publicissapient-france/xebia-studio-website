@@ -24,7 +24,6 @@ TODO
 
   * Mot clef
   * Le texte de Data est pas top
-  * Le texte de Mobile est pas bon
   * Le texte en haut de client
   * Mentions légales
 
