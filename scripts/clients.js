@@ -18,6 +18,6 @@
         }).join('');
 
         $('#clients-logo').append(html);
-        console.log(html)
+
     });
 })(window.TEMPLATES, window.CLIENTS);
