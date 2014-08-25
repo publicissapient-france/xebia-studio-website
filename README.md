@@ -27,7 +27,6 @@ TODO
   * Le texte en haut de client
   * Mentions légales
   * Icone pour Product Owener ship sur valeur
-  * mettre citation au dessus de PO dans valeurs :
-    Steve Jobs "Deciding not to do is as important as deciding what to do"
+  "
 
 

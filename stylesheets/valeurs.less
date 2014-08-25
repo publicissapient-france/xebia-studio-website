@@ -43,6 +43,23 @@ blockquote {
   }
 }
 
+.po-quote {
+  margin-top:60px;
+  h2 {
+    text-transform: none;
+    color: @subTitle;
+    font-weight: 300;
+    .bigFontSize();
+    display: inline;
+    &:before {
+      content: '«\0000a0'
+    }
+    &:after {
+      content: '\0000a0»'
+    }
+  }
+}
+
 .craftsmanship, .product-ownership {
   background-color: @alternativeBackgroundColor;
   margin-bottom: 20px;
