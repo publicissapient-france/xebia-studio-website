@@ -1,3 +1,16 @@
+//FONT SIZE
+@bigTitleSize: 50px;
+@mainTitleSize: 36px;
+@defaultTitleSize: 28px;
+@subTitleSize: 24px;
+@subSubTitleSize: 21px;
+
+@standardTextSize: 18px;
+@bigTextSize: 20px;
+@littleTextSize: 16px;
+
+
+//COLOR AND MISC.
 @xebiaColor: #6C1D5F;
 @xebiaLightColor: #7B5A77;
 @xebiaBackgroundTextColor: #4A4A4A;
@@ -12,25 +25,18 @@
 @secondBreakPoint: 820px;
 @thirdBreakPoint: 400px;
 
-@reductionFactor : 0.7;
-@veryBigFontSize: 70px * @reductionFactor;
-@bigFontSize: 52px * @reductionFactor;
-@bigFontSizeResponsive: 40px * @reductionFactor;
-@standardTextSize: 18px * @reductionFactor;
-@defaultTitleSize: 35px * @reductionFactor;
-
 .veryBigFontSize() {
-  font-size: @veryBigFontSize;
+  font-size: @bigTitleSize;
 
   @media (max-width: @thirdBreakPoint) {
-    font-size: @bigFontSize;
+    font-size: @mainTitleSize;
   }
 }
 
 .bigFontSize() {
-  font-size: @bigFontSize;
+  font-size: @mainTitleSize;
 
   @media (max-width: @thirdBreakPoint) {
-    font-size: @bigFontSizeResponsive;
+    font-size: @defaultTitleSize;
   }
 }
