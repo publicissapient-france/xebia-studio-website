@@ -26,7 +26,7 @@ TODO
   * Le texte de Data est pas top
   * Le texte en haut de client
   * Mentions légales
-  * Icone pour Product Owener ship sur valeur
+  * Icone pour Product Owner ship sur valeur
 
 
 
