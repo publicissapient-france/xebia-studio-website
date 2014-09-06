@@ -19,14 +19,5 @@ Déployer en prod
   * Lancer la commande <code>npm run deploy</code>
 
 
-TODO
-----
-
-  * Mot clef
-  * Le texte de Data est pas top
-  * Le texte en haut de client
-  * Mentions légales
-  * Icone pour Product Owner ship sur valeur
-
 
 
