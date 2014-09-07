@@ -46,6 +46,12 @@ footer {
     }
 
   }
+
+  .mentions-legales {
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
   .alliancy {
 
     @footerColor: white;
@@ -128,6 +134,40 @@ footer {
       @media (max-width: 470px) {
         float: none;
       }
+    }
+  }
+}
+
+#mentions-legales-popup {
+  display: none;
+  position: fixed;
+  top: 30px;
+
+  left: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid @alternativeBackgroundColor;
+  .box-shadow(5px 5px 5px #888);
+
+  h2 {
+    .clearFloat();
+
+    .close {
+      float: right;
+      border-radius: 100%;
+      background-color: transparent;
+      cursor: pointer;
+      border: 1px solid @subMainTitle;
+      color: @subMainTitle;
+
+
+      &:hover {
+        border: 1px solid lighten(@subMainTitle, 10%);
+        color: lighten(@subMainTitle, 10%);
+      }
+
     }
   }
 }
