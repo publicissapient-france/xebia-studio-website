@@ -31,7 +31,6 @@ main {
         margin-top: 30px;
       }
 
-
     }
   }
 
@@ -100,8 +99,8 @@ main {
 
   .specialites {
     @positionLink: 645px;
-    background-color: @alternativeBackgroundColor;
     min-height: @positionLink + 70px;
+    background-color: @alternativeBackgroundColor;
 
     .speciality-wrapper {
 
@@ -110,7 +109,7 @@ main {
 
       &.technology img {
         //Croix moche :'(
-        position:relative;
+        position: relative;
         left: -12px;
       }
 
@@ -126,6 +125,16 @@ main {
         @media (max-width: @secondBreakPoint) {
           position: static;
           top: 0;
+        }
+      }
+    }
+
+    @media (max-width: @firstBreakPoint) {
+      @positionLink: 770px;
+      min-height: @positionLink + 70px;
+      .speciality-wrapper {
+        a {
+          top: @positionLink;
         }
       }
     }
