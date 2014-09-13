@@ -45,3 +45,17 @@
     }
   }
 }
+
+.linkColored(@color) {
+  color: @color;
+  .transition(color 0.3s);
+  &:visited {
+    color: @color;
+  }
+  &:hover {
+    color: lighten(@color, 10%);
+  }
+  &:visited:hover {
+    color: lighten(@color, 10%);
+  }
+}
