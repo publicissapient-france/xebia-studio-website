@@ -36,7 +36,41 @@ var distTasks = ['_image', '_html', '_resources', '_fonts'];
             .pipe(deploy());
     };
     var imageTask = function () {
-        return gulp.src(paths.images).pipe(imagemin()).pipe(gulp.dest(paths.dist + '/images'));
+        return gulp.src(paths.images).pipe(imagemin({
+		svgoPlugins: [
+		{cleanupAttrs:false},
+{cleanupEnableBackground:false},
+{cleanupIDs:false},
+{cleanupNumericValues:false},
+{collapseGroups:false},
+{convertColors:false},
+{convertPathData:false},
+{convertShapeToPath:false},
+{convertStyleToAttrs:false},
+{convertTransform:false},
+{mergePaths:false},
+{moveElemsAttrsToGroup:false},
+{moveGroupAttrsToElems:false},
+{removeComments:false},
+{removeDoctype:false},
+{removeEditorsNSData:false},
+{removeEmptyAttrs:false},
+{removeEmptyContainers:false},
+{removeEmptyText:false},
+{removeHiddenElems:false},
+{removeMetadata:false},
+{removeNonInheritableGroupAttrs:false},
+{removeRasterImages:false},
+{removeTitle:false},
+{removeUnknownsAndDefaults:false},
+{removeUnusedNS:false},
+{removeUselessStrokeAndFill:false},
+{removeViewBox:false},
+{removeXMLProcInst:false},
+{sortAttrs:false},
+{transformsWithOnePath:false}
+		]
+	})).pipe(gulp.dest(paths.dist + '/images'));
     };
     var resourcesTask = function () {
         gulp.src(paths.resources).pipe(gulp.dest(paths.dist));
