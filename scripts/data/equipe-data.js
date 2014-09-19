@@ -16,7 +16,7 @@ window.EQUIPE = [
         role: "Poxying the product owner"
     },
     {
-        name: "Thibaut Cavin",
+        name: "Thibaud Cavin",
         role: "Top over Top"
     },
     {
