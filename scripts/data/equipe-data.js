@@ -53,7 +53,7 @@ window.EQUIPE = [
     },
     {
         name: "Nicolas Jozwiak",
-        role: "Technical dbt hinter"
+        role: "Technical debt hinter"
     },
     {
         name: "Simone Civetta",
