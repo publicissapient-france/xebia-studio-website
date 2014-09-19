@@ -32,7 +32,7 @@ window.EQUIPE = [
         role: "Are you so big?"
     },
     {
-        name: "Florent LeGall",
+        name: "Florent Le Gall",
         role: "JS or not JS?"
     },
     {
