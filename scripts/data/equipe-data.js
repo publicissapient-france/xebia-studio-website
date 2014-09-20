@@ -48,7 +48,7 @@ window.EQUIPE = [
         role: "Coaching for ever"
     },
     {
-        name: "Gauthier Mechling",
+        name: "Gautier Mechling",
         role: "Software Craftsman"
     },
     {
