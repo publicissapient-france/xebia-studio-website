@@ -45,7 +45,7 @@ window.EQUIPE = [
     },
     {
         name: "Laurène Vol",
-        role: "Coasching for ever"
+        role: "Coaching for ever"
     },
     {
         name: "Gauthier Mechling",
