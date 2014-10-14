@@ -132,18 +132,26 @@ header {
   }
 
   nav {
-    @numberOfLi: 6;
+
     margin-top: 30px;
 
     position: relative;
     ul {
       margin-left: 2%;
       margin-right: 2%;
+      text-align: center;
     }
 
     li {
       display: inline-block;
-      width: 95%/@numberOfLi;
+      padding-left:20px;
+      padding-right:20px;
+
+      @media (max-width: @firstBreakPoint) {
+        padding-left:8px;
+        padding-right:8px;
+      }
+
       text-align: center;
 
       a {
