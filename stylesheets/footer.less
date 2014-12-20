@@ -81,11 +81,11 @@ footer {
       }
     }
 
+    @taglineSize:636px;
     .tagline-alliance {
-      width: 450px;
-      margin: auto;
-      margin-bottom: 15px;
-      @media (max-width: 470px) {
+      width: @taglineSize;
+      margin: auto auto 15px;
+      @media (max-width: @taglineSize) {
         width: 100%;
       }
 
@@ -105,7 +105,7 @@ footer {
         font-size: 11px;
         letter-spacing: 1px;
 
-        @media (max-width: 470px) {
+        @media (max-width: @taglineSize) {
           float: none;
           text-align: center;
           .unused {
@@ -122,7 +122,7 @@ footer {
           text-decoration: underline;
         }
 
-        @media (max-width: 470px) {
+        @media (max-width: @taglineSize) {
           display: block;
         }
       }
@@ -131,7 +131,7 @@ footer {
     .logo-alliance {
       margin-top: 10px;
       float: left;
-      @media (max-width: 470px) {
+      @media (max-width: @taglineSize) {
         float: none;
       }
     }
