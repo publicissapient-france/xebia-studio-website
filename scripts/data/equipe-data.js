@@ -1,83 +1,131 @@
 window.EQUIPE = [
     {
-        name: "Philippe Antoine",
-        role: "Consultant"
+        name: "Philippe Antoine"
     },
     {
-        name: "François Laurain",
-        role: "Wait for it!"
+        name: "François Laurain"
     },
     {
-        name: "Julien Renault",
-        role: "Commercial"
+        name: "Nicolas Thénoz"
     },
     {
-        name: "Nicolas Thénoz",
-        role: "Poxying the product owner"
+        name: "Thibaud Cavin"
     },
     {
-        name: "Thibaud Cavin",
-        role: "Top over Top"
+        name: "Mathieu Bigorne"
     },
     {
-        name: "Mathieu Bigorne",
-        role: "Consultant"
+        name: "Christophe Pelé"
     },
     {
-        name: "Christophe Pelé",
-        role: "Software Craftsman"
+        name: "Mathieu Breton"
     },
     {
-        name: "Mathieu Breton",
-        role: "Are you so big?"
+        name: "Florent Le Gall"
     },
     {
-        name: "Florent Le Gall",
-        role: "JS or not JS?"
+        name: "Benjamin Lacroix"
     },
     {
-        name: "Benjamin Lacroix",
-        role: "Front craftsman, Android dummy"
+        name: "Nicolas Jozwiak"
     },
     {
-        name: "Bastien Caudan",
-        role: "Software Craftsman"
+        name: "Simone Civetta"
     },
     {
-        name: "Laurène Vol",
-        role: "Coaching for ever"
+        name: "Alexis Kinsella"
     },
     {
-        name: "Gautier Mechling",
-        role: "Software Craftsman"
+        name: "Thomas Guérin"
     },
     {
-        name: "Nicolas Jozwiak",
-        role: "Technical debt hunter"
+        name: "Julien Smadja"
     },
     {
-        name: "Simone Civetta",
-        role: "Mobile hooligan iOS craftsman"
+        name: "Mathieu Dulac"
     },
     {
-        name: "Alexis Kinsella",
-        role: "Consultant"
+        name: "Fabian Gutierrez"
     },
     {
-        name: "Yannick Grezinger",
-        role: "Consultant"
+        name: "Vincent Spiewack"
     },
     {
-        name: "Thomas Guérin",
-        role: "Consultant"
+        name: "Xavier Bucchiotty"
     },
     {
-        name: "Mounir Boudraa",
-        role: "Consultant"
+        name: "Bouziane Belhadi"
     },
     {
-        name: "Julien Smadja",
-        role: "don't play with REST"
+        name: "Jérémie Martinez"
+    },
+    {
+        name: "Romain Niveau"
+    },
+    {
+        name: "Jérémy Pinsolle"
+    },
+    {
+        name: "Meriem El Aaboudi"
+    },
+    {
+        name: "Jérémy Vinay"
+    },
+    {
+        name: "Michael Caylus"
+    },
+    {
+        name: "Arnaud Piroelle"
+    },
+    {
+        name: "Fabien Mirault"
+    },
+    {
+        name: "Rodolphe Bung"
+    },
+    {
+        name: "Asdine El Hrychy"
+    },
+    {
+        name: "Sergio Dos Santos"
+    },
+    {
+        name: "Jean-Baptiste Claramonte"
+    },
+    {
+        name: "Alexandre Hebert"
+    },
+    {
+        name: "Alexandre Dergham"
+    },
+    {
+        name: "Tomas Rodriguez"
+    },
+    {
+        name: "Jérôme Doucet"
+    },
+    {
+        name: "Pablo Lopez"
+    },
+    {
+        name: "Ludovic Pérot"
+    },
+    {
+        name: "Pascal Drouilly"
+    },
+    {
+        name: "Jean-Christophe Pastant"
+    },
+    {
+        name: "Qian Jin"
+    },
+    {
+        name: "Roksolana Ivanyshyn"
+    },
+    {
+        name: "Ilja Kempf"
+    },
+    {
+        name: "Sylvain Lequeux"
     }
 ];
-
