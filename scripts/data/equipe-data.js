@@ -3,129 +3,123 @@ window.EQUIPE = [
         name: "Philippe Antoine"
     },
     {
-        name: "François Laurain"
-    },
-    {
-        name: "Nicolas Thénoz"
-    },
-    {
-        name: "Thibaud Cavin"
-    },
-    {
-        name: "Mathieu Bigorne"
-    },
-    {
-        name: "Christophe Pelé"
-    },
-    {
-        name: "Mathieu Breton"
-    },
-    {
-        name: "Florent Le Gall"
-    },
-    {
-        name: "Benjamin Lacroix"
-    },
-    {
-        name: "Nicolas Jozwiak"
-    },
-    {
-        name: "Simone Civetta"
-    },
-    {
-        name: "Alexis Kinsella"
-    },
-    {
-        name: "Thomas Guérin"
-    },
-    {
-        name: "Julien Smadja"
-    },
-    {
-        name: "Mathieu Dulac"
-    },
-    {
-        name: "Fabian Gutierrez"
-    },
-    {
-        name: "Vincent Spiewack"
+        name: "Bouziane Belhadi"
     },
     {
         name: "Xavier Bucchiotty"
     },
     {
-        name: "Bouziane Belhadi"
+        name: "Sarah Buisson"
     },
     {
-        name: "Jérémie Martinez"
-    },
-    {
-        name: "Romain Niveau"
-    },
-    {
-        name: "Jérémy Pinsolle"
-    },
-    {
-        name: "Meriem El Aaboudi"
-    },
-    {
-        name: "Jérémy Vinay"
-    },
-    {
-        name: "Michael Caylus"
-    },
-    {
-        name: "Arnaud Piroelle"
-    },
-    {
-        name: "Fabien Mirault"
+        name: "Mathieu Breton"
     },
     {
         name: "Rodolphe Bung"
     },
     {
-        name: "Asdine El Hrychy"
+        name: "Florent Capon"
     },
     {
-        name: "Sergio Dos Santos"
+        name: "Thibaud Cavin"
+    },
+    {
+        name: "Michael Caylus"
     },
     {
         name: "Jean-Baptiste Claramonte"
     },
     {
-        name: "Alexandre Hebert"
+        name: "Simone Civetta"
     },
     {
         name: "Alexandre Dergham"
     },
     {
-        name: "Tomas Rodriguez"
+        name: "Sergio Dos Santos"
     },
     {
         name: "Jérôme Doucet"
     },
     {
-        name: "Pablo Lopez"
-    },
-    {
-        name: "Ludovic Pérot"
-    },
-    {
         name: "Pascal Drouilly"
     },
     {
-        name: "Jean-Christophe Pastant"
+        name: "Mathieu Dulac"
     },
     {
-        name: "Qian Jin"
+        name: "Meriem El Aaboudi"
+    },
+    {
+        name: "Asdine El Hrychy"
+    },
+    {
+        name: "Thomas Guérin"
+    },
+    {
+        name: "Fabian Gutierrez"
+    },
+    {
+        name: "Alexandre Hebert"
     },
     {
         name: "Roksolana Ivanyshyn"
     },
     {
+        name: "Qian Jin"
+    },
+    {
+        name: "Nicolas Jozwiak"
+    },
+    {
         name: "Ilja Kempf"
     },
     {
+        name: "Benjamin Lacroix"
+    },
+    {
+        name: "François Laurain"
+    },
+    {
         name: "Sylvain Lequeux"
+    },
+    {
+        name: "Pablo Lopez"
+    },
+    {
+        name: "Jérémie Martinez"
+    },
+    {
+        name: "Fabien Mirault"
+    },
+    {
+        name: "Romain Niveau"
+    },
+    {
+        name: "Jean-Christophe Pastant"
+    },
+    {
+        name: "Christophe Pelé"
+    },
+    {
+        name: "Ludovic Pérot"
+    },
+    {
+        name: "Jérémy Pinsolle"
+    },
+    {
+        name: "Arnaud Piroelle"
+    },
+    {
+        name: "Tomas Rodriguez"
+    },
+    {
+        name: "Julien Smadja"
+    },
+    {
+        name: "Nicolas Thénoz"
+    },
+    {
+        name: "Jérémy Vinay"
     }
 ];
