@@ -51,9 +51,6 @@ window.EQUIPE = [
         name: "Meriem El Aaboudi"
     },
     {
-        name: "Asdine El Hrychy"
-    },
-    {
         name: "Thomas Guérin"
     },
     {
