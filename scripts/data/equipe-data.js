@@ -9,10 +9,13 @@ window.EQUIPE = [
         name: "Sameh Ben Fredj"
     },
     {
+        name: "Matthieu Blanc"
+    },
+    {
         name: "Kévin Boquet"
     },
     {
-        name: "Matthieu Blanc"
+        name: "Fatiha Bouad"
     },
     {
         name: "Xavier Bucchiotty"
@@ -21,13 +24,10 @@ window.EQUIPE = [
         name: "Sarah Buisson"
     },
     {
-        name: "Mathieu Breton"
-    },
-    {
-        name: "Rodolphe Bung"
-    },
-    {
         name: "Florent Capon"
+    },
+    {
+        name: "Thomas Carvahlo"
     },
     {
         name: "Thibaud Cavin"
@@ -58,6 +58,9 @@ window.EQUIPE = [
     },
     {
         name: "Pascal Drouilly"
+    },
+    {
+        name: "Charles Dufour"
     },
     {
         name: "Mathieu Dulac"
@@ -139,5 +142,8 @@ window.EQUIPE = [
     },
     {
         name: "Jérémy Vinay"
+    },
+    {
+        name: "Evgeny Yurchuk"
     }
 ];
