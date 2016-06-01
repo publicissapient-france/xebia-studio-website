@@ -3,16 +3,10 @@ window.EQUIPE = [
         name: "Philippe Antoine"
     },
     {
-        name: "Bouziane Belhadi"
-    },
-    {
         name: "Sameh Ben Fredj"
     },
     {
         name: "Matthieu Blanc"
-    },
-    {
-        name: "Kévin Boquet"
     },
     {
         name: "Fatiha Bouad"
@@ -34,9 +28,6 @@ window.EQUIPE = [
     },
     {
         name: "Michael Caylus"
-    },
-    {
-        name: "Florent Champigny"
     },
     {
         name: "Frédéric Courdier"
@@ -75,9 +66,6 @@ window.EQUIPE = [
         name: "Fabian Gutierrez"
     },
     {
-        name: "Alexandre Hebert"
-    },
-    {
         name: "Roksolana Ivanyshyn"
     },
     {
@@ -94,9 +82,6 @@ window.EQUIPE = [
     },
     {
         name: "François Laurain"
-    },
-    {
-        name: "Sébastian Lemerdy"
     },
     {
         name: "Sylvain Lequeux"
@@ -120,30 +105,12 @@ window.EQUIPE = [
         name: "Ludovic Pérot"
     },
     {
-        name: "Jérémy Pinsolle"
-    },
-    {
         name: "Arnaud Piroelle"
-    },
-    {
-        name: "Tomas Rodriguez"
     },
     {
         name: "Joachim Rousseau"
     },
     {
-        name: "Julien Smadja"
-    },
-    {
         name: "Arthur Sudre"
-    },
-    {
-        name: "Nicolas Thénoz"
-    },
-    {
-        name: "Jérémy Vinay"
-    },
-    {
-        name: "Evgeny Yurchuk"
     }
 ];
