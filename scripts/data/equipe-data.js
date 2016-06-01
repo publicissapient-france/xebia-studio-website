@@ -30,6 +30,9 @@ window.EQUIPE = [
         name: "Michael Caylus"
     },
     {
+        name: "Bastien Chares"
+    },
+    {
         name: "Frédéric Courdier"
     },
     {
@@ -37,6 +40,9 @@ window.EQUIPE = [
     },
     {
         name: "Simone Civetta"
+    },
+    {
+        name: "Alban Dauleu"
     },
     {
         name: "Alexandre Dergham"
@@ -96,6 +102,9 @@ window.EQUIPE = [
         name: "Romain Niveau"
     },
     {
+        name: "Diana Ortega"
+    },
+    {
         name: "Jean-Christophe Pastant"
     },
     {
@@ -111,6 +120,15 @@ window.EQUIPE = [
         name: "Joachim Rousseau"
     },
     {
+        name: "Laurent Russier"
+    },
+    {
         name: "Arthur Sudre"
+    },
+    {
+        name: "Julien Tard"
+    },
+    {
+        name: "Marie-Laure Thuret"
     }
 ];
