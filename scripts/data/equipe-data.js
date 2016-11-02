@@ -1,6 +1,15 @@
 window.EQUIPE = [
     {
+        name: "Aurore De Amaral"
+    },
+    {
+        name: "Régis Allais"
+    },
+    {
         name: "Sameh Ben Fredj"
+    },
+    {
+        name: "Pierre-Philippe Beauchemin"
     },
     {
         name: "Matthieu Blanc"
@@ -18,10 +27,16 @@ window.EQUIPE = [
         name: "Thibaud Cavin"
     },
     {
+        name: "Thomas Champion"
+    },
+    {
         name: "Jean-Baptiste Claramonte"
     },
     {
         name: "Simone Civetta"
+    },
+    {
+        name: "Julien Datour"
     },
     {
         name: "Alban Dauleu"
@@ -31,6 +46,9 @@ window.EQUIPE = [
     },
     {
         name: "Jérôme Doucet"
+    },
+    {
+        name: "Nelson Dufossé"
     },
     {
         name: "Charles Dufour"
@@ -60,6 +78,9 @@ window.EQUIPE = [
         name: "Alexis Kinsella"
     },
     {
+        name: "Ludovic Ladeu"
+    },
+    {
         name: "François Laurain"
     },
     {
@@ -67,6 +88,9 @@ window.EQUIPE = [
     },
     {
         name: "Pablo Lopez"
+    },
+    {
+        name: "Michael Ohayon"
     },
     {
         name: "Diana Ortega"
@@ -81,6 +105,9 @@ window.EQUIPE = [
         name: "Arnaud Piroelle"
     },
     {
-        name: "Michaël Werner"
+        name: "Emmanuel Sciara"
+    },
+    {
+        name: "Michael Werner"
     }
 ];
