@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="stylesheets/vars.less"/>
     <link rel="stylesheet" href="stylesheets/mixin.less"/>
     <link rel="stylesheet" href="stylesheets/home.less"/>
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- endbuild -->
 
 
@@ -23,6 +24,9 @@
         <h1>Agile development done right!</h1>
 
         <h2>Notre métier, développer des applications de grande qualité&nbsp;: vos applications</h2>
+        <br/><br/>
+        <a href="#techtrends-studio" class="btn-dl-tt">Découvrez notre livre blanc &nbsp; <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+        <br/>
     </section>
     <section class="problems centering">
         <section class="delivery">
@@ -138,9 +142,38 @@
 
         </div>
     </section>
+    <section id="techtrends-studio" class="techtrends problems centering">
+            <section class="transparency">
+            <h2>Techtrends Studio</h2>
+            <img src="images/home/TechTrends-Studio.jpg" alt="TechTrends Studio" class="techtrends10"/>
 
+            <div class="solution-description">
+
+                <p class="bold">Fort de notre expérience chez Xebia Studio, nous sommes convaincus que les recettes exposées dans ce livre blanc sont transposables dans un environnement où la direction métier (donneur d'ordres) et la direction informatique (réalisation) appartiennent à la même entreprise.</p>
+
+                <p>Les TechTrends sont l'expression de notre savoir-faire ; forgé sur le terrain, auprès de nos clients dans le cadre des projets que nous menons avec eux.</p>
+
+                <p class="bold">Télécharger : <a href="images/home/Techtrends-Studio-Xebia.pdf" target="_blank">le livre blanc Studio - TechTrends Studio au format PDF</a><br/>
+                au format EPUB : <a href="images/home/Techtrends-xebia-10-IOS.epub" target="_blank" class="link gtm-link-epub gtm-link-epub-techtrends-cloud-hors-serie"><i class="fa fa-apple"></i></a> 
+                ou 
+                <a href="images/home/Techtrends-xebia-10-Android.epub" target="_blank" class="link gtm-link-epub gtm-link-epub-techtrends-cloud-hors-serie-android"><i class="fa fa-android"></i></a><br/>
+                Pour demander une version papier, envoyez un mail à <a href="mailto:marketing@xebia.fr" title="email">marketing@xebia.fr</a>
+
+                </p>
+            </div>
+        </section>
+    </section>
 </main>
+<script>
+    
+    $('a[href^="#"]').click(function(){  
+    var id = $(this).attr("href");
+    var offset = $(id).offset().top 
+    $('html, body').animate({scrollTop: offset}, 'slow'); 
+    return false;  
+}); 
 
+</script>
 @@include('templates/footer.html')
 </body>
 </html>

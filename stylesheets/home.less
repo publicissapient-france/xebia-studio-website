@@ -1,4 +1,3 @@
-
 main {
 
   .presentation {
@@ -20,8 +19,24 @@ main {
       margin-top: 20px;
     }
 
+    a.btn-dl-tt {
+      background-color: @contrastColor;
+      float:right;
+      color:#fff;
+      padding:12px 15px;
+      border-radius:3px;
+      display: block;
+      }
+
     @media (max-width: @firstBreakPoint) {
       h1, h2 {
+        text-align: center;
+      }
+
+      a.btn-dl-tt {
+        float: none;
+        width: 250px;
+        margin: auto;
         text-align: center;
       }
     }
@@ -64,6 +79,8 @@ main {
       margin-bottom: 0;
     }
 
+    p.bold {font-weight:400;}
+
     @widthBlockAtSecondBreakpoint: 550px;
     @media (max-width: @firstBreakPoint) {
       img {
@@ -76,6 +93,8 @@ main {
 
         .centerBlock();
       }
+
+      img.techtrends10 {border-right:none !important;margin-right:auto !important;width:300px;padding-right:0 !important;}
 
       .solution-description {
         margin-top: 25px;
@@ -94,7 +113,29 @@ main {
       .solution-description {
         width: auto;
       }
+
     }
+  }
+
+  .techtrends.problems {
+    border-top:none;
+    padding-top: 0px;
+    margin-top: 20px; 
+    }
+
+  .techtrends {
+    h2 {
+      color: @contrastColor;
+      font-size:30px;
+    }
+    a {
+      color: @contrastColor;
+    }
+    img.techtrends10 {
+      margin-right: 50px;
+      border-right: 1px solid #ddd;
+      padding-right: 50px;
+     }
   }
 
   .specialites {
@@ -108,7 +149,7 @@ main {
       padding-bottom: 30px;
 
       &.technology img {
-        //Croix moche :'(
+        //Croix moche :'(@
         position: relative;
         left: -12px;
       }
